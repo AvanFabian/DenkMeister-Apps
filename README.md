@@ -18,3 +18,11 @@
     ```bash
     flutter pub get
     ```
+
+## Page Splash Logo, On Boarding, Dashboard (Quiz)
+
+### Splash
+
+### On Boarding
+
+### Dashboard
