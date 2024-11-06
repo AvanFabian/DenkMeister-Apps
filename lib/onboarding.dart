@@ -123,46 +123,51 @@ class _OnboardingState extends State<Onboarding> {
                     width: 275.0,
                     height: 50.0,
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const Quizdashboard()),
+                        );
+                      },
                       style: ElevatedButton.styleFrom(
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12.0), // Set custom border radius
                         ),
                         backgroundColor: Colors.white,
                       ),
-                      child: GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => const Quizdashboard()),
-                          );
-                        },
-                        child: const Text(
-                          'Lanjut',
-                          style: TextStyle(
-                            color: Colors.black87,
-                          ),
+                      child: const Text(
+                        'Lanjut',
+                        style: TextStyle(
+                          color: Colors.black87,
                         ),
                       ),
                     ),
                   ),
                   const SizedBox(height: 20.0),
-                  SizedBox(
-                    width: 275.0,
-                    height: 50.0,
-                    child: ElevatedButton(
-                      onPressed: () {},
-                      style: ElevatedButton.styleFrom(
-                        shape: const RoundedRectangleBorder(
-                          borderRadius: BorderRadius.zero,
-                        ),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Quizdashboard()),
+                      );
+                    },
+                    child: SizedBox(
+                      width: 275.0,
+                      height: 50.0,
+                      child: ElevatedButton(
+                        onPressed: () {},
+                        style: ElevatedButton.styleFrom(
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.zero, // Set custom border radius
+                          ),
                         backgroundColor: Colors.transparent, // Set background color to transparent
                         shadowColor: Colors.transparent, // Remove shadow
-                      ),
-                      child: const Text(
-                        'Skip',
-                        style: TextStyle(
-                          color: Colors.black87,
+                        ),
+                        child: const Text(
+                          'Skip',
+                          style: TextStyle(
+                            color: Colors.black87,
+                          ),
                         ),
                       ),
                     ),

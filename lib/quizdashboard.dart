@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tebak_gambar/library.dart';
+import 'package:tebak_gambar/settings.dart';
 
 class Quizdashboard extends StatelessWidget {
   const Quizdashboard({super.key});
@@ -44,7 +46,7 @@ class Quizdashboard extends StatelessWidget {
                         bottom: 0,
                         child: Center(
                           child: Text(
-                            'Pilih Kuis Yang\nIngin Anda Mainkan',
+                            'Pilih Kuis Yang Ingin\n Kamu Mainkan',
                             style: TextStyle(fontSize: 32.0, fontWeight: FontWeight.bold, color: Colors.white),
                             textAlign: TextAlign.left,
                           ),
@@ -53,7 +55,7 @@ class Quizdashboard extends StatelessWidget {
                     ],
                   ),
                 ),
-                const SizedBox(height: 20.0), // Vertical gap
+                const SizedBox(height: 8.0), // Vertical gap
                 // Wrap the cards in a SingleChildScrollView
                 Expanded(
                   child: SingleChildScrollView(
@@ -67,12 +69,26 @@ class Quizdashboard extends StatelessWidget {
                           'assets/q4.png',
                         ];
 
+                        final List<String> quizNames = [
+                          'Tebak Gambar',
+                          'Cocok Kata',
+                          'Kalimat Rumpang',
+                          'Susun Kalimat',
+                        ];
+
+                        final List<String> quizDescriptions = [
+                          'Tentukan Jawaban Sesuai Gambar',
+                          'Temukan Pasangan Kata',
+                          'Lengkapi Kalimat Yang Rumpang',
+                          'Rangkai Kata Menjadi Kalimat',
+                        ];
+
                         return Padding(
-                          padding: const EdgeInsets.only(top: 16.0),
+                          padding: const EdgeInsets.only(top: 4.0, left: 8.0, right: 8.0),
                           child: Card(
                             elevation: 4.0,
                             child: Padding(
-                              padding: const EdgeInsets.all(16.0),
+                              padding: const EdgeInsets.only(top: 24.0, bottom: 24.0, left: 16.0, right: 16.0),
                               child: Row(
                                 children: <Widget>[
                                   // SizedBox inside Card
@@ -86,18 +102,18 @@ class Quizdashboard extends StatelessWidget {
                                   ),
                                   // Rest of the card content
                                   const SizedBox(width: 32.0), // Horizontal gap
-                                  const Expanded(
+                                  Expanded(
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: <Widget>[
                                         Text(
-                                          'Tebak Gambar',
-                                          style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+                                          quizNames[index],
+                                          style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
                                         ),
-                                        SizedBox(height: 10.0), // Vertical gap between texts
+                                        const SizedBox(height: 10.0), // Vertical gap between texts
                                         Text(
-                                          'Tentukan Jawaban Sesuai Gambar',
-                                          style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w300),
+                                          quizDescriptions[index],
+                                          style: const TextStyle(fontSize: 12.0, fontWeight: FontWeight.w300),
                                         ),
                                       ],
                                     ),
@@ -108,15 +124,20 @@ class Quizdashboard extends StatelessWidget {
                                     height: 72.0,
                                     child: Stack(
                                       alignment: Alignment.center, // Center all children within the Stack
-                                      children: <Widget>[
-                                        CircularProgressIndicator(
-                                          value: 0.7, // Example progress value
-                                          strokeWidth: 5.0,
+                                       children: <Widget>[
+                                        SizedBox(
+                                          width: 48.0, // Increased width
+                                          height: 48.0, // Increased height
+                                          child: CircularProgressIndicator(
+                                            value: 1, // Example progress value
+                                            strokeWidth: 4.0,
+                                            valueColor: AlwaysStoppedAnimation<Color>(Colors.green),
+                                          ),
                                         ),
                                         Center(
                                           child: Text(
-                                            '70%', // Example percentage text
-                                            style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.bold),
+                                            '100%', // Example percentage text
+                                            style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w900, color: Colors.green),
                                           ),
                                         ),
                                       ],
@@ -154,17 +175,38 @@ class Quizdashboard extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
-                  IconButton(
-                    icon: const Icon(Icons.home),
-                    onPressed: () {},
+                  Container(
+                    decoration: const BoxDecoration(
+                      color: Colors.black,
+                      shape: BoxShape.circle,
+                    ),
+                    child: IconButton(
+                      icon: const Icon(Icons.home, color: Colors.white),
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const Quizdashboard()),
+                        );
+                      },
+                    ),
                   ),
                   IconButton(
                     icon: const Icon(Icons.search),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Library()),
+                      );
+                    },
                   ),
                   IconButton(
-                    icon: const Icon(Icons.person),
-                    onPressed: () {},
+                    icon: const Icon(Icons.settings),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Settings()),
+                      );
+                    },
                   ),
                 ],
               ),
