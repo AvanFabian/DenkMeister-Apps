@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tebak_gambar/detaillibraryitems.dart';
 import 'package:tebak_gambar/quizdashboard.dart';
 import 'package:tebak_gambar/settings.dart';
 
@@ -38,20 +39,6 @@ class Library extends StatelessWidget {
                           ),
                         ),
                       ),
-                      // const Positioned(
-                      //   left: 88.0,
-                      //   top: 92,
-                      //   child: Center(
-                      //     child: Text(
-                      //       'DENKMEISTER',
-                      //       style: TextStyle(
-                      //         fontSize: 22.0,
-                      //         fontWeight: FontWeight.bold,
-                      //         color: Colors.white,
-                      //       ),
-                      //     ),
-                      //   ),
-                      // ),
                     ],
                   ),
                 ),
@@ -114,58 +101,71 @@ class Library extends StatelessWidget {
                         ];
 
                         final List<String> quizNames = [
-                          'Tebak Gambar',
-                          'Cocok Kata',
-                          'Kalimat Rumpang',
-                          'Susun Kalimat',
-                          'Susun Kalimat',
-                          'Susun Kalimat',
-                          'Susun Kalimat',
-                          'Susun Kalimat',
+                          'Number & Colors',
+                          'Family Members',
+                          'Days of the Week and Months',
+                          'Foods and Drinks',
+                          'Basic Verbs',
+                          'Everyday Items',
+                          'Common Animals',
+                          'Buildings and Places in Town',
+                          'Basic Greetings and Phrases',
+                          'Adjectives & Adverbs',
                         ];
 
                         final List<String> quizDescriptions = [
-                          'Tentukan Jawaban Sesuai Gambar',
-                          'Temukan Pasangan Kata',
-                          'Lengkapi Kalimat Yang Rumpang',
-                          'Rangkai Kata Menjadi Kalimat',
-                          'Rangkai Kata Menjadi Kalimat',
-                          'Rangkai Kata Menjadi Kalimat',
-                          'Rangkai Kata Menjadi Kalimat',
-                          'Rangkai Kata Menjadi Kalimat',
+                          '200 Words',
+                          '100 words',
+                          '300 words',
+                          '100 words',
+                          '100 words',
+                          '100 words',
+                          '100 words',
+                          '100 words',
+                          '100 words',
+                          '100 words',
                         ];
                         return Column(
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(top: 8.0, bottom: 8.0, left: 16.0, right: 16.0),
-                              child: Row(
-                                children: <Widget>[
-                                  SizedBox(
-                                    width: 50.0,
-                                    height: 50.0,
-                                    child: Image.asset(
-                                      imagePaths[index],
-                                      fit: BoxFit.cover,
+                              padding: const EdgeInsets.only(top: 4.0, bottom: 4.0, left: 16.0, right: 16.0),
+                              child: InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => DetailLibraryItems(quizName: quizNames[index]),
                                     ),
-                                  ),
-                                  const SizedBox(width: 16.0),
-                                  Expanded(
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      children: <Widget>[
-                                        Text(
-                                          quizNames[index],
-                                          style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
-                                        ),
-                                        // const SizedBox(height: 2.0),
-                                        Text(
-                                          quizDescriptions[index],
-                                          style: const TextStyle(fontSize: 12.0, fontWeight: FontWeight.w300),
-                                        ),
-                                      ],
+                                  );
+                                },
+                                child: Row(
+                                  children: <Widget>[
+                                    SizedBox(
+                                      width: 42.0,
+                                      height: 42.0,
+                                      child: Image.asset(
+                                        imagePaths[index],
+                                        fit: BoxFit.cover,
+                                      ),
                                     ),
-                                  ),
-                                ],
+                                    const SizedBox(width: 16.0),
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: <Widget>[
+                                          Text(
+                                            quizNames[index],
+                                            style: const TextStyle(fontSize: 16.0),
+                                          ),
+                                          Text(
+                                            quizDescriptions[index],
+                                            style: const TextStyle(fontSize: 12.0, fontWeight: FontWeight.w300),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                             if (index < 7) // Add a bottom border except for the last item

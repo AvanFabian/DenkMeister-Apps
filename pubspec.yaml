@@ -71,6 +71,8 @@ flutter:
     - assets/q2.png
     - assets/q3.png
     - assets/q4.png
+    - assets/jalur-leveling.png
+    - assets/german-flag.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

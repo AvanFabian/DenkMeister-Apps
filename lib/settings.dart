@@ -80,7 +80,7 @@ class Settings extends StatelessWidget {
                               padding: const EdgeInsets.only(top: 4.0, left: 8.0, right: 8.0),
                               child: Card(
                                 elevation: 4.0,
-                                color: Colors.blueGrey, // Set the background color here
+                                color: Colors.blue[50], // Set the background color here
                                 child: Padding(
                                   padding: const EdgeInsets.only(top: 12.0, bottom: 12.0, left: 16.0, right: 16.0),
                                   child: Row(

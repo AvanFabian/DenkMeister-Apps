@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tebak_gambar/library.dart';
+import 'package:tebak_gambar/quizlevelling.dart';
 import 'package:tebak_gambar/settings.dart';
 
 class Quizdashboard extends StatelessWidget {
@@ -17,12 +18,12 @@ class Quizdashboard extends StatelessWidget {
                 // Full width SizedBox with another SizedBox inside
                 Container(
                   width: double.infinity,
-                  height: 320.0,
+                  height: 260.0,
                   decoration: const BoxDecoration(
                     color: Color(0xFF007BFF),
                     borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(16.0),
-                      bottomRight: Radius.circular(16.0),
+                      bottomLeft: Radius.circular(0.0),
+                      bottomRight: Radius.circular(0.0),
                     ),
                   ),
                   child: Stack(
@@ -30,12 +31,12 @@ class Quizdashboard extends StatelessWidget {
                       // Image positioned on the right
                       Positioned(
                         right: 0,
-                        top: 0,
+                        top: 88,
                         bottom: 0,
                         child: Image.asset(
-                          'assets/logo-otak.png', // Replace with your local image path
-                          width: 200.0,
-                          height: 200.0,
+                          'assets/german-flag.png', // Replace with your local image path
+                          width: 140.0,
+                          height: 240.0,
                           // fit: BoxFit.cover,
                         ),
                       ),
@@ -85,65 +86,74 @@ class Quizdashboard extends StatelessWidget {
 
                         return Padding(
                           padding: const EdgeInsets.only(top: 4.0, left: 8.0, right: 8.0),
-                          child: Card(
-                            elevation: 4.0,
-                            child: Padding(
-                              padding: const EdgeInsets.only(top: 24.0, bottom: 24.0, left: 16.0, right: 16.0),
-                              child: Row(
-                                children: <Widget>[
-                                  // SizedBox inside Card
-                                  SizedBox(
-                                    width: 50.0,
-                                    height: 50.0,
-                                    child: Image.asset(
-                                      imagePaths[index], // Use different image for each card
-                                      fit: BoxFit.cover,
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => const Quizlevelling()),
+                              );
+                            },
+                            child: Card(
+                              elevation: 4.0,
+                              color: Colors.blue[50],
+                              child: Padding(
+                                padding: const EdgeInsets.only(top: 24.0, bottom: 24.0, left: 16.0, right: 16.0),
+                                child: Row(
+                                  children: <Widget>[
+                                    // SizedBox inside Card
+                                    SizedBox(
+                                      width: 50.0,
+                                      height: 50.0,
+                                      child: Image.asset(
+                                        imagePaths[index], // Use different image for each card
+                                        fit: BoxFit.cover,
+                                      ),
                                     ),
-                                  ),
-                                  // Rest of the card content
-                                  const SizedBox(width: 32.0), // Horizontal gap
-                                  Expanded(
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      children: <Widget>[
-                                        Text(
-                                          quizNames[index],
-                                          style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
-                                        ),
-                                        const SizedBox(height: 10.0), // Vertical gap between texts
-                                        Text(
-                                          quizDescriptions[index],
-                                          style: const TextStyle(fontSize: 12.0, fontWeight: FontWeight.w300),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                  const SizedBox(width: 16.0), // Horizontal gap
-                                  const SizedBox(
-                                    width: 72.0,
-                                    height: 72.0,
-                                    child: Stack(
-                                      alignment: Alignment.center, // Center all children within the Stack
-                                       children: <Widget>[
-                                        SizedBox(
-                                          width: 48.0, // Increased width
-                                          height: 48.0, // Increased height
-                                          child: CircularProgressIndicator(
-                                            value: 1, // Example progress value
-                                            strokeWidth: 4.0,
-                                            valueColor: AlwaysStoppedAnimation<Color>(Colors.green),
+                                    // Rest of the card content
+                                    const SizedBox(width: 32.0), // Horizontal gap
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: <Widget>[
+                                          Text(
+                                            quizNames[index],
+                                            style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
                                           ),
-                                        ),
-                                        Center(
-                                          child: Text(
-                                            '100%', // Example percentage text
-                                            style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w900, color: Colors.green),
+                                          const SizedBox(height: 10.0), // Vertical gap between texts
+                                          Text(
+                                            quizDescriptions[index],
+                                            style: const TextStyle(fontSize: 12.0, fontWeight: FontWeight.w300),
                                           ),
-                                        ),
-                                      ],
+                                        ],
+                                      ),
                                     ),
-                                  ),
-                                ],
+                                    const SizedBox(width: 16.0), // Horizontal gap
+                                    const SizedBox(
+                                      width: 72.0,
+                                      height: 72.0,
+                                      child: Stack(
+                                        alignment: Alignment.center, // Center all children within the Stack
+                                        children: <Widget>[
+                                          SizedBox(
+                                            width: 48.0, // Increased width
+                                            height: 48.0, // Increased height
+                                            child: CircularProgressIndicator(
+                                              value: 1, // Example progress value
+                                              strokeWidth: 4.0,
+                                              valueColor: AlwaysStoppedAnimation<Color>(Colors.green),
+                                            ),
+                                          ),
+                                          Center(
+                                            child: Text(
+                                              '100%', // Example percentage text
+                                              style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w900, color: Colors.green),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                           ),
@@ -191,7 +201,7 @@ class Quizdashboard extends StatelessWidget {
                     ),
                   ),
                   IconButton(
-                    icon: const Icon(Icons.search),
+                    icon: const Icon(Icons.task),
                     onPressed: () {
                       Navigator.push(
                         context,
