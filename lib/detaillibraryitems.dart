@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tebak_gambar/library.dart';
-import 'package:tebak_gambar/quizdashboard.dart';
-import 'package:tebak_gambar/settings.dart';
 
 class DetailLibraryItems extends StatelessWidget {
   final String quizName;

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tebak_gambar/difficulty.dart';
 import 'package:tebak_gambar/library.dart';
 import 'package:tebak_gambar/quizlevelling.dart';
 import 'package:tebak_gambar/settings.dart';
@@ -90,7 +91,7 @@ class Quizdashboard extends StatelessWidget {
                             onTap: () {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => const Quizlevelling()),
+                                MaterialPageRoute(builder: (context) => Difficulty(quizName: quizNames[index])),
                               );
                             },
                             child: Card(
