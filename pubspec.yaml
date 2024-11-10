@@ -74,6 +74,9 @@ flutter:
     - assets/jalur-leveling.png
     - assets/german-flag.png
     - assets/bg-diffculty.png
+    - assets/Medal-bronze.png
+    - assets/Medal-silver.png
+    - assets/Medal-gold.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

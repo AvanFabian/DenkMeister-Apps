@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tebak_gambar/quizdashboard.dart';
-import 'package:tebak_gambar/library.dart';
 
 class Difficulty extends StatelessWidget {
   final String quizName;
@@ -69,15 +67,21 @@ class Difficulty extends StatelessWidget {
                           children: List.generate(3, (index) {
                             // List of image paths
                             final imagePaths = [
-                              'assets/q1.png',
-                              'assets/q2.png',
-                              'assets/q3.png',
+                              'assets/Medal-bronze.png',
+                              'assets/Medal-silver.png',
+                              'assets/Medal-gold.png',
                             ];
 
                             final List<String> quizNames = [
-                              'Share',
-                              'Sound',
-                              'About Us',
+                              'Pemula',
+                              'Menengah',
+                              'Mahir',
+                            ];
+
+                            final List<String> quizDescriptions = [
+                              'Tingkat A1',
+                              'Tingkat A2',
+                              'Tingkat B1',
                             ];
 
                             return Padding(
@@ -86,20 +90,10 @@ class Difficulty extends StatelessWidget {
                                 elevation: 4.0,
                                 color: Colors.blue[50], // Set the background color here
                                 child: Padding(
-                                  padding: const EdgeInsets.only(top: 12.0, bottom: 12.0, left: 16.0, right: 16.0),
+                                  padding: const EdgeInsets.only(top: 24.0, bottom: 24.0, left: 16.0, right: 16.0),
                                   child: Row(
                                     children: <Widget>[
-                                      // SizedBox inside Card
-                                      SizedBox(
-                                        width: 36.0,
-                                        height: 36.0,
-                                        child: Image.asset(
-                                          imagePaths[index], // Use different image for each card
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                      // Rest of the card content
-                                      const SizedBox(width: 16.0), // Horizontal gap
+                                      // Column for the texts on the left side
                                       Expanded(
                                         child: Column(
                                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -108,7 +102,21 @@ class Difficulty extends StatelessWidget {
                                               quizNames[index],
                                               style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
                                             ),
+                                            const SizedBox(height: 8.0), // Vertical gap between texts
+                                            Text(
+                                              quizDescriptions[index],
+                                              style: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.w300),
+                                            ),
                                           ],
+                                        ),
+                                      ),
+                                      // Image on the right side
+                                      SizedBox(
+                                        width: 36.0,
+                                        height: 36.0,
+                                        child: Image.asset(
+                                          imagePaths[index], // Use different image for each card
+                                          fit: BoxFit.cover,
                                         ),
                                       ),
                                     ],
@@ -123,6 +131,19 @@ class Difficulty extends StatelessWidget {
                     ],
                   ),
                 ),
+                // Background image at the bottom
+                Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Opacity(
+                    opacity: 0.7, // Adjust the opacity value as needed (0.0 to 1.0)
+                    child: Image.asset(
+                      'assets/bg-diffculty.png', // Path to your background image
+                      fit: BoxFit.cover,
+                      width: double.infinity,
+                      height: 275.0, // Adjust the height as needed
+                    ),
+                  ),
+                )
               ],
             ),
           ),
