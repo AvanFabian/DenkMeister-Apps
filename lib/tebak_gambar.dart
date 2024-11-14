@@ -33,31 +33,45 @@ class _TebakGambarState extends State<TebakGambar> {
 
   void _checkAnswer(String selectedAnswer) {
     final isCorrect = selectedAnswer == _questions[_currentQuestionIndex].correctAnswer;
+
+    // Show dialog with image and text for only 2 seconds
     showDialog(
       context: context,
       builder: (BuildContext context) {
+        // Schedule the dialog to close automatically after 2 seconds
+        Future.delayed(const Duration(seconds: 2), () {
+          Navigator.of(context).pop();
+
+          // Navigate to the next question or reset if at the last question
+          if (_currentQuestionIndex < _questions.length - 1) {
+            setState(() {
+              _currentQuestionIndex++;
+            });
+          } else {
+            // Reset the quiz or show completion message
+            setState(() {
+              _currentQuestionIndex = 0;
+            });
+          }
+        });
+
         return AlertDialog(
-          title: Text(isCorrect ? "Benar!" : "Salah!"),
-          content: Text(isCorrect ? "Jawaban Anda benar." : "Jawaban Anda salah."),
-          actions: [
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-                // Maju ke soal berikutnya jika ada
-                if (_currentQuestionIndex < _questions.length - 1) {
-                  setState(() {
-                    _currentQuestionIndex++;
-                  });
-                } else {
-                  // Reset atau selesai
-                  setState(() {
-                    _currentQuestionIndex = 0;
-                  });
-                }
-              },
-              child: const Text("Lanjut"),
-            ),
-          ],
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Image.asset(
+                isCorrect ? 'assets/quiz/check_ring_round.png' : 'assets/quiz/close_ring.png',
+                height: 80.0,
+                width: 80.0,
+              ),
+              const SizedBox(height: 16.0),
+              Text(
+                isCorrect ? "Jawaban Anda benar." : "Jawaban Anda salah.",
+                textAlign: TextAlign.center,
+                style: const TextStyle(fontSize: 18.0),
+              ),
+            ],
+          ),
         );
       },
     );
