@@ -78,6 +78,7 @@ flutter:
     - assets/Medal-silver.png
     - assets/Medal-gold.png
     - assets/quiz/Cat.png
+    - utils/questions.json
     
   #   - images/a_dot_ham.jpeg
 

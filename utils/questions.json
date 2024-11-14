@@ -1,0 +1,39 @@
+[
+    {
+      "type": "TEBAK_GAMBAR",
+      "question": "assets/quiz/Cat.png",
+      "options": ["der Hund", "der Stuhl", "das Buch", "die Katze"],
+      "correctAnswer": "der Hund"
+    },
+    {
+      "type": "TEBAK_GAMBAR",
+      "question": "assets/quiz/Cat.png",
+      "options": ["der Bruder", "der Howerl", "das Diazz", "die Youmaker"],
+      "correctAnswer": "der Bruder"
+    },
+    {
+      "type": "TEBAK_GAMBAR",
+      "question": "assets/quiz/Cat.png",
+      "options": ["der Mazab", "der Hangimun", "das Dimana Ahja", "die Or Live"],
+      "correctAnswer": "der Mazab"
+    },
+    {
+      "type": "COCOK_KATA",
+      "question": "Ayah",
+      "options": ["der Vater", "der Onkel", "der Bruder", "der Muter"],
+      "correctAnswer": "der Vater"
+    },
+    {
+      "type": "KALIMAT_RUMPANG",
+      "question": "Kannst du mir bitte ______?",
+      "options": ["Helfen", "Schreiben", "Sein", "Studieren"],
+      "correctAnswer": "Helfen"
+    },
+    {
+      "type": "SUSUN_KALIMAT",
+      "question": "______  ______  ______  ______",
+      "options": ["Essen", "Das", "Lecker", "ist"],
+      "correctOrder": ["Das", "Essen", "ist", "Lecker"]
+    }
+  ]
+  
