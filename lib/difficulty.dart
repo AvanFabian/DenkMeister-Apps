@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tebak_gambar/tebak_gambar.dart';
 
 class Difficulty extends StatelessWidget {
   final String quizName;
@@ -86,40 +87,48 @@ class Difficulty extends StatelessWidget {
 
                             return Padding(
                               padding: const EdgeInsets.only(top: 4.0, left: 8.0, right: 8.0),
-                              child: Card(
-                                elevation: 4.0,
-                                color: Colors.blue[50], // Set the background color here
-                                child: Padding(
-                                  padding: const EdgeInsets.only(top: 24.0, bottom: 24.0, left: 16.0, right: 16.0),
-                                  child: Row(
-                                    children: <Widget>[
-                                      // Column for the texts on the left side
-                                      Expanded(
-                                        child: Column(
-                                          crossAxisAlignment: CrossAxisAlignment.start,
-                                          children: <Widget>[
-                                            Text(
-                                              quizNames[index],
-                                              style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
-                                            ),
-                                            const SizedBox(height: 8.0), // Vertical gap between texts
-                                            Text(
-                                              quizDescriptions[index],
-                                              style: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.w300),
-                                            ),
-                                          ],
+                              child: GestureDetector(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) => TebakGambar()),
+                                  );
+                                },
+                                child: Card(
+                                  elevation: 4.0,
+                                  color: Colors.blue[50], // Set the background color here
+                                  child: Padding(
+                                    padding: const EdgeInsets.only(top: 24.0, bottom: 24.0, left: 16.0, right: 16.0),
+                                    child: Row(
+                                      children: <Widget>[
+                                        // Column for the texts on the left side
+                                        Expanded(
+                                          child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: <Widget>[
+                                              Text(
+                                                quizNames[index],
+                                                style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+                                              ),
+                                              const SizedBox(height: 8.0), // Vertical gap between texts
+                                              Text(
+                                                quizDescriptions[index],
+                                                style: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.w300),
+                                              ),
+                                            ],
+                                          ),
                                         ),
-                                      ),
-                                      // Image on the right side
-                                      SizedBox(
-                                        width: 36.0,
-                                        height: 36.0,
-                                        child: Image.asset(
-                                          imagePaths[index], // Use different image for each card
-                                          fit: BoxFit.cover,
+                                        // Image on the right side
+                                        SizedBox(
+                                          width: 36.0,
+                                          height: 36.0,
+                                          child: Image.asset(
+                                            imagePaths[index], // Use different image for each card
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
-                                      ),
-                                    ],
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ),

@@ -77,6 +77,8 @@ flutter:
     - assets/Medal-bronze.png
     - assets/Medal-silver.png
     - assets/Medal-gold.png
+    - assets/quiz/Cat.png
+    
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
