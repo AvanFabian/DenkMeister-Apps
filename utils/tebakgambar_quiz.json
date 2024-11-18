@@ -1,0 +1,21 @@
+[
+    {
+      "level": 1,
+      "question": "assets/quiz/Cat.png",
+      "options": ["der Hund", "der Stuhl", "das Buch", "die Katze"],
+      "correctAnswer": "der Hund"
+    },
+    {
+      "level": 1,
+      "question": "assets/quiz/Deer.png",
+      "options": ["der Bruder", "der Howerl", "das Diazz", "die Youmaker"],
+      "correctAnswer": "der Bruder"
+    },
+    {
+      "level": 2,
+      "question": "assets/quiz/Panda.png",
+      "options": ["der Mazab", "der Hangimun", "das Dimana Ahja", "die Or Live"],
+      "correctAnswer": "der Mazab"
+    }
+  ]
+  

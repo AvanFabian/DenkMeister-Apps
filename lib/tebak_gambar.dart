@@ -4,29 +4,31 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:tebak_gambar/models/questionmodel.dart';
 
 class TebakGambar extends StatefulWidget {
-  const TebakGambar({super.key});
+  final String currentlevel;
 
+  const TebakGambar({super.key, required this.currentlevel});
   @override
   _TebakGambarState createState() => _TebakGambarState();
 }
 
 class _TebakGambarState extends State<TebakGambar> {
-  List<Question> _questions = [];
+  final List<Question> _questions = [];
   int _currentQuestionIndex = 0;
 
   @override
   void initState() {
     super.initState();
-    loadQuestions().then((questions) {
-      setState(() {
-        // Filter hanya untuk soal TEBAK_GAMBAR
-        _questions = questions.where((q) => q.type == "TEBAK_GAMBAR").toList();
-      });
-    });
+    loadQuestions();
+    // loadQuestions()..then((questions) {
+    //   setState(() {
+    //     // Filter hanya untuk soal TEBAK_GAMBAR
+    //     _questions = questions.where((q) => q.type == "TEBAK_GAMBAR").toList();
+    //   });
+    // });
   }
 
   Future<List<Question>> loadQuestions() async {
-    final data = await rootBundle.loadString('utils/questions.json');
+    final data = await rootBundle.loadString('utils/tebakgambar_quiz.json');
     final List<dynamic> jsonResult = json.decode(data);
     return jsonResult.map((json) => Question.fromJson(json)).toList();
   }

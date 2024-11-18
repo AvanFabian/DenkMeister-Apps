@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class SusunKalimat extends StatelessWidget {
-
-  const SusunKalimat({super.key});
+  final String currentlevel;
+  const SusunKalimat({super.key, required this.currentlevel});
 
   @override
   Widget build(BuildContext context) {

@@ -1,0 +1,33 @@
+[
+    {
+      "level": 1,
+      "question": "______  ______  ______  ______",
+      "options": ["Essen", "Das", "Lecker", "ist"],
+      "correctOrder": ["Das", "Essen", "ist", "Lecker"]
+    },
+    {
+      "level": 1,
+      "question": "______  ______  ______  ______",
+      "options": ["Hund", "Der", "ist", "schnell"],
+      "correctOrder": ["Der", "Hund", "ist", "schnell"]
+    },
+    {
+      "level": 2,
+      "question": "______  ______  ______  ______",
+      "options": ["Katze", "Die", "ist", "süß"],
+      "correctOrder": ["Die", "Katze", "ist", "süß"]
+    },
+    {
+      "level": 2,
+      "question": "______  ______  ______  ______",
+      "options": ["Auto", "Das", "ist", "rot"],
+      "correctOrder": ["Das", "Auto", "ist", "rot"]
+    },
+    {
+      "level": 3,
+      "question": "______  ______  ______  ______",
+      "options": ["Haus", "Das", "ist", "groß"],
+      "correctOrder": ["Das", "Haus", "ist", "groß"]
+    }
+  ]
+  

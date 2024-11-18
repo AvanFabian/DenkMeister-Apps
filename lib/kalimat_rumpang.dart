@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class KalimatRumpang extends StatelessWidget {
-
-  const KalimatRumpang({super.key});
+  final String currentlevel;
+  const KalimatRumpang({super.key, required this.currentlevel});
 
   @override
   Widget build(BuildContext context) {
