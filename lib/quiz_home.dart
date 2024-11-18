@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tebak_gambar/difficulty.dart';
+import 'package:tebak_gambar/tingkat_kesulitan.dart';
 import 'package:tebak_gambar/library.dart';
 import 'package:tebak_gambar/settings.dart';
 

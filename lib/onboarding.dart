@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:tebak_gambar/quizdashboard.dart';
+import 'package:tebak_gambar/quiz_home.dart';
 
 class Onboarding extends StatefulWidget {
   const Onboarding({super.key});
