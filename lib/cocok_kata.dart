@@ -51,7 +51,7 @@ class _CocokKataState extends State<CocokKata> {
               _currentQuestionIndex++;
             });
           } else {
-            // Reset the quiz or show completion message
+          // Reset the quiz or show completion message
             setState(() {
               _currentQuestionIndex = 0;
             });
