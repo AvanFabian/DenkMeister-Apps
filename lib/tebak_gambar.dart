@@ -12,23 +12,24 @@ class TebakGambar extends StatefulWidget {
 }
 
 class _TebakGambarState extends State<TebakGambar> {
-  final List<Question> _questions = [];
+  List<Question> _questions = [];
   int _currentQuestionIndex = 0;
 
   @override
   void initState() {
     super.initState();
-    loadQuestions();
-    // loadQuestions()..then((questions) {
-    //   setState(() {
-    //     // Filter hanya untuk soal TEBAK_GAMBAR
-    //     _questions = questions.where((q) => q.type == "TEBAK_GAMBAR").toList();
-    //   });
-    // });
+    loadQuestions().then((questions) {
+      setState(() {
+        // Filter questions based on the level from widget.currentlevel
+        _questions = questions
+            .where((q) => q.level == int.parse(widget.currentlevel))
+            .toList();
+      });
+    });
   }
 
   Future<List<Question>> loadQuestions() async {
-    final data = await rootBundle.loadString('utils/tebakgambar_quiz.json');
+    final data = await rootBundle.loadString('assets/utils/tebakgambar_quiz.json');
     final List<dynamic> jsonResult = json.decode(data);
     return jsonResult.map((json) => Question.fromJson(json)).toList();
   }

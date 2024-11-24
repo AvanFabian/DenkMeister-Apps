@@ -1,13 +1,13 @@
 
 class Question {
-  final String type;
+  final int level;
   final String question;
   final List<String> options;
   final String? correctAnswer; // untuk tipe soal yang membutuhkan jawaban benar
   final List<String>? correctOrder; // untuk tipe "SUSUN_KALIMAT"
 
   Question({
-    required this.type,
+    required this.level,
     required this.question,
     required this.options,
     this.correctAnswer,
@@ -16,7 +16,7 @@ class Question {
 
   factory Question.fromJson(Map<String, dynamic> json) {
     return Question(
-      type: json['type'],
+      level: json['level'],
       question: json['question'],
       options: List<String>.from(json['options']),
       correctAnswer: json['correctAnswer'],

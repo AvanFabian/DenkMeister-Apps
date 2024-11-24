@@ -82,6 +82,10 @@ flutter:
     - assets/quiz/Panda.png
     - assets/quiz/check_ring_round.png
     - assets/quiz/close_ring.png
+    - assets/utils/tebakgambar_quiz.json
+    - assets/utils/cocokkata_quiz.json
+    - assets/utils/kalimatrumpang_quiz.json
+    - assets/utils/susunkalimat_quiz.json
     
   #   - images/a_dot_ham.jpeg
 
