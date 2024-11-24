@@ -5,8 +5,10 @@ import 'package:tebak_gambar/models/questionmodel.dart';
 
 class TebakGambar extends StatefulWidget {
   final String currentlevel;
+  final Function(int) onProgressUpdate; // Add this line
+  final String difficulty;
 
-  const TebakGambar({super.key, required this.currentlevel});
+  const TebakGambar({super.key, required this.currentlevel, required this.onProgressUpdate, required this.difficulty});
   @override
   _TebakGambarState createState() => _TebakGambarState();
 }
@@ -22,7 +24,7 @@ class _TebakGambarState extends State<TebakGambar> {
       setState(() {
         // Filter questions based on the level from widget.currentlevel
         _questions = questions
-            .where((q) => q.level == int.parse(widget.currentlevel))
+            .where((q) => q.level == int.parse(widget.currentlevel) && q.difficulty == widget.difficulty)
             .toList();
       });
     });

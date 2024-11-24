@@ -1,114 +1,133 @@
 [
     {
       "level": 1,
+      "difficulty": "Tingkat A1",
       "question": "Ayah",
       "options": ["der Vater", "der Onkel", "der Bruder", "der Muter"],
       "correctAnswer": "der Vater"
     },
     {
       "level": 1,
+      "difficulty": "Tingkat A1",
       "question": "Mutter",
       "options": ["die Mutter", "die Vater", "die Schwester", "die Bruder"],
       "correctAnswer": "die Mutter"
     },
     {
       "level": 2,
+      "difficulty": "Tingkat A1",
       "question": "Schwester",
       "options": ["die Schwester", "die Bruder", "die Mutter", "die Vater"],
       "correctAnswer": "die Schwester"
     },
     {
       "level": 2,
+      "difficulty": "Tingkat A1",
       "question": "Bruder",
       "options": ["der Bruder", "der Vater", "der Mutter", "der Schwester"],
       "correctAnswer": "der Bruder"
     },
     {
       "level": 3,
+      "difficulty": "Tingkat A1",
       "question": "Opa",
       "options": ["der Opa", "die Oma", "der Vater", "die Mutter"],
       "correctAnswer": "der Opa"
     },
     {
       "level": 3,
+      "difficulty": "Tingkat A1",
       "question": "Oma",
       "options": ["die Oma", "der Opa", "die Mutter", "der Vater"],
       "correctAnswer": "die Oma"
     },
     {
       "level": 4,
+      "difficulty": "Tingkat A1",
       "question": "Tante",
       "options": ["die Tante", "der Onkel", "die Mutter", "der Vater"],
       "correctAnswer": "die Tante"
     },
     {
       "level": 4,
+      "difficulty": "Tingkat A1",
       "question": "Onkel",
       "options": ["der Onkel", "die Tante", "der Vater", "die Mutter"],
       "correctAnswer": "der Onkel"
     },
     {
       "level": 5,
+      "difficulty": "Tingkat A1",
       "question": "Cousin",
       "options": ["der Cousin", "die Cousine", "der Bruder", "die Schwester"],
       "correctAnswer": "der Cousin"
     },
     {
       "level": 5,
+      "difficulty": "Tingkat A1",
       "question": "Cousine",
       "options": ["die Cousine", "der Cousin", "die Schwester", "der Bruder"],
       "correctAnswer": "die Cousine"
     },
     {
       "level": 6,
+      "difficulty": "Tingkat A1",
       "question": "Enkel",
       "options": ["der Enkel", "die Enkelin", "der Opa", "die Oma"],
       "correctAnswer": "der Enkel"
     },
     {
       "level": 6,
+      "difficulty": "Tingkat A1",
       "question": "Enkelin",
       "options": ["die Enkelin", "der Enkel", "die Oma", "der Opa"],
       "correctAnswer": "die Enkelin"
     },
     {
       "level": 7,
+      "difficulty": "Tingkat A1",
       "question": "Schwiegermutter",
       "options": ["die Schwiegermutter", "der Schwiegervater", "die Mutter", "der Vater"],
       "correctAnswer": "die Schwiegermutter"
     },
     {
       "level": 7,
+      "difficulty": "Tingkat A1",
       "question": "Schwiegervater",
       "options": ["der Schwiegervater", "die Schwiegermutter", "der Vater", "die Mutter"],
       "correctAnswer": "der Schwiegervater"
     },
     {
       "level": 8,
+      "difficulty": "Tingkat A1",
       "question": "Schwiegertochter",
       "options": ["die Schwiegertochter", "der Schwiegersohn", "die Tochter", "der Sohn"],
       "correctAnswer": "die Schwiegertochter"
     },
     {
       "level": 8,
+      "difficulty": "Tingkat A1",
       "question": "Schwiegersohn",
       "options": ["der Schwiegersohn", "die Schwiegertochter", "der Sohn", "die Tochter"],
       "correctAnswer": "der Schwiegersohn"
     },
     {
       "level": 9,
+      "difficulty": "Tingkat A1",
       "question": "Schwager",
       "options": ["der Schwager", "die Schwägerin", "der Bruder", "die Schwester"],
       "correctAnswer": "der Schwager"
     },
     {
       "level": 9,
+      "difficulty": "Tingkat A1",
       "question": "Schwägerin",
       "options": ["die Schwägerin", "der Schwager", "die Schwester", "der Bruder"],
       "correctAnswer": "die Schwägerin"
     },
     {
       "level": 10,
+      "difficulty": "Tingkat A1",
       "question": "Neffe",
       "options": ["der Neffe", "die Nichte", "der Sohn", "die Tochter"],
       "correctAnswer": "der Neffe"

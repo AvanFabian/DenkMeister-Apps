@@ -1,24 +1,28 @@
 [
     {
       "level": 1,
+      "difficulty": "Tingkat A1",
       "question": "Kannst du mir bitte ______?",
       "options": ["Helfen", "Schreiben", "Sein", "Studieren"],
       "correctAnswer": "Helfen"
     },
     {
       "level": 1,
+      "difficulty": "Tingkat A1",
       "question": "Ich _______ ein Buch.",
       "options": ["lesen", "schreiben", "spielen", "malen"],
       "correctAnswer": "lese"
     },
     {
       "level": 2,
+      "difficulty": "Tingkat A1",
       "question": "Tchüss, _______!",
       "options": ["Mutter", "Vater", "Freund", "Lehrer"],
       "correctAnswer": "Freund"
     },
     {
       "level": 3,
+      "difficulty": "Tingkat A1",
       "question": "Ich _______ ein Auto.",
       "options": ["fahren", "gehen", "laufen", "spielen"],
       "correctAnswer": "fahre"

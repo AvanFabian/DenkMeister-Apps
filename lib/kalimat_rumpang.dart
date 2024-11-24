@@ -5,8 +5,10 @@ import 'package:tebak_gambar/models/questionmodel.dart';
 
 class KalimatRumpang extends StatefulWidget {
   final String currentlevel;
+  final Function(int) onProgressUpdate; // Add this line
+  final String difficulty;
 
-  const KalimatRumpang({super.key, required this.currentlevel});
+  const KalimatRumpang({super.key, required this.currentlevel, required this.onProgressUpdate, required this.difficulty});
 
   @override
   _KalimatRumpangState createState() => _KalimatRumpangState();
@@ -23,7 +25,7 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
       setState(() {
         // Filter questions based on the level from widget.currentLevel
         _questions = questions
-            .where((q) => q.level == int.parse(widget.currentlevel))
+            .where((q) => q.level == int.parse(widget.currentlevel) && q.difficulty == widget.difficulty)
             .toList();
       });
     });

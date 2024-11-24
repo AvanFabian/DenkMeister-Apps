@@ -2,10 +2,13 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:tebak_gambar/models/questionmodel.dart';
+import 'package:tebak_gambar/quizprogressmanager.dart';
 
 class CocokKata extends StatefulWidget {
   final String currentlevel;
-  const CocokKata({super.key, required this.currentlevel});
+  final Function(int) onProgressUpdate; // Add this line
+  final String difficulty;
+  const CocokKata({super.key, required this.currentlevel, required this.onProgressUpdate, required this.difficulty});
 
   @override
   _CocokKataState createState() => _CocokKataState();
@@ -14,16 +17,14 @@ class CocokKata extends StatefulWidget {
 class _CocokKataState extends State<CocokKata> {
   List<Question> _questions = [];
   int _currentQuestionIndex = 0;
+  int _answeredCount = 0;
 
   @override
   void initState() {
     super.initState();
     loadQuestions().then((questions) {
       setState(() {
-        // Filter questions based on the level from widget.currentlevel
-        _questions = questions
-            .where((q) => q.level == int.parse(widget.currentlevel))
-            .toList();
+        _questions = questions.where((q) => q.level == int.parse(widget.currentlevel) && q.difficulty == widget.difficulty).toList();
       });
     });
   }
@@ -34,24 +35,33 @@ class _CocokKataState extends State<CocokKata> {
     return jsonResult.map((json) => Question.fromJson(json)).toList();
   }
 
-  void _checkAnswer(String selectedAnswer) {
+  // Call this when an answer is checked
+  Future<void> _checkAnswer(String selectedAnswer) async {
     final isCorrect = selectedAnswer == _questions[_currentQuestionIndex].correctAnswer;
+    // Increment answered questions (correct or incorrect)
+    setState(() {
+      _answeredCount++;
+    });
+
+    // Save to persistent storage
+    int savedCount = await QuizProgressManager.getAnsweredQuestions();
+    await QuizProgressManager.saveAnsweredQuestions(savedCount + 1);
+
+    // Notify parent page
+    widget.onProgressUpdate(_answeredCount);
 
     // Show dialog with image and text for only 2 seconds
     showDialog(
       context: context,
       builder: (BuildContext context) {
-        // Schedule the dialog to close automatically after 2 seconds
         Future.delayed(const Duration(seconds: 2), () {
           Navigator.of(context).pop();
-
-          // Navigate to the next question or reset if at the last question
+          // Move to the next question or reset
           if (_currentQuestionIndex < _questions.length - 1) {
             setState(() {
               _currentQuestionIndex++;
             });
           } else {
-          // Reset the quiz or show completion message
             setState(() {
               _currentQuestionIndex = 0;
             });
@@ -146,8 +156,7 @@ class _CocokKataState extends State<CocokKata> {
                     ),
                   ),
                   const SizedBox(height: 16.0),
-
-                  // Opsi Jawaban
+                  // Answer options
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16.0),
                     child: Column(
@@ -163,7 +172,7 @@ class _CocokKataState extends State<CocokKata> {
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.transparent, // Transparent to show Container color
                                 shadowColor: Colors.transparent, // Remove default button shadow
-                                padding: const EdgeInsets.all(16.0), // Padding inside button
+                                padding: const EdgeInsets.all(16.0),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),

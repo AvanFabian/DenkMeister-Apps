@@ -4,8 +4,10 @@ import 'package:flutter/services.dart' show rootBundle;
 
 class SusunKalimat extends StatefulWidget {
   final String currentlevel;
+  final Function(int) onProgressUpdate; // Add this line
+  final String difficulty;
 
-  const SusunKalimat({super.key, required this.currentlevel});
+  const SusunKalimat({super.key, required this.currentlevel, required this.onProgressUpdate, required this.difficulty});
 
   @override
   _SusunKalimatState createState() => _SusunKalimatState();
@@ -23,7 +25,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
     super.initState();
     loadQuestions().then((questions) {
       setState(() {
-        _questions = questions.where((q) => q['level'] == int.parse(widget.currentlevel)).toList();
+        _questions = questions.where((q) => q['level'] == int.parse(widget.currentlevel) && q['difficulty'] == widget.difficulty).toList();
       });
     });
   }

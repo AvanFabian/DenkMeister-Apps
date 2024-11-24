@@ -1,10 +1,89 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
+import 'package:tebak_gambar/quizprogressmanager.dart';
 import 'package:tebak_gambar/tingkat_kesulitan.dart';
 import 'package:tebak_gambar/library.dart';
 import 'package:tebak_gambar/settings.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart';
 
-class Quizdashboard extends StatelessWidget {
+class QuizDataLoader {
+  static Future<int> getTotalQuestions(String jsonFilePath) async {
+    final String response = await rootBundle.loadString(jsonFilePath);
+    final List<dynamic> data = json.decode(response);
+    return data.length;
+  }
+}
+
+class Quizdashboard extends StatefulWidget {
   const Quizdashboard({super.key});
+
+  @override
+  _QuizdashboardState createState() => _QuizdashboardState();
+}
+
+class _QuizdashboardState extends State<Quizdashboard> {
+  // Assuming you have these values for each quiz
+  int _answeredCount = 0;
+  int _totalQuestions = 0; // Total number of all questions dynamically set
+  double _progressValue = 0.0; // Progress value for the CircularProgressIndicator
+  int _percentage = 0; // Displayed percentage
+
+  @override
+  void initState() {
+    super.initState();
+    _loadTotalQuestions();
+    _loadProgress();
+  }
+
+  Future<void> _loadTotalQuestions() async {
+    try {
+      // Load total questions for each quiz type
+      final int tebakGambarCount = await _getQuestionCount('assets/utils/tebakgambar_quiz.json');
+      final int cocokKataCount = await _getQuestionCount('assets/utils/cocokkata_quiz.json');
+      final int kalimatRumpangCount = await _getQuestionCount('assets/utils/kalimatrumpang_quiz.json');
+      final int susunKalimatCount = await _getQuestionCount('assets/utils/susunkalimat_quiz.json');
+
+      setState(() {
+        // Update _totalQuestions based on the sum of all quizzes
+        _totalQuestions = tebakGambarCount + cocokKataCount + kalimatRumpangCount + susunKalimatCount;
+        _updateProgress(); // Update progress once total questions are loaded
+        print('Total questions: $_totalQuestions');
+
+        // Optionally update individual progress trackers here
+      });
+    } catch (e) {
+      print("Error loading question counts: $e");
+    }
+  }
+
+  Future<int> _getQuestionCount(String jsonFilePath) async {
+    final String response = await rootBundle.loadString(jsonFilePath);
+    final List<dynamic> data = json.decode(response);
+    return data.length;
+  }
+
+  // shared function to update progress for each quiz
+  Future<void> _loadProgress() async {
+    int savedCount = await QuizProgressManager.getAnsweredQuestions();
+    setState(() {
+      _answeredCount = savedCount;
+      _updateProgress(); // Update progress once answered questions are loaded
+    });
+  }
+
+  void _updateProgress() {
+    if (_totalQuestions > 0) {
+      _progressValue = _answeredCount / _totalQuestions; // Progress value for CircularProgressIndicator
+      print('Progress value: $_progressValue');
+      print('Answered questions: $_answeredCount');
+      _percentage = (_progressValue * 100).toInt(); // Percentage value
+    } else {
+      _progressValue = 0.0;
+      _percentage = 0;
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +116,6 @@ class Quizdashboard extends StatelessWidget {
                           'assets/german-flag.png', // Replace with your local image path
                           width: 140.0,
                           height: 240.0,
-                          // fit: BoxFit.cover,
                         ),
                       ),
                       // Text positioned on the left
@@ -128,24 +206,24 @@ class Quizdashboard extends StatelessWidget {
                                       ),
                                     ),
                                     const SizedBox(width: 16.0), // Horizontal gap
-                                    const SizedBox(
+                                    SizedBox(
                                       width: 72.0,
                                       height: 72.0,
                                       child: Stack(
-                                        alignment: Alignment.center, // Center all children within the Stack
+                                        alignment: Alignment.center,
                                         children: <Widget>[
                                           SizedBox(
                                             width: 48.0, // Increased width
                                             height: 48.0, // Increased height
                                             child: CircularProgressIndicator(
-                                              value: 1, // Example progress value
+                                              value: _progressValue, // Dynamically updated progress value
                                               strokeWidth: 4.0,
-                                              valueColor: AlwaysStoppedAnimation<Color>(Colors.green),
+                                              valueColor: const AlwaysStoppedAnimation<Color>(Colors.green),
                                             ),
                                           ),
                                           Center(
                                             child: Text(
-                                              '100%', // Example percentage text
+                                              '$_percentage%', // Dynamically updated percentage
                                               style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w900, color: Colors.green),
                                             ),
                                           ),

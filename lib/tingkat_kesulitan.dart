@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tebak_gambar/quizlevelling_a1.dart';
-import 'package:tebak_gambar/quizlevelling_a2.dart';
-import 'package:tebak_gambar/quizlevelling_b1.dart';
+import 'package:tebak_gambar/quizlevelling.dart';
 
 class Difficulty extends StatelessWidget {
   final String quizName;
@@ -96,17 +94,17 @@ class Difficulty extends StatelessWidget {
                                   if (quizDescriptions[index] == 'Tingkat A1') {
                                     Navigator.push(
                                       context,
-                                      MaterialPageRoute(builder: (context) => QuizLevellingA1(quizName: quizName)),
+                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDescriptions[index])),
                                     );
                                   } else if (quizDescriptions[index] == 'Tingkat A2') {
                                     Navigator.push(
                                       context,
-                                      MaterialPageRoute(builder: (context) => QuizLevellingA2(quizName: quizName)),
+                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDescriptions[index])),
                                     );
                                   } else if (quizDescriptions[index] == 'Tingkat B1') {
                                     Navigator.push(
                                       context,
-                                      MaterialPageRoute(builder: (context) => QuizLevellingB1(quizName: quizName)),
+                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDescriptions[index])),
                                     );
                                   }
                                 },
