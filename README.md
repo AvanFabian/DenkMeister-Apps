@@ -1,4 +1,4 @@
-# Denkmeister : German to Indonesia Learning Platfrom
+# Denkmeister : German to Indonesia Learning Platform
 
 ## 📋 <a name="table">Table of Contents</a>
 
