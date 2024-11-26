@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:tebak_gambar/quizprogressmanager.dart';
 
 class SusunKalimat extends StatefulWidget {
   final String currentlevel;
@@ -19,6 +20,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
   List<String> _selectedWords = [];
   List<String> _correctOrder = [];
   bool _showHint = false;
+  int _answeredCount = 0;
 
   @override
   void initState() {
@@ -35,9 +37,22 @@ class _SusunKalimatState extends State<SusunKalimat> {
     return json.decode(data);
   }
 
-  void _checkAnswer() {
+  Future<void> _checkAnswer() async {
     bool isCorrect = _selectedWords.join(' ') == _correctOrder.join(' ');
+    // Increment answered questions (correct or incorrect)
+    setState(() {
+      _answeredCount++;
+    });
 
+    // Save to persistent storage
+    int savedCount = await QuizProgressManager.getAnsweredQuestions('answered_questions_tebak_gambar');
+    // await QuizProgressManager.saveAnsweredQuestions(savedCount + 1);
+    await QuizProgressManager.saveAnsweredQuestions('answered_questions_tebak_gambar', savedCount + 1);
+
+    // Notify parent page
+    widget.onProgressUpdate(_answeredCount);
+
+    // Show dialog with image and text for only 2 seconds
     showDialog(
       context: context,
       builder: (BuildContext context) {

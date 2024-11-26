@@ -1,20 +1,46 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
 class QuizProgressManager {
-  static const String _answeredQuestionsKey = 'answered_questions';
+  static const String answeredQuestionsTebakGambarKey = 'answered_questions_tebak_gambar';
+  static const String answeredQuestionsCocokKataKey = 'answered_questions_cocok_kata';
+  static const String answeredQuestionsKalimatRumpangKey = 'answered_questions_kalimat_rumpang';
+  static const String answeredQuestionsSusunKalimatKey = 'answered_questions_susun_kalimat';
 
-  static Future<int> getAnsweredQuestions() async {
+  // General method to get answered questions by key
+  static Future<int> getAnsweredQuestions(String key) async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.getInt(_answeredQuestionsKey) ?? 0; // Default to 0 if no value saved
+    return prefs.getInt(key) ?? 0; // Default to 0 if no value saved
   }
 
-  static Future<void> saveAnsweredQuestions(int count) async {
+  // General method to save answered questions by key
+  static Future<void> saveAnsweredQuestions(String key, int count) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setInt(_answeredQuestionsKey, count);
+    await prefs.setInt(key, count);
   }
 
-  static Future<void> resetAnsweredQuestions() async {
+  // General method to reset answered questions by key
+  static Future<void> resetAnsweredQuestions(String key) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.remove(_answeredQuestionsKey);
+    await prefs.remove(key);
   }
 }
+
+
+// class QuizProgressManager {
+//   static const String _answeredQuestionsKey = 'answered_questions';
+
+//   static Future<int> getAnsweredQuestions() async {
+//     final prefs = await SharedPreferences.getInstance();
+//     return prefs.getInt(_answeredQuestionsKey) ?? 0; // Default to 0 if no value saved
+//   }
+
+//   static Future<void> saveAnsweredQuestions(int count) async {
+//     final prefs = await SharedPreferences.getInstance();
+//     await prefs.setInt(_answeredQuestionsKey, count);
+//   }
+
+//   static Future<void> resetAnsweredQuestions() async {
+//     final prefs = await SharedPreferences.getInstance();
+//     await prefs.remove(_answeredQuestionsKey);
+//   }
+// }

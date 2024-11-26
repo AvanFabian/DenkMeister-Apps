@@ -24,65 +24,81 @@ class Quizdashboard extends StatefulWidget {
 }
 
 class _QuizdashboardState extends State<Quizdashboard> {
-  // Assuming you have these values for each quiz
-  int _answeredCount = 0;
-  int _totalQuestions = 0; // Total number of all questions dynamically set
-  double _progressValue = 0.0; // Progress value for the CircularProgressIndicator
-  int _percentage = 0; // Displayed percentage
+  // Individual progress trackers for each quiz type
+  final Map<String, int> _answeredCounts = {
+    'tebak_gambar': 0,
+    'cocok_kata': 0,
+    'kalimat_rumpang': 0,
+    'susun_kalimat': 0,
+  };
+  final Map<String, int> _totalQuestions = {
+    'tebak_gambar': 0,
+    'cocok_kata': 0,
+    'kalimat_rumpang': 0,
+    'susun_kalimat': 0,
+  };
+  final Map<String, double> _progressValues = {
+    'tebak_gambar': 0.0,
+    'cocok_kata': 0.0,
+    'kalimat_rumpang': 0.0,
+    'susun_kalimat': 0.0,
+  };
 
   @override
   void initState() {
     super.initState();
-    _loadTotalQuestions();
-    _loadProgress();
+    _loadQuizData();
   }
 
-  Future<void> _loadTotalQuestions() async {
+  Future<void> _loadQuizData() async {
     try {
-      // Load total questions for each quiz type
-      final int tebakGambarCount = await _getQuestionCount('assets/utils/tebakgambar_quiz.json');
-      final int cocokKataCount = await _getQuestionCount('assets/utils/cocokkata_quiz.json');
-      final int kalimatRumpangCount = await _getQuestionCount('assets/utils/kalimatrumpang_quiz.json');
-      final int susunKalimatCount = await _getQuestionCount('assets/utils/susunkalimat_quiz.json');
-
-      setState(() {
-        // Update _totalQuestions based on the sum of all quizzes
-        _totalQuestions = tebakGambarCount + cocokKataCount + kalimatRumpangCount + susunKalimatCount;
-        _updateProgress(); // Update progress once total questions are loaded
-        print('Total questions: $_totalQuestions');
-
-        // Optionally update individual progress trackers here
-      });
+      // Load total questions and answered counts for each quiz type
+      await Future.wait([
+        _loadQuizProgress(
+          jsonFilePath: 'assets/utils/tebakgambar_quiz.json',
+          answeredKey: QuizProgressManager.answeredQuestionsTebakGambarKey,
+          quizType: 'tebak_gambar',
+        ),
+        _loadQuizProgress(
+          jsonFilePath: 'assets/utils/cocokkata_quiz.json',
+          answeredKey: QuizProgressManager.answeredQuestionsCocokKataKey,
+          quizType: 'cocok_kata',
+        ),
+        _loadQuizProgress(
+          jsonFilePath: 'assets/utils/kalimatrumpang_quiz.json',
+          answeredKey: QuizProgressManager.answeredQuestionsKalimatRumpangKey,
+          quizType: 'kalimat_rumpang',
+        ),
+        _loadQuizProgress(
+          jsonFilePath: 'assets/utils/susunkalimat_quiz.json',
+          answeredKey: QuizProgressManager.answeredQuestionsSusunKalimatKey,
+          quizType: 'susun_kalimat',
+        ),
+      ]);
     } catch (e) {
-      print("Error loading question counts: $e");
+      print("Error loading quiz data: $e");
     }
+  }
+
+  Future<void> _loadQuizProgress({
+    required String jsonFilePath,
+    required String answeredKey,
+    required String quizType,
+  }) async {
+    final totalQuestions = await _getQuestionCount(jsonFilePath);
+    final answeredQuestions = await QuizProgressManager.getAnsweredQuestions(answeredKey);
+
+    setState(() {
+      _totalQuestions[quizType] = totalQuestions;
+      _answeredCounts[quizType] = answeredQuestions;
+      _progressValues[quizType] = totalQuestions > 0 ? answeredQuestions / totalQuestions : 0.0;
+    });
   }
 
   Future<int> _getQuestionCount(String jsonFilePath) async {
     final String response = await rootBundle.loadString(jsonFilePath);
     final List<dynamic> data = json.decode(response);
     return data.length;
-  }
-
-  // shared function to update progress for each quiz
-  Future<void> _loadProgress() async {
-    int savedCount = await QuizProgressManager.getAnsweredQuestions();
-    setState(() {
-      _answeredCount = savedCount;
-      _updateProgress(); // Update progress once answered questions are loaded
-    });
-  }
-
-  void _updateProgress() {
-    if (_totalQuestions > 0) {
-      _progressValue = _answeredCount / _totalQuestions; // Progress value for CircularProgressIndicator
-      print('Progress value: $_progressValue');
-      print('Answered questions: $_answeredCount');
-      _percentage = (_progressValue * 100).toInt(); // Percentage value
-    } else {
-      _progressValue = 0.0;
-      _percentage = 0;
-    }
   }
 
   @override
@@ -155,12 +171,22 @@ class _QuizdashboardState extends State<Quizdashboard> {
                           'Susun Kalimat',
                         ];
 
+                        final List<String> quizType = [
+                          'answered_questions_tebak_gambar',
+                          'answered_questions_cocok_kata',
+                          'answered_questions_kalimat_rumpang',
+                          'answered_questions_susun_kalimat',
+                        ];
+
                         final List<String> quizDescriptions = [
                           'Tentukan Jawaban Sesuai Gambar',
                           'Temukan Pasangan Kata',
                           'Lengkapi Kalimat Yang Rumpang',
                           'Rangkai Kata Menjadi Kalimat',
                         ];
+
+                        final double progressValue = _progressValues[quizType[index]] ?? 0.0;
+                        final int percentage = (progressValue * 100).toInt();
 
                         return Padding(
                           padding: const EdgeInsets.only(top: 4.0, left: 8.0, right: 8.0),
@@ -216,14 +242,14 @@ class _QuizdashboardState extends State<Quizdashboard> {
                                             width: 48.0, // Increased width
                                             height: 48.0, // Increased height
                                             child: CircularProgressIndicator(
-                                              value: _progressValue, // Dynamically updated progress value
+                                              value: progressValue,
                                               strokeWidth: 4.0,
                                               valueColor: const AlwaysStoppedAnimation<Color>(Colors.green),
                                             ),
                                           ),
                                           Center(
                                             child: Text(
-                                              '$_percentage%', // Dynamically updated percentage
+                                              '$percentage%', // Dynamically updated percentage
                                               style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w900, color: Colors.green),
                                             ),
                                           ),
@@ -294,6 +320,13 @@ class _QuizdashboardState extends State<Quizdashboard> {
                         context,
                         MaterialPageRoute(builder: (context) => const Settings()),
                       );
+                    },
+                  ),
+                  IconButton(
+                    icon: const Icon(Icons.track_changes),
+                    onPressed: () async {
+                      await QuizProgressManager.resetAnsweredQuestions('answered_questions_cocok_kata');
+                      print('Progress reset.');
                     },
                   ),
                 ],

@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:tebak_gambar/models/questionmodel.dart';
+import 'package:tebak_gambar/quizprogressmanager.dart';
 
 class TebakGambar extends StatefulWidget {
   final String currentlevel;
@@ -16,6 +17,7 @@ class TebakGambar extends StatefulWidget {
 class _TebakGambarState extends State<TebakGambar> {
   List<Question> _questions = [];
   int _currentQuestionIndex = 0;
+  int _answeredCount = 0;
 
   @override
   void initState() {
@@ -36,24 +38,34 @@ class _TebakGambarState extends State<TebakGambar> {
     return jsonResult.map((json) => Question.fromJson(json)).toList();
   }
 
-  void _checkAnswer(String selectedAnswer) {
+  // Call this when an answer is checked
+  Future<void> _checkAnswer(String selectedAnswer) async {
     final isCorrect = selectedAnswer == _questions[_currentQuestionIndex].correctAnswer;
+    // Increment answered questions (correct or incorrect)
+    setState(() {
+      _answeredCount++;
+    });
+
+    // Save to persistent storage
+    int savedCount = await QuizProgressManager.getAnsweredQuestions('answered_questions_tebak_gambar');
+    // await QuizProgressManager.saveAnsweredQuestions(savedCount + 1);
+    await QuizProgressManager.saveAnsweredQuestions('answered_questions_tebak_gambar', savedCount + 1);
+
+    // Notify parent page
+    widget.onProgressUpdate(_answeredCount);
 
     // Show dialog with image and text for only 2 seconds
     showDialog(
       context: context,
       builder: (BuildContext context) {
-        // Schedule the dialog to close automatically after 2 seconds
         Future.delayed(const Duration(seconds: 2), () {
           Navigator.of(context).pop();
-
-          // Navigate to the next question or reset if at the last question
+          // Move to the next question or reset
           if (_currentQuestionIndex < _questions.length - 1) {
             setState(() {
               _currentQuestionIndex++;
             });
           } else {
-            // Reset the quiz or show completion message
             setState(() {
               _currentQuestionIndex = 0;
             });

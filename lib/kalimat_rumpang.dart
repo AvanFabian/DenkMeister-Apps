@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:tebak_gambar/models/questionmodel.dart';
+import 'package:tebak_gambar/quizprogressmanager.dart';
 
 class KalimatRumpang extends StatefulWidget {
   final String currentlevel;
@@ -17,6 +18,7 @@ class KalimatRumpang extends StatefulWidget {
 class _KalimatRumpangState extends State<KalimatRumpang> {
   List<Question> _questions = [];
   int _currentQuestionIndex = 0;
+  int _answeredCount = 0;
 
   @override
   void initState() {
@@ -24,9 +26,7 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
     loadQuestions().then((questions) {
       setState(() {
         // Filter questions based on the level from widget.currentLevel
-        _questions = questions
-            .where((q) => q.level == int.parse(widget.currentlevel) && q.difficulty == widget.difficulty)
-            .toList();
+        _questions = questions.where((q) => q.level == int.parse(widget.currentlevel) && q.difficulty == widget.difficulty).toList();
       });
     });
   }
@@ -37,23 +37,34 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
     return jsonResult.map((json) => Question.fromJson(json)).toList();
   }
 
-  void _checkAnswer(String selectedAnswer) {
+  // Call this when an answer is checked
+  Future<void> _checkAnswer(String selectedAnswer) async {
     final isCorrect = selectedAnswer == _questions[_currentQuestionIndex].correctAnswer;
+    // Increment answered questions (correct or incorrect)
+    setState(() {
+      _answeredCount++;
+    });
 
-    // Show dialog with feedback for 2 seconds
+    // Save to persistent storage
+    int savedCount = await QuizProgressManager.getAnsweredQuestions('answered_questions_tebak_gambar');
+    // await QuizProgressManager.saveAnsweredQuestions(savedCount + 1);
+    await QuizProgressManager.saveAnsweredQuestions('answered_questions_tebak_gambar', savedCount + 1);
+
+    // Notify parent page
+    widget.onProgressUpdate(_answeredCount);
+
+    // Show dialog with image and text for only 2 seconds
     showDialog(
       context: context,
       builder: (BuildContext context) {
         Future.delayed(const Duration(seconds: 2), () {
           Navigator.of(context).pop();
-
-          // Navigate to the next question or reset if at the last question
+          // Move to the next question or reset
           if (_currentQuestionIndex < _questions.length - 1) {
             setState(() {
               _currentQuestionIndex++;
             });
           } else {
-            // Reset the quiz or show completion message
             setState(() {
               _currentQuestionIndex = 0;
             });
@@ -64,10 +75,10 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Icon(
-                isCorrect ? Icons.check_circle : Icons.cancel,
-                color: isCorrect ? Colors.green : Colors.red,
-                size: 80.0,
+              Image.asset(
+                isCorrect ? 'assets/quiz/check_ring_round.png' : 'assets/quiz/close_ring.png',
+                height: 80.0,
+                width: 80.0,
               ),
               const SizedBox(height: 16.0),
               Text(

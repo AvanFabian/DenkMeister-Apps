@@ -44,8 +44,9 @@ class _CocokKataState extends State<CocokKata> {
     });
 
     // Save to persistent storage
-    int savedCount = await QuizProgressManager.getAnsweredQuestions();
-    await QuizProgressManager.saveAnsweredQuestions(savedCount + 1);
+    int savedCount = await QuizProgressManager.getAnsweredQuestions('answered_questions_cocok_kata');
+    // await QuizProgressManager.saveAnsweredQuestions(savedCount + 1);
+    await QuizProgressManager.saveAnsweredQuestions('answered_questions_cocok_kata', savedCount + 1);
 
     // Notify parent page
     widget.onProgressUpdate(_answeredCount);
