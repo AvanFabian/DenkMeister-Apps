@@ -19,7 +19,7 @@
     flutter pub get
     ```
 
-## Page Splash Logo, On Boarding, Dashboard (Quiz)
+## Page Details
 
 ### Splash
 <img src="![Screenshot 2024-11-03 160004](https://github.com/user-attachments/assets/28c47c61-e3e4-43d8-9187-6d2e4c97e240)" width="350"/>
