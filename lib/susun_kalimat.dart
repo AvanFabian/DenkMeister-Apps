@@ -46,7 +46,6 @@ class _SusunKalimatState extends State<SusunKalimat> {
 
     // Save to persistent storage
     int savedCount = await QuizProgressManager.getAnsweredQuestions('answered_questions_tebak_gambar');
-    // await QuizProgressManager.saveAnsweredQuestions(savedCount + 1);
     await QuizProgressManager.saveAnsweredQuestions('answered_questions_tebak_gambar', savedCount + 1);
 
     // Notify parent page

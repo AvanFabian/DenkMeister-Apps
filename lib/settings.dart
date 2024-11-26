@@ -2,9 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:tebak_gambar/quiz_home.dart';
 import 'package:tebak_gambar/library.dart';
 
-class Settings extends StatelessWidget {
+class Settings extends StatefulWidget {
   const Settings({super.key});
 
+  @override
+  _SettingsState createState() => _SettingsState();
+}
+
+class _SettingsState extends State<Settings> {
+  bool _isSoundOn = true;
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -70,7 +77,7 @@ class Settings extends StatelessWidget {
                               'assets/q3.png',
                             ];
 
-                            final List<String> quizNames = [
+                            final List<String> settingNames = [
                               'Share',
                               'Sound',
                               'About Us',
@@ -97,13 +104,23 @@ class Settings extends StatelessWidget {
                                       // Rest of the card content
                                       const SizedBox(width: 16.0), // Horizontal gap
                                       Expanded(
-                                        child: Column(
-                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                        child: Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                           children: <Widget>[
                                             Text(
-                                              quizNames[index],
+                                              settingNames[index],
                                               style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
                                             ),
+                                            if (settingNames[index] == 'Sound')
+                                              Switch(
+                                                value: _isSoundOn,
+                                                onChanged: (bool value) {
+                                                  // Add your logic here
+                                                  setState(() {
+                                                    _isSoundOn = value;
+                                                  });
+                                                },
+                                              ),
                                           ],
                                         ),
                                       ),

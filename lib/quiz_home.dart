@@ -322,13 +322,13 @@ class _QuizdashboardState extends State<Quizdashboard> {
                       );
                     },
                   ),
-                  IconButton(
-                    icon: const Icon(Icons.track_changes),
-                    onPressed: () async {
-                      await QuizProgressManager.resetAnsweredQuestions('answered_questions_cocok_kata');
-                      print('Progress reset.');
-                    },
-                  ),
+                  // IconButton(
+                  //   icon: const Icon(Icons.track_changes),
+                  //   onPressed: () async {
+                  //     await QuizProgressManager.resetAnsweredQuestions('answered_questions_cocok_kata');
+                  //     print('Progress reset.');
+                  //   },
+                  // ),
                 ],
               ),
             ),
