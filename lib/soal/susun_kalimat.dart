@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:tebak_gambar/quizprogressmanager.dart';
+import 'package:tebak_gambar/utils/quizprogressmanager.dart';
 
 class SusunKalimat extends StatefulWidget {
   final String currentlevel;

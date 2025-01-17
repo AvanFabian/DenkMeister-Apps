@@ -2,19 +2,20 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:tebak_gambar/models/questionmodel.dart';
-import 'package:tebak_gambar/quizprogressmanager.dart';
+import 'package:tebak_gambar/utils/quizprogressmanager.dart';
 
-class CocokKata extends StatefulWidget {
+class KalimatRumpang extends StatefulWidget {
   final String currentlevel;
   final Function(int) onProgressUpdate; // Add this line
   final String difficulty;
-  const CocokKata({super.key, required this.currentlevel, required this.onProgressUpdate, required this.difficulty});
+
+  const KalimatRumpang({super.key, required this.currentlevel, required this.onProgressUpdate, required this.difficulty});
 
   @override
-  _CocokKataState createState() => _CocokKataState();
+  _KalimatRumpangState createState() => _KalimatRumpangState();
 }
 
-class _CocokKataState extends State<CocokKata> {
+class _KalimatRumpangState extends State<KalimatRumpang> {
   List<Question> _questions = [];
   int _currentQuestionIndex = 0;
   int _answeredCount = 0;
@@ -24,13 +25,14 @@ class _CocokKataState extends State<CocokKata> {
     super.initState();
     loadQuestions().then((questions) {
       setState(() {
+        // Filter questions based on the level from widget.currentLevel
         _questions = questions.where((q) => q.level == int.parse(widget.currentlevel) && q.difficulty == widget.difficulty).toList();
       });
     });
   }
 
   Future<List<Question>> loadQuestions() async {
-    final data = await rootBundle.loadString('assets/utils/cocokkata_quiz.json');
+    final data = await rootBundle.loadString('assets/utils/kalimatrumpang_quiz.json');
     final List<dynamic> jsonResult = json.decode(data);
     return jsonResult.map((json) => Question.fromJson(json)).toList();
   }
@@ -44,9 +46,9 @@ class _CocokKataState extends State<CocokKata> {
     });
 
     // Save to persistent storage
-    int savedCount = await QuizProgressManager.getAnsweredQuestions('answered_questions_cocok_kata');
+    int savedCount = await QuizProgressManager.getAnsweredQuestions('answered_questions_tebak_gambar');
     // await QuizProgressManager.saveAnsweredQuestions(savedCount + 1);
-    await QuizProgressManager.saveAnsweredQuestions('answered_questions_cocok_kata', savedCount + 1);
+    await QuizProgressManager.saveAnsweredQuestions('answered_questions_tebak_gambar', savedCount + 1);
 
     // Notify parent page
     widget.onProgressUpdate(_answeredCount);
@@ -143,21 +145,17 @@ class _CocokKataState extends State<CocokKata> {
                       color: Colors.grey[350],
                       child: Padding(
                         padding: const EdgeInsets.all(16.0),
-                        child: SizedBox(
-                          height: 240.0,
-                          child: Center(
-                            child: Text(
-                              currentQuestion.question,
-                              textAlign: TextAlign.center,
-                              style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
-                            ),
-                          ),
+                        child: Text(
+                          currentQuestion.question, // Question text
+                          textAlign: TextAlign.center,
+                          style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
                         ),
                       ),
                     ),
                   ),
                   const SizedBox(height: 16.0),
-                  // Answer options
+
+                  // Answer Options
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16.0),
                     child: Column(
@@ -173,7 +171,7 @@ class _CocokKataState extends State<CocokKata> {
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.transparent, // Transparent to show Container color
                                 shadowColor: Colors.transparent, // Remove default button shadow
-                                padding: const EdgeInsets.all(16.0),
+                                padding: const EdgeInsets.all(16.0), // Padding inside button
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),

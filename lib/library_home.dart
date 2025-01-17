@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tebak_gambar/detaillibraryitems.dart';
+import 'package:tebak_gambar/library_items.dart';
 import 'package:tebak_gambar/quiz_home.dart';
-import 'package:tebak_gambar/settings.dart';
+import 'package:tebak_gambar/pengaturan.dart';
 
 class Library extends StatelessWidget {
   const Library({super.key});

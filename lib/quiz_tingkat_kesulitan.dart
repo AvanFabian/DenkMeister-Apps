@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tebak_gambar/quizlevelling.dart';
+import 'package:tebak_gambar/quiz_levelling.dart';
 
 class Difficulty extends StatelessWidget {
   final String quizName;

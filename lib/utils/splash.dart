@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'onboarding.dart'; // Import the OnBoardingPage
+import '../onboarding.dart'; // Import the OnBoardingPage
 
 class Splash extends StatelessWidget {
   const Splash({super.key});

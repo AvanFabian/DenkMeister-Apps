@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tebak_gambar/quiz_home.dart';
-import 'package:tebak_gambar/library.dart';
+import 'package:tebak_gambar/library_home.dart';
 
 class Settings extends StatefulWidget {
   const Settings({super.key});

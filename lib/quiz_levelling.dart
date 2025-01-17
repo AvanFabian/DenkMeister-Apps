@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:tebak_gambar/cocok_kata.dart';
-import 'package:tebak_gambar/kalimat_rumpang.dart';
+import 'package:tebak_gambar/soal/cocok_kata.dart';
+import 'package:tebak_gambar/soal/kalimat_rumpang.dart';
 // import 'package:tebak_gambar/quizprogressmanager.dart';
-import 'package:tebak_gambar/susun_kalimat.dart';
-import 'package:tebak_gambar/tebak_gambar.dart';
+import 'package:tebak_gambar/soal/susun_kalimat.dart';
+import 'package:tebak_gambar/soal/tebak_gambar.dart';
 
 class QuizLevelling extends StatefulWidget {
   final String quizName;

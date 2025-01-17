@@ -1,10 +1,10 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:tebak_gambar/quizprogressmanager.dart';
-import 'package:tebak_gambar/tingkat_kesulitan.dart';
-import 'package:tebak_gambar/library.dart';
-import 'package:tebak_gambar/settings.dart';
+import 'package:tebak_gambar/utils/quizprogressmanager.dart';
+import 'package:tebak_gambar/quiz_tingkat_kesulitan.dart';
+import 'package:tebak_gambar/library_home.dart';
+import 'package:tebak_gambar/pengaturan.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 

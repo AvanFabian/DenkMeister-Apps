@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tebak_gambar/progressprovider.dart';
-import 'splash.dart'; // Import the SplashScreen
+import 'package:tebak_gambar/utils/progressprovider.dart';
+import 'utils/splash.dart'; // Import the SplashScreen
 
 void main() {
   runApp(
