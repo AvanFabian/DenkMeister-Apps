@@ -1,5 +1,16 @@
-# Denkmeister
-## Platform Pembelajaran bahasa Jerman
+# Denkmeister : German to Indonesia Learning Platform
+
+## 📋 <a name="table">Table of Contents</a>
+
+1. ⚙️ [Tech Stack](#tech-stack)
+2. 🤸 [Quick Start](#quick-start)
+3. 🔗 [Pages](#pages)
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- Flutter
+
+## <a name="quick-start">🤸 Quick Start</a>
 
 1. Clone repository:
 
@@ -19,15 +30,22 @@
     flutter pub get
     ```
 
-## Page Details
+## <a name="pages">🤸 Pages</a>
 
-### Splash
-<img src="![Screenshot 2024-11-03 160004](https://github.com/user-attachments/assets/28c47c61-e3e4-43d8-9187-6d2e4c97e240)" width="350"/>
+| Splash Screen                                                                 | Onboarding Screen                                                            |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| <img src="https://github.com/AvanFabian/AppTebakGambar/blob/main/assets/docs/splash.png" width="275" /> | <img src="https://github.com/AvanFabian/AppTebakGambar/blob/main/assets/docs/onboarding.png" width="275" /> |
 
-### On Boarding
-<img src="![Screenshot 2024-11-03 160009](https://github.com/user-attachments/assets/861be946-8285-4fd9-8b4b-378a2ae58c54)" width="350"/>
+| Quiz Dashboard Screen                                                         | Library Screen                                                              |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| <img src="https://github.com/AvanFabian/AppTebakGambar/blob/main/assets/docs/quizhome.png" width="275" /> | <img src="https://github.com/AvanFabian/AppTebakGambar/blob/main/assets/docs/library.png" width="275" /> |
 
-### Dashboard
-<img src="![Screenshot 2024-11-03 155937](https://github.com/user-attachments/assets/da7bb753-23b5-4131-a27d-63d892c0b7c6)" width="350"/>
+| Settings Screen                                                               | Difficulty Screen                                                           |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| <img src="https://github.com/AvanFabian/AppTebakGambar/blob/main/assets/docs/settings.png" width="275" /> | <img src="https://github.com/AvanFabian/AppTebakGambar/blob/main/assets/docs/difficulty.png" width="275" /> |
+
+| Leveling Screen                                                               | Quiz Activity Screen                                                        |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| <img src="https://github.com/AvanFabian/AppTebakGambar/blob/main/assets/docs/level.png" width="275" /> | <img src="https://github.com/AvanFabian/AppTebakGambar/blob/main/assets/docs/quizplay.png" width="275" /> |
 
 
