@@ -15,23 +15,38 @@ class Library extends StatefulWidget {
 }
 
 class _LibraryState extends State<Library> {
-    List<Kosakata> _kosakata = [];
+  // List<Kosakata> _kosakata = [];
+  Map<String, List<Kosakata>> _groupedKosakata = {};
 
-    @override
-    void initState() {
-      super.initState();
-      loadQuestions().then((kosakata) {
-        setState(() {
-          _kosakata = kosakata;
-        });
+  @override
+  void initState() {
+    super.initState();
+    loadQuestions().then((kosakata) {
+      setState(() {
+        // _kosakata = kosakata;
+        _groupedKosakata = groupKosakata(kosakata);
       });
-    }
+    });
+  }
 
-    Future<List<Kosakata>> loadQuestions() async {
+  Future<List<Kosakata>> loadQuestions() async {
     final data = await rootBundle.loadString('assets/utils/kosakata.json');
     final List<dynamic> jsonResult = json.decode(data);
     return jsonResult.map((json) => Kosakata.fromJson(json)).toList();
   }
+
+  Map<String, List<Kosakata>> groupKosakata(List<Kosakata> kosakata) {
+    // Group items by Kategori
+    Map<String, List<Kosakata>> grouped = {};
+    for (var item in kosakata) {
+      if (!grouped.containsKey(item.Kategori)) {
+        grouped[item.Kategori] = [];
+      }
+      grouped[item.Kategori]!.add(item);
+    }
+    return grouped;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -130,43 +145,11 @@ class _LibraryState extends State<Library> {
                       borderRadius: BorderRadius.circular(20.0),
                     ),
                     child: Column(
-                      children: List.generate(8, (index) {
-                        final List<String> imagePaths = [
-                          'assets/q1.png',
-                          'assets/q2.png',
-                          'assets/q3.png',
-                          'assets/q4.png',
-                          'assets/q4.png',
-                          'assets/q4.png',
-                          'assets/q4.png',
-                          'assets/q4.png',
-                        ];
+                      children: _groupedKosakata.entries.map((entry) {
+                        String category = entry.key;
+                        List<Kosakata> items = entry.value;
+                        int totalWords = items.length;
 
-                        // final List<String> quizNames = [
-                        //   'Number & Colors',
-                        //   'Family Members',
-                        //   'Days of the Week and Months',
-                        //   'Foods and Drinks',
-                        //   'Basic Verbs',
-                        //   'Everyday Items',
-                        //   'Common Animals',
-                        //   'Buildings and Places in Town',
-                        //   'Basic Greetings and Phrases',
-                        //   'Adjectives & Adverbs',
-                        // ];
-
-                        // final List<String> quizDescriptions = [
-                        //   '200 Words',
-                        //   '100 words',
-                        //   '300 words',
-                        //   '100 words',
-                        //   '100 words',
-                        //   '100 words',
-                        //   '100 words',
-                        //   '100 words',
-                        //   '100 words',
-                        //   '100 words',
-                        // ];
                         return Column(
                           children: [
                             Padding(
@@ -176,8 +159,9 @@ class _LibraryState extends State<Library> {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      // builder: (context) => DetailLibraryItems(quizName: quizNames[index]),
-                                      builder: (context) => DetailLibraryItems(kategori: _kosakata[index].kategori),
+                                      builder: (context) => DetailLibraryItems(
+                                        Kategori: category,
+                                      ),
                                     ),
                                   );
                                 },
@@ -187,7 +171,7 @@ class _LibraryState extends State<Library> {
                                       width: 42.0,
                                       height: 42.0,
                                       child: Image.asset(
-                                        imagePaths[index],
+                                        'assets/libraryhome_icon/$category.png',
                                         fit: BoxFit.cover,
                                       ),
                                     ),
@@ -197,14 +181,15 @@ class _LibraryState extends State<Library> {
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: <Widget>[
                                           Text(
-                                            // quizNames[index],
-                                            _kosakata[index].kategori,
+                                            category,
                                             style: const TextStyle(fontSize: 16.0),
                                           ),
                                           Text(
-                                            // quizDescriptions[index],
-                                            '${_kosakata[index].numberofWords} Words',
-                                            style: const TextStyle(fontSize: 12.0, fontWeight: FontWeight.w300),
+                                            '$totalWords Words',
+                                            style: const TextStyle(
+                                              fontSize: 12.0,
+                                              fontWeight: FontWeight.w300,
+                                            ),
                                           ),
                                         ],
                                       ),
@@ -213,16 +198,15 @@ class _LibraryState extends State<Library> {
                                 ),
                               ),
                             ),
-                            if (index < 7) // Add a bottom border except for the last item
-                              Divider(
-                                color: Colors.grey.withOpacity(0.5),
-                                thickness: 1.0,
-                                indent: 16.0,
-                                endIndent: 16.0,
-                              ),
+                            Divider(
+                              color: Colors.grey.withOpacity(0.5),
+                              thickness: 1.0,
+                              indent: 16.0,
+                              endIndent: 16.0,
+                            ),
                           ],
                         );
-                      }),
+                      }).toList(),
                     ),
                   ),
                 ),

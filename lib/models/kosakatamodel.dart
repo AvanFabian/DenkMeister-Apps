@@ -2,13 +2,13 @@ class Kosakata {
   final int numberofWords;
   final String bahasaJerman;
   final String bahasaIndonesia;
-  final String kategori;
+  final String Kategori;
 
   Kosakata({
     required this.numberofWords,
     required this.bahasaJerman,
     required this.bahasaIndonesia,
-    required this.kategori,
+    required this.Kategori,
   });
 
   factory Kosakata.fromJson(Map<String, dynamic> json) {
@@ -16,7 +16,7 @@ class Kosakata {
       numberofWords: json['numberofWords'],
       bahasaJerman: json['bahasaJerman'],
       bahasaIndonesia: json['bahasaIndonesia'],
-      kategori: json['kategori'],
+      Kategori: json['Kategori'],
     );
   }
 }
