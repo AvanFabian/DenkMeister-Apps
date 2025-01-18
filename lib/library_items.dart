@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class DetailLibraryItems extends StatelessWidget {
-  final String quizName;
+  final String kategori;
 
-  const DetailLibraryItems({super.key, required this.quizName});
+  const DetailLibraryItems({super.key, required this.kategori});
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class DetailLibraryItems extends StatelessWidget {
           children: [
             const Spacer(), // Pushes the title to the right
             Text(
-              quizName,
+              kategori,
               style: const TextStyle(
                 fontSize: 22.0,
                 color: Colors.white,

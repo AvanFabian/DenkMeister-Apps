@@ -1,11 +1,37 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:tebak_gambar/library_items.dart';
 import 'package:tebak_gambar/quiz_home.dart';
 import 'package:tebak_gambar/pengaturan.dart';
+import 'package:tebak_gambar/models/kosakatamodel.dart';
 
-class Library extends StatelessWidget {
+class Library extends StatefulWidget {
   const Library({super.key});
 
+  @override
+  State<Library> createState() => _LibraryState();
+}
+
+class _LibraryState extends State<Library> {
+    List<Kosakata> _kosakata = [];
+
+    @override
+    void initState() {
+      super.initState();
+      loadQuestions().then((kosakata) {
+        setState(() {
+          _kosakata = kosakata;
+        });
+      });
+    }
+
+    Future<List<Kosakata>> loadQuestions() async {
+    final data = await rootBundle.loadString('assets/utils/kosakata.json');
+    final List<dynamic> jsonResult = json.decode(data);
+    return jsonResult.map((json) => Kosakata.fromJson(json)).toList();
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -51,7 +77,7 @@ class Library extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Text(
                       'Kosakata',
-                      style: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold),
+                      style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold, color: Color(0xFF181818)),
                     ),
                   ),
                 ),
@@ -63,9 +89,32 @@ class Library extends StatelessWidget {
                   child: TextField(
                     decoration: InputDecoration(
                       hintText: 'Search...',
-                      prefixIcon: Icon(Icons.search),
+                      hintStyle: const TextStyle(
+                        color: Colors.grey,
+                        fontSize: 17.0,
+                      ),
+                      prefixIcon: const Icon(
+                        Icons.search,
+                        color: Colors.grey,
+                        size: 26.0,
+                      ),
+                      filled: true,
+                      fillColor: const Color(0xFF000000).withOpacity(0.05), // Light gray background
                       border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(16.0),
+                        borderRadius: BorderRadius.circular(9.0),
+                        borderSide: BorderSide.none,
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(9.0),
+                        borderSide: BorderSide.none,
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(9.0),
+                        borderSide: BorderSide.none,
+                      ),
+                      contentPadding: const EdgeInsets.symmetric(
+                        vertical: 12.0,
+                        horizontal: 16.0,
                       ),
                     ),
                   ),
@@ -77,15 +126,8 @@ class Library extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 16.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: Colors.blue[50],
-                      borderRadius: BorderRadius.circular(16.0),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.grey.withOpacity(0.5),
-                          spreadRadius: 2,
-                          blurRadius: 4,
-                        ),
-                      ],
+                      color: const Color(0xFFE6F2FF),
+                      borderRadius: BorderRadius.circular(20.0),
                     ),
                     child: Column(
                       children: List.generate(8, (index) {
@@ -100,41 +142,42 @@ class Library extends StatelessWidget {
                           'assets/q4.png',
                         ];
 
-                        final List<String> quizNames = [
-                          'Number & Colors',
-                          'Family Members',
-                          'Days of the Week and Months',
-                          'Foods and Drinks',
-                          'Basic Verbs',
-                          'Everyday Items',
-                          'Common Animals',
-                          'Buildings and Places in Town',
-                          'Basic Greetings and Phrases',
-                          'Adjectives & Adverbs',
-                        ];
+                        // final List<String> quizNames = [
+                        //   'Number & Colors',
+                        //   'Family Members',
+                        //   'Days of the Week and Months',
+                        //   'Foods and Drinks',
+                        //   'Basic Verbs',
+                        //   'Everyday Items',
+                        //   'Common Animals',
+                        //   'Buildings and Places in Town',
+                        //   'Basic Greetings and Phrases',
+                        //   'Adjectives & Adverbs',
+                        // ];
 
-                        final List<String> quizDescriptions = [
-                          '200 Words',
-                          '100 words',
-                          '300 words',
-                          '100 words',
-                          '100 words',
-                          '100 words',
-                          '100 words',
-                          '100 words',
-                          '100 words',
-                          '100 words',
-                        ];
+                        // final List<String> quizDescriptions = [
+                        //   '200 Words',
+                        //   '100 words',
+                        //   '300 words',
+                        //   '100 words',
+                        //   '100 words',
+                        //   '100 words',
+                        //   '100 words',
+                        //   '100 words',
+                        //   '100 words',
+                        //   '100 words',
+                        // ];
                         return Column(
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(top: 4.0, bottom: 4.0, left: 16.0, right: 16.0),
+                              padding: const EdgeInsets.only(top: 8.0, bottom: 8.0, left: 16.0, right: 16.0),
                               child: InkWell(
                                 onTap: () {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => DetailLibraryItems(quizName: quizNames[index]),
+                                      // builder: (context) => DetailLibraryItems(quizName: quizNames[index]),
+                                      builder: (context) => DetailLibraryItems(kategori: _kosakata[index].kategori),
                                     ),
                                   );
                                 },
@@ -154,11 +197,13 @@ class Library extends StatelessWidget {
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: <Widget>[
                                           Text(
-                                            quizNames[index],
+                                            // quizNames[index],
+                                            _kosakata[index].kategori,
                                             style: const TextStyle(fontSize: 16.0),
                                           ),
                                           Text(
-                                            quizDescriptions[index],
+                                            // quizDescriptions[index],
+                                            '${_kosakata[index].numberofWords} Words',
                                             style: const TextStyle(fontSize: 12.0, fontWeight: FontWeight.w300),
                                           ),
                                         ],

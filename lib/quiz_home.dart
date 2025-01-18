@@ -1,10 +1,8 @@
-// ignore_for_file: prefer_const_constructors
-
+// quiz_dashboard.dart
 import 'package:flutter/material.dart';
 import 'package:tebak_gambar/utils/quizprogressmanager.dart';
 import 'package:tebak_gambar/quiz_tingkat_kesulitan.dart';
-import 'package:tebak_gambar/library_home.dart';
-import 'package:tebak_gambar/pengaturan.dart';
+import 'package:tebak_gambar/utils/floating_navbar.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
@@ -24,19 +22,20 @@ class Quizdashboard extends StatefulWidget {
 }
 
 class _QuizdashboardState extends State<Quizdashboard> {
-  // Individual progress trackers for each quiz type
   final Map<String, int> _answeredCounts = {
     'tebak_gambar': 0,
     'cocok_kata': 0,
     'kalimat_rumpang': 0,
     'susun_kalimat': 0,
   };
+
   final Map<String, int> _totalQuestions = {
     'tebak_gambar': 0,
     'cocok_kata': 0,
     'kalimat_rumpang': 0,
     'susun_kalimat': 0,
   };
+
   final Map<String, double> _progressValues = {
     'tebak_gambar': 0.0,
     'cocok_kata': 0.0,
@@ -52,7 +51,6 @@ class _QuizdashboardState extends State<Quizdashboard> {
 
   Future<void> _loadQuizData() async {
     try {
-      // Load total questions and answered counts for each quiz type
       await Future.wait([
         _loadQuizProgress(
           jsonFilePath: 'assets/utils/tebakgambar_quiz.json',
@@ -103,182 +101,69 @@ class _QuizdashboardState extends State<Quizdashboard> {
 
   @override
   Widget build(BuildContext context) {
+    // Get screen dimensions for responsive sizing
+    final screenWidth = MediaQuery.of(context).size.width;
+    final screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       body: Stack(
+        fit: StackFit.expand, // Make the stack fill the available space
         children: [
-          Padding(
-            padding: const EdgeInsets.all(0.0),
-            child: Column(
+          // Top blue container
+          Container(
+            width: double.infinity,
+            height: 200.0,
+            decoration: const BoxDecoration(
+              color: Color(0xFF007BFF),
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(0.0),
+                bottomRight: Radius.circular(0.0),
+              ),
+            ),
+            child: Stack(
               children: <Widget>[
-                // Full width SizedBox with another SizedBox inside
-                Container(
-                  width: double.infinity,
-                  height: 260.0,
-                  decoration: const BoxDecoration(
-                    color: Color(0xFF007BFF),
-                    borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(0.0),
-                      bottomRight: Radius.circular(0.0),
+                Positioned(
+                  right: 0,
+                  top: 0,
+                  // bottom: 420,
+                  bottom: screenHeight * 0.49,
+                  child: SizedBox(
+                    width: screenWidth * 0.40, // 45% of screen width
+                    height: screenHeight * 0.10, // 20% of screen height
+                    child: Image.asset(
+                      'assets/german-flag.png',
+                      fit: BoxFit.contain,
                     ),
                   ),
-                  child: Stack(
-                    children: <Widget>[
-                      // Image positioned on the right
-                      Positioned(
-                        right: 0,
-                        top: 88,
-                        bottom: 0,
-                        child: Image.asset(
-                          'assets/german-flag.png', // Replace with your local image path
-                          width: 140.0,
-                          height: 240.0,
-                        ),
-                      ),
-                      // Text positioned on the left
-                      const Positioned(
-                        left: 16.0,
-                        top: 0,
-                        bottom: 0,
-                        child: Center(
-                          child: Text(
-                            'Pilih Kuis Yang Ingin\n Kamu Mainkan',
-                            style: TextStyle(fontSize: 32.0, fontWeight: FontWeight.bold, color: Colors.white),
-                            textAlign: TextAlign.left,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
                 ),
-                const SizedBox(height: 8.0), // Vertical gap
-                // Wrap the cards in a SingleChildScrollView
-                Expanded(
-                  child: SingleChildScrollView(
-                    child: Column(
-                      children: List.generate(4, (index) {
-                        // List of image paths
-                        final imagePaths = [
-                          'assets/q1.png',
-                          'assets/q2.png',
-                          'assets/q3.png',
-                          'assets/q4.png',
-                        ];
-
-                        final List<String> quizNames = [
-                          'Tebak Gambar',
-                          'Cocok Kata',
-                          'Kalimat Rumpang',
-                          'Susun Kalimat',
-                        ];
-
-                        final List<String> quizType = [
-                          'answered_questions_tebak_gambar',
-                          'answered_questions_cocok_kata',
-                          'answered_questions_kalimat_rumpang',
-                          'answered_questions_susun_kalimat',
-                        ];
-
-                        final List<String> quizDescriptions = [
-                          'Tentukan Jawaban Sesuai Gambar',
-                          'Temukan Pasangan Kata',
-                          'Lengkapi Kalimat Yang Rumpang',
-                          'Rangkai Kata Menjadi Kalimat',
-                        ];
-
-                        final double progressValue = _progressValues[quizType[index]] ?? 0.0;
-                        final int percentage = (progressValue * 100).toInt();
-
-                        return Padding(
-                          padding: const EdgeInsets.only(top: 4.0, left: 8.0, right: 8.0),
-                          child: InkWell(
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(builder: (context) => Difficulty(quizName: quizNames[index])),
-                              );
-                            },
-                            child: Card(
-                              elevation: 4.0,
-                              color: Colors.blue[50],
-                              child: Padding(
-                                padding: const EdgeInsets.only(top: 24.0, bottom: 24.0, left: 16.0, right: 16.0),
-                                child: Row(
-                                  children: <Widget>[
-                                    // SizedBox inside Card
-                                    SizedBox(
-                                      width: 50.0,
-                                      height: 50.0,
-                                      child: Image.asset(
-                                        imagePaths[index], // Use different image for each card
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                    // Rest of the card content
-                                    const SizedBox(width: 32.0), // Horizontal gap
-                                    Expanded(
-                                      child: Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
-                                        children: <Widget>[
-                                          Text(
-                                            quizNames[index],
-                                            style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
-                                          ),
-                                          const SizedBox(height: 10.0), // Vertical gap between texts
-                                          Text(
-                                            quizDescriptions[index],
-                                            style: const TextStyle(fontSize: 12.0, fontWeight: FontWeight.w300),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                    const SizedBox(width: 16.0), // Horizontal gap
-                                    SizedBox(
-                                      width: 72.0,
-                                      height: 72.0,
-                                      child: Stack(
-                                        alignment: Alignment.center,
-                                        children: <Widget>[
-                                          SizedBox(
-                                            width: 48.0, // Increased width
-                                            height: 48.0, // Increased height
-                                            child: CircularProgressIndicator(
-                                              value: progressValue,
-                                              strokeWidth: 4.0,
-                                              valueColor: const AlwaysStoppedAnimation<Color>(Colors.green),
-                                            ),
-                                          ),
-                                          Center(
-                                            child: Text(
-                                              '$percentage%', // Dynamically updated percentage
-                                              style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w900, color: Colors.green),
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ),
-                        );
-                      }),
+                const Positioned(
+                  left: 16.0,
+                  top: 0,
+                  bottom: 470,
+                  child: Center(
+                    child: Text(
+                      'Pilih Kuis Yang Ingin\n Kamu Mainkan',
+                      style: TextStyle(fontSize: 32.0, fontWeight: FontWeight.bold, color: Colors.white),
+                      textAlign: TextAlign.left,
                     ),
                   ),
                 ),
               ],
             ),
           ),
+          // Content container
           Positioned(
-            bottom: 32.0,
-            left: 60.0,
-            right: 60.0,
+            top: 275,
+            bottom: 0,
+            left: 0,
+            right: 0,
             child: Container(
-              height: 60.0,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.white,
-                borderRadius: BorderRadius.circular(24.0),
-                boxShadow: const [
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(20.0),
+                  topRight: Radius.circular(20.0),
+                ),
+                boxShadow: [
                   BoxShadow(
                     color: Colors.black26,
                     blurRadius: 10.0,
@@ -286,53 +171,149 @@ class _QuizdashboardState extends State<Quizdashboard> {
                   ),
                 ],
               ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: <Widget>[
-                  Container(
-                    decoration: const BoxDecoration(
-                      color: Colors.black,
-                      shape: BoxShape.circle,
-                    ),
-                    child: IconButton(
-                      icon: const Icon(Icons.home, color: Colors.white),
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => const Quizdashboard()),
-                        );
-                      },
-                    ),
+              child: SingleChildScrollView(
+                child: Padding(
+                  padding: const EdgeInsets.only(
+                    top: 24.0,
+                    bottom: 116.0,
+                    left: 8.0,
+                    right: 8.0,
                   ),
-                  IconButton(
-                    icon: const Icon(Icons.task),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => const Library()),
+                  child: Column(
+                    children: List.generate(4, (index) {
+                      final imagePaths = [
+                        'assets/q1.png',
+                        'assets/q2.png',
+                        'assets/q3.png',
+                        'assets/q4.png',
+                      ];
+
+                      final List<String> quizNames = [
+                        'Tebak Gambar',
+                        'Cocok Kata',
+                        'Kalimat Rumpang',
+                        'Susun Kalimat',
+                      ];
+
+                      final List<String> quizType = [
+                        'answered_questions_tebak_gambar',
+                        'answered_questions_cocok_kata',
+                        'answered_questions_kalimat_rumpang',
+                        'answered_questions_susun_kalimat',
+                      ];
+
+                      final List<String> quizDescriptions = [
+                        'Tentukan Jawaban Sesuai Gambar',
+                        'Temukan Pasangan Kata',
+                        'Lengkapi Kalimat Yang Rumpang',
+                        'Rangkai Kata Menjadi Kalimat',
+                      ];
+
+                      final double progressValue = _progressValues[quizType[index]] ?? 0.0;
+                      final int percentage = (progressValue * 100).toInt();
+
+                      return Padding(
+                        padding: const EdgeInsets.only(left: 8.0, right: 8.0),
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Difficulty(
+                                  quizName: quizNames[index],
+                                ),
+                              ),
+                            );
+                          },
+                          child: Card(
+                            elevation: 4.0,
+                            color: Colors.blue[50],
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(20.0), // Adjusted border radius
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.only(
+                                top: 24.0,
+                                bottom: 24.0,
+                                left: 16.0,
+                                right: 16.0,
+                              ),
+                              child: Row(
+                                children: <Widget>[
+                                  SizedBox(
+                                    width: 50.0,
+                                    height: 50.0,
+                                    child: Image.asset(
+                                      imagePaths[index],
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                  const SizedBox(width: 32.0),
+                                  Expanded(
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: <Widget>[
+                                        Text(
+                                          quizNames[index],
+                                          style: const TextStyle(
+                                            fontSize: 20.0,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        const SizedBox(height: 10.0),
+                                        Text(
+                                          quizDescriptions[index],
+                                          style: const TextStyle(
+                                            fontSize: 12.0,
+                                            fontWeight: FontWeight.w300,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  const SizedBox(width: 16.0),
+                                  SizedBox(
+                                    width: 72.0,
+                                    height: 72.0,
+                                    child: Stack(
+                                      alignment: Alignment.center,
+                                      children: <Widget>[
+                                        SizedBox(
+                                          width: 48.0,
+                                          height: 48.0,
+                                          child: CircularProgressIndicator(
+                                            value: progressValue,
+                                            strokeWidth: 4.0,
+                                            valueColor: const AlwaysStoppedAnimation<Color>(Colors.green),
+                                          ),
+                                        ),
+                                        Center(
+                                          child: Text(
+                                            '$percentage%',
+                                            style: const TextStyle(
+                                              fontSize: 12.0,
+                                              fontWeight: FontWeight.w900,
+                                              color: Colors.green,
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
                       );
-                    },
+                    }),
                   ),
-                  IconButton(
-                    icon: const Icon(Icons.settings),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => const Settings()),
-                      );
-                    },
-                  ),
-                  // IconButton(
-                  //   icon: const Icon(Icons.track_changes),
-                  //   onPressed: () async {
-                  //     await QuizProgressManager.resetAnsweredQuestions('answered_questions_cocok_kata');
-                  //     print('Progress reset.');
-                  //   },
-                  // ),
-                ],
+                ),
               ),
             ),
           ),
+          // Floating Navigation Bar
+          const FloatingNavBar(),
         ],
       ),
     );

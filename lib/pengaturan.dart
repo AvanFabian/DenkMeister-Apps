@@ -159,7 +159,7 @@ class _SettingsState extends State<Settings> {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
                         IconButton(
-                          icon: const Icon(Icons.home, color: Colors.black),
+                          icon: const Icon(Icons.home, color: Colors.black, size: 30.0),
                           onPressed: () {
                             Navigator.push(
                               context,
@@ -168,7 +168,7 @@ class _SettingsState extends State<Settings> {
                           },
                         ),
                         IconButton(
-                          icon: const Icon(Icons.task, color: Colors.black),
+                          icon: const Icon(Icons.task, color: Colors.black, size: 30.0),
                           onPressed: () {
                             Navigator.push(
                               context,
@@ -182,7 +182,7 @@ class _SettingsState extends State<Settings> {
                             shape: BoxShape.circle,
                           ),
                           child: IconButton(
-                            icon: const Icon(Icons.settings, color: Colors.white),
+                            icon: const Icon(Icons.settings, color: Colors.white, size: 30.0),
                             onPressed: () {
                               Navigator.push(
                                 context,
