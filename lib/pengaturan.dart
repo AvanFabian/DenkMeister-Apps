@@ -11,7 +11,7 @@ class Settings extends StatefulWidget {
 
 class _SettingsState extends State<Settings> {
   bool _isSoundOn = true;
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -72,9 +72,9 @@ class _SettingsState extends State<Settings> {
                           children: List.generate(3, (index) {
                             // List of image paths
                             final imagePaths = [
-                              'assets/q1.png',
-                              'assets/q2.png',
-                              'assets/q3.png',
+                              'assets/pengaturan_icon/Export_fill.png',
+                              'assets/pengaturan_icon/sound_max_fill.png',
+                              'assets/pengaturan_icon/Group.png',
                             ];
 
                             final List<String> settingNames = [
