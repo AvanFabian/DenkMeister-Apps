@@ -1,31 +1,134 @@
 [
-    {
-      "level": 1,
-      "difficulty": "Tingkat A1",
-      "question": "Kannst du mir bitte ______?",
-      "options": ["Helfen", "Schreiben", "Sein", "Studieren"],
-      "correctAnswer": "Helfen"
-    },
-    {
-      "level": 1,
-      "difficulty": "Tingkat A1",
-      "question": "Ich _______ ein Buch.",
-      "options": ["lesen", "schreiben", "spielen", "malen"],
-      "correctAnswer": "lese"
-    },
-    {
-      "level": 2,
-      "difficulty": "Tingkat A1",
-      "question": "Tchüss, _______!",
-      "options": ["Mutter", "Vater", "Freund", "Lehrer"],
-      "correctAnswer": "Freund"
-    },
-    {
-      "level": 3,
-      "difficulty": "Tingkat A1",
-      "question": "Ich _______ ein Auto.",
-      "options": ["fahren", "gehen", "laufen", "spielen"],
-      "correctAnswer": "fahre"
-    }
-  ]
-  
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "___! Bis morgen.",
+    "options": [
+      "Hallo",
+      "Bitte",
+      "Tschüss",
+      "Entschuldigung"
+    ],
+    "correctAnswer": "Tschüss"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "___. Wo ist das Badezimmer?",
+    "options": [
+      "Danke",
+      "Auf Wiedersehen",
+      "Tschüss",
+      "Entschuldigung"
+    ],
+    "correctAnswer": "Entschuldigung"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Kannst du mir bitte ___?",
+    "options": [
+      "schreiben",
+      "helfen",
+      "sein",
+      "studieren"
+    ],
+    "correctAnswer": "helfen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Ich ___ Max. Und du?",
+    "options": [
+      "koche",
+      "heiße",
+      "mache",
+      "komme"
+    ],
+    "correctAnswer": "heiße"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Hallo! ___ machst du?",
+    "options": [
+      "Wie alt",
+      "Warum",
+      "Was",
+      "Wer"
+    ],
+    "correctAnswer": "Was"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Freut mich. Wie ___ du?",
+    "options": [
+      "bist",
+      "duscht",
+      "hast",
+      "heißt"
+    ],
+    "correctAnswer": "heißt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "___ bist du? Ich bin 20 Jahre alt.",
+    "options": [
+      "Wer",
+      "Warum",
+      "Wenn",
+      "Wie alt"
+    ],
+    "correctAnswer": "Wie alt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Woher kommst du? ___ komme aus Indonesien.",
+    "options": [
+      "Ich",
+      "Du",
+      "Er",
+      "Es"
+    ],
+    "correctAnswer": "Ich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Auf ___!",
+    "options": [
+      "Wiedersehen",
+      "Vielleicht",
+      "Willkommen",
+      "Danke"
+    ],
+    "correctAnswer": "Wiedersehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Welche Musik ___ du gern?",
+    "options": [
+      "liest",
+      "fährst",
+      "hörst",
+      "kommst"
+    ],
+    "correctAnswer": "hörst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Welche ___ sprichst du?",
+    "options": [
+      "Filme",
+      "Sprachen",
+      "Gitarre",
+      "Sport"
+    ],
+    "correctAnswer": "Sprachen"
+  }
+]

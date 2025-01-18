@@ -1,24 +1,1802 @@
 [
-    {
-      "level": 1,
-      "difficulty": "Tingkat A1",
-      "question": "assets/quiz/Cat.png",
-      "options": ["der Hund", "der Stuhl", "das Buch", "die Katze"],
-      "correctAnswer": "der Hund"
-    },
-    {
-      "level": 1,
-      "difficulty": "Tingkat A1",
-      "question": "assets/quiz/Deer.png",
-      "options": ["der Bruder", "der Howerl", "das Diazz", "die Youmaker"],
-      "correctAnswer": "der Bruder"
-    },
-    {
-      "level": 2,
-      "difficulty": "Tingkat A1",
-      "question": "assets/quiz/Panda.png",
-      "options": ["der Mazab", "der Hangimun", "das Dimana Ahja", "die Or Live"],
-      "correctAnswer": "der Mazab"
-    }
-  ]
-  
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Angka 1.png",
+    "options": [
+      "Zwei",
+      "Eins",
+      "Drei",
+      "Vier"
+    ],
+    "correctAnswer": "eins"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Angka 5.png",
+    "options": [
+      "Vier",
+      "Sieben",
+      "Sechs",
+      "Fünf"
+    ],
+    "correctAnswer": "fünf"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Angka 10.png",
+    "options": [
+      "Zehn",
+      "Zwölf",
+      "Stuhl",
+      "Haus"
+    ],
+    "correctAnswer": "Zehn"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Angka 2.png",
+    "options": [
+      "Drei",
+      "Apfel",
+      "Zwei",
+      "Schule"
+    ],
+    "correctAnswer": "Zwei"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Hari Minggu.png",
+    "options": [
+      "der Samstag",
+      "der Stuhl",
+      "der Sonntag",
+      "der Lampe"
+    ],
+    "correctAnswer": "der Sonntag"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Hari Senin.png",
+    "options": [
+      "der Dienstag",
+      "der Fenster",
+      "der Wasser",
+      "der Montag"
+    ],
+    "correctAnswer": "der Montag"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Bulan Januari.png",
+    "options": [
+      "der Januar",
+      "der Mai",
+      "der Februar",
+      "der Oktober"
+    ],
+    "correctAnswer": "der Januar"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Bulan Maret.png",
+    "options": [
+      "der März",
+      "der June",
+      "der Dezember",
+      "der April"
+    ],
+    "correctAnswer": "der März"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Hari.png",
+    "options": [
+      "der Woche",
+      "der Tag",
+      "der Monat",
+      "der Jahr"
+    ],
+    "correctAnswer": "der Tag"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Ibu.png",
+    "options": [
+      "der Vater",
+      "Schwester",
+      "die Mutter",
+      "Freundin"
+    ],
+    "correctAnswer": "die Mutter"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Ayah.png",
+    "options": [
+      "der Vater",
+      "der Onkel",
+      "der Bruder",
+      "die Mutter"
+    ],
+    "correctAnswer": "der Vater"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Paman.png",
+    "options": [
+      "die Tante",
+      "der Onkel",
+      "der Sohn",
+      "der Mittwoch"
+    ],
+    "correctAnswer": "der Onkel"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Keluarga.png",
+    "options": [
+      "der Dienstag",
+      "die Banane",
+      "das Mädchen",
+      "die Familie"
+    ],
+    "correctAnswer": "die Familie"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Susu.png",
+    "options": [
+      "der Junge",
+      "die Milch",
+      "der Kaffee",
+      "der Saft"
+    ],
+    "correctAnswer": "die Milch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Apel.png",
+    "options": [
+      "die Banane",
+      "die Nichte",
+      "der Freitag",
+      "der Apfel"
+    ],
+    "correctAnswer": "der Apfel"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Keju.png",
+    "options": [
+      "der Käse",
+      "das Kind",
+      "der März",
+      "der Kaffee"
+    ],
+    "correctAnswer": "der Käse"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Melihat.png",
+    "options": [
+      "Zehn",
+      "Sieben",
+      "Sehen",
+      "Frisch"
+    ],
+    "correctAnswer": "Sehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Belajar.png",
+    "options": [
+      "Laufen",
+      "Dunkel",
+      "Lernen",
+      "Lieben"
+    ],
+    "correctAnswer": "Lernen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Makan.png",
+    "options": [
+      "Duschen",
+      "Eins",
+      "Tanzen",
+      "Essen"
+    ],
+    "correctAnswer": "Essen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "assets/tebakgambar_question/A1_1/Tidur.png",
+    "options": [
+      "Sehen",
+      "Schlafen",
+      "Lernen",
+      "Zehn"
+    ],
+    "correctAnswer": "Schlafen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Angka 4.png",
+    "options": [
+      "Eins",
+      "Vier",
+      "Drei",
+      "Zwei"
+    ],
+    "correctAnswer": "Vier"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Angka 6.png",
+    "options": [
+      "Sechs",
+      "Fünf",
+      "Vier",
+      "Sieben"
+    ],
+    "correctAnswer": "Sechs"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Angka 20.png",
+    "options": [
+      "Zehn",
+      "Stuhl",
+      "Zwölf",
+      "Zwanzig"
+    ],
+    "correctAnswer": "Zwanzig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Warna Merah.png",
+    "options": [
+      "Rot",
+      "Weiß",
+      "Wasser",
+      "Sieben"
+    ],
+    "correctAnswer": "Rot"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Warna Hijau.png",
+    "options": [
+      "Blau",
+      "Tisch",
+      "Grün",
+      "Schuh"
+    ],
+    "correctAnswer": "Grün"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Hari Jumat.png",
+    "options": [
+      "der Montag",
+      "der Freitag",
+      "die Katze",
+      "das Buch"
+    ],
+    "correctAnswer": "der Freitag"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Bulan Februari.png",
+    "options": [
+      "der Oktober",
+      "die Lampe",
+      "der Februar",
+      "die Schule"
+    ],
+    "correctAnswer": "der Februar"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Bulan.png",
+    "options": [
+      "der Monat",
+      "die Straße",
+      "das Auto",
+      "die Woche"
+    ],
+    "correctAnswer": "der Monat"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Hari Sabtu.png",
+    "options": [
+      "die Lampe",
+      "der Freitag",
+      "das Haus",
+      "der Samstag"
+    ],
+    "correctAnswer": "der Samstag"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Saudara Laki-laki.png",
+    "options": [
+      "die Schwester",
+      "der Bruder",
+      "der Tisch",
+      "die Tür"
+    ],
+    "correctAnswer": "der Bruder"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Nenek.png",
+    "options": [
+      "der Großvater",
+      "die Katze",
+      "die Großmutter",
+      "der Hund"
+    ],
+    "correctAnswer": "die Großmutter"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Bibi.png",
+    "options": [
+      "der Onkel",
+      "die Blume",
+      "der Apfel",
+      "die Tante"
+    ],
+    "correctAnswer": "die Tante"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Teh.png",
+    "options": [
+      "das Auto",
+      "die Tasse",
+      "der Kaffee",
+      "der Tee"
+    ],
+    "correctAnswer": "der Tee"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Kue.png",
+    "options": [
+      "der Kuchen",
+      "die Uhr",
+      "die Torte",
+      "der Apfel"
+    ],
+    "correctAnswer": "der Kuchen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Pergi.png",
+    "options": [
+      "Blume",
+      "Gehen",
+      "Fenster",
+      "Kommen"
+    ],
+    "correctAnswer": "Gehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Berbicara.png",
+    "options": [
+      "Hören",
+      "Sprechen",
+      "Fahrrad",
+      "Baum"
+    ],
+    "correctAnswer": "Sprechen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Jatuh.png",
+    "options": [
+      "Hund",
+      "Lampe",
+      "Fallen",
+      "Kochen"
+    ],
+    "correctAnswer": "Fallen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Meja.png",
+    "options": [
+      "die Tasche",
+      "der Tisch",
+      "das Wasser",
+      "die Katze"
+    ],
+    "correctAnswer": "der Tisch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Kursi.png",
+    "options": [
+      "der Vogel",
+      "der Stift",
+      "der Stuhl",
+      "der Tisch"
+    ],
+    "correctAnswer": "der Stuhl"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "assets/tebakgambar_question/A1_2/Kasur.png",
+    "options": [
+      "das Bett",
+      "die Straße",
+      "das Fenster",
+      "der Apfel"
+    ],
+    "correctAnswer": "das Bett"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Kucing.png",
+    "options": [
+      "der Hund",
+      "der Stuhl",
+      "das Buch",
+      "die Katze"
+    ],
+    "correctAnswer": "die Katze"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Ikan.png",
+    "options": [
+      "der Fisch",
+      "die Blume",
+      "das Fenster",
+      "der Vogel"
+    ],
+    "correctAnswer": "der Fisch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Anjing.png",
+    "options": [
+      "das Pferd",
+      "das Haus",
+      "der Hund",
+      "die Wohnung"
+    ],
+    "correctAnswer": "der Hund"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Burung.png",
+    "options": [
+      "das Bild",
+      "der Vogel",
+      "der Neffe",
+      "das Bett"
+    ],
+    "correctAnswer": "der Vogel"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Sekolah.png",
+    "options": [
+      "das Krankenhaus",
+      "die Schule",
+      "der Löwe",
+      "die Tür"
+    ],
+    "correctAnswer": "die Schule"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Taman.png",
+    "options": [
+      "der Park",
+      "der Bahnhof",
+      "das Gemüse",
+      "das Büro"
+    ],
+    "correctAnswer": "der Park"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Universitas.png",
+    "options": [
+      "die Wohnung",
+      "die Brücke",
+      "die Universität",
+      "das Schwein"
+    ],
+    "correctAnswer": "die Universität"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Pasar.png",
+    "options": [
+      "das Haus",
+      "das Obst",
+      "die Kuh",
+      "der Markt"
+    ],
+    "correctAnswer": "der Markt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Selamat Pagi.png",
+    "options": [
+      "Guten Tag",
+      "Guten Abend",
+      "Gute Nacht",
+      "Guten Morgen"
+    ],
+    "correctAnswer": "Guten Morgen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Selamat Tinggal.png",
+    "options": [
+      "Bitte",
+      "Tschüss",
+      "Entschuldigung",
+      "Danke"
+    ],
+    "correctAnswer": "Tschüss"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Apa Kabar.png",
+    "options": [
+      "Wo bist du?",
+      "Wer bist du?",
+      "Wie geht’s dir?",
+      "Wie spät ist es?"
+    ],
+    "correctAnswer": "Wie geht’s dir?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Terima kasih.png",
+    "options": [
+      "Danke",
+      "Bitte",
+      "Entschuldigung",
+      "Guten Tag"
+    ],
+    "correctAnswer": "Danke"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Tua.png",
+    "options": [
+      "Jung",
+      "Alt",
+      "Schnell",
+      "Schön"
+    ],
+    "correctAnswer": "Alt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Gelap.png",
+    "options": [
+      "Dunkel",
+      "Hell",
+      "Groß",
+      "Kalt"
+    ],
+    "correctAnswer": "Dunkel"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Besar.png",
+    "options": [
+      "Klein",
+      "Leicht",
+      "Groß",
+      "Schnell"
+    ],
+    "correctAnswer": "Groß"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Cantik.png",
+    "options": [
+      "Tschüss",
+      "Langsam",
+      "Warm",
+      "Hübsch"
+    ],
+    "correctAnswer": "Hübsch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Tinggi.png",
+    "options": [
+      "Niedrig",
+      "Schwer",
+      "Hoch",
+      "Jung"
+    ],
+    "correctAnswer": "Hoch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Sakit.png",
+    "options": [
+      "Glücklich",
+      "Krank",
+      "Teuer",
+      "Gesund"
+    ],
+    "correctAnswer": "Krank"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Angka 3.png",
+    "options": [
+      "Drei",
+      "Sechs",
+      "Fünf",
+      "Vier"
+    ],
+    "correctAnswer": "Drei"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "assets/tebakgambar_question/A1_3/Angka 30.png",
+    "options": [
+      "Zehn",
+      "Zwölf",
+      "Dreißig",
+      "Zwanzig"
+    ],
+    "correctAnswer": "Dreißig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Angka 8.png",
+    "options": [
+      "Acht",
+      "Zehn",
+      "Hundert",
+      "Blau"
+    ],
+    "correctAnswer": "Acht"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Angka 100.png",
+    "options": [
+      "Zwei",
+      "Hundert",
+      "Fünfzig",
+      "Schwarz"
+    ],
+    "correctAnswer": "Hundert"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Warna Biru.png",
+    "options": [
+      "Blau",
+      "Rot",
+      "Schwarz",
+      "Wasser"
+    ],
+    "correctAnswer": "Blau"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Warna Kuning.png",
+    "options": [
+      "Gelb",
+      "Grün",
+      "Acht",
+      "Tür"
+    ],
+    "correctAnswer": "Gelb"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Warna Hitam.png",
+    "options": [
+      "Rot",
+      "Blau",
+      "Gelb",
+      "Schwarz"
+    ],
+    "correctAnswer": "Schwarz"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Hari Rabu.png",
+    "options": [
+      "der Montag",
+      "der Dienstag",
+      "der Mittwoch",
+      "der Freitag"
+    ],
+    "correctAnswer": "der Mittwoch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Hari Kamis.png",
+    "options": [
+      "der Sonntag",
+      "der Donnerstag",
+      "der Mittwoch",
+      "der Freitag"
+    ],
+    "correctAnswer": "der Donnerstag"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Tahun.png",
+    "options": [
+      "das Jahr",
+      "das Monat",
+      "der Tag",
+      "das Wasser"
+    ],
+    "correctAnswer": "das Jahr"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Saudara Perempuan.png",
+    "options": [
+      "die Schwester",
+      "der Bruder",
+      "der Onkel",
+      "der Großvater"
+    ],
+    "correctAnswer": "die Schwester"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Anak-anak.png",
+    "options": [
+      "das Kind",
+      "die Mutter",
+      "der Vater",
+      "die Schwester"
+    ],
+    "correctAnswer": "das Kind"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Kakek.png",
+    "options": [
+      "der Großvater",
+      "die Großmutter",
+      "der Vater",
+      "die Tante"
+    ],
+    "correctAnswer": "der Großvater"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Air.png",
+    "options": [
+      "das Wasser",
+      "der Tee",
+      "der Kaffee",
+      "der Zucker"
+    ],
+    "correctAnswer": "das Wasser"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Buah.png",
+    "options": [
+      "das Obst",
+      "das Gemüse",
+      "der Apfel",
+      "das Glas"
+    ],
+    "correctAnswer": "das Obst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Sayuran.png",
+    "options": [
+      "das Gemüse",
+      "das Wasser",
+      "das Brot",
+      "der Reis"
+    ],
+    "correctAnswer": "das Gemüse"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Mencintai.png",
+    "options": [
+      "Lieben",
+      "Helfen",
+      "Sehen",
+      "Kommen"
+    ],
+    "correctAnswer": "Lieben"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Membantu.png",
+    "options": [
+      "Helfen",
+      "Kochen",
+      "Lernen",
+      "Gehen"
+    ],
+    "correctAnswer": "Helfen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Mandi.png",
+    "options": [
+      "Duschen",
+      "Lieben",
+      "Laufen",
+      "Schlafen"
+    ],
+    "correctAnswer": "Duschen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Memasak.png",
+    "options": [
+      "Gehen",
+      "Kochen",
+      "Essen",
+      "Schlafen"
+    ],
+    "correctAnswer": "Kochen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Pintu.png",
+    "options": [
+      "die Tür",
+      "das Fenster",
+      "der Tisch",
+      "die Lampe"
+    ],
+    "correctAnswer": "die Tür"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "assets/tebakgambar_question/A1_4/Lemari.png",
+    "options": [
+      "der Schrank",
+      "der Stuhl",
+      "das Bett",
+      "der Tisch"
+    ],
+    "correctAnswer": "der Schrank"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Pulpen.png",
+    "options": [
+      "der Bleistift",
+      "der Stift",
+      "das Papier",
+      "der Tisch"
+    ],
+    "correctAnswer": "der Stift"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Buku.png",
+    "options": [
+      "die Lampe",
+      "das Buch",
+      "das Fenster",
+      "der Stuhl"
+    ],
+    "correctAnswer": "das Buch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Lampu.png",
+    "options": [
+      "die Lampe",
+      "der Schrank",
+      "das Bett",
+      "der Fernseher"
+    ],
+    "correctAnswer": "die Lampe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Monyet.png",
+    "options": [
+      "der Affe",
+      "der Hund",
+      "das Kind",
+      "die Kuh"
+    ],
+    "correctAnswer": "der Affe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Tikus.png",
+    "options": [
+      "die Maus",
+      "die Katze",
+      "der Fisch",
+      "der Vogel"
+    ],
+    "correctAnswer": "die Maus"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Sapi.png",
+    "options": [
+      "der Elefant",
+      "die Kuh",
+      "der Hund",
+      "das Schaf"
+    ],
+    "correctAnswer": "die Kuh"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Kupu-Kupu.png",
+    "options": [
+      "der Vogel",
+      "der Schmetterling",
+      "die Spinne",
+      "die Fliege"
+    ],
+    "correctAnswer": "der Schmetterling"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Rumah.png",
+    "options": [
+      "das Haus",
+      "die Wohnung",
+      "das Gebäude",
+      "das Schloss"
+    ],
+    "correctAnswer": "das Haus"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Perpustakaan.png",
+    "options": [
+      "die Bibliothek",
+      "die Schule",
+      "das Geschäft",
+      "die Kirche"
+    ],
+    "correctAnswer": "die Bibliothek"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Stasiun.png",
+    "options": [
+      "der Flughafen",
+      "der Bahnhof",
+      "die Stadt",
+      "das Krankenhaus"
+    ],
+    "correctAnswer": "der Bahnhof"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Bandara.png",
+    "options": [
+      "der Flughafen",
+      "die Brücke",
+      "der Hafen",
+      "die Station"
+    ],
+    "correctAnswer": "der Flughafen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Selamat Siang.png",
+    "options": [
+      "Guten Tag",
+      "Guten Morgen",
+      "Auf Wiedersehen",
+      "Gute Nacht"
+    ],
+    "correctAnswer": "Guten Tag"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Selamat Malem.png",
+    "options": [
+      "Guten Abend",
+      "Guten Morgen",
+      "Auf Wiedersehen",
+      "Gute Nacht"
+    ],
+    "correctAnswer": "Guten Abend"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Permisi.png",
+    "options": [
+      "Entschuldigung",
+      "Tschüss",
+      "Bitte",
+      "Danke"
+    ],
+    "correctAnswer": "Entschuldigung"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Maafkan Aku.png",
+    "options": [
+      "Es tut mir leid",
+      "Ich mag dich",
+      "Verzeihung",
+      "Bitte schön"
+    ],
+    "correctAnswer": "Es tut mir leid"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Panas.png",
+    "options": [
+      "Heiß",
+      "Kalt",
+      "Warm",
+      "Nass"
+    ],
+    "correctAnswer": "Heiß"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Pintar.png",
+    "options": [
+      "Klug",
+      "Dumm",
+      "Nett",
+      "Schön"
+    ],
+    "correctAnswer": "Klug"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Mahal.png",
+    "options": [
+      "Teuer",
+      "Billig",
+      "Neu",
+      "Alt"
+    ],
+    "correctAnswer": "Teuer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Sulit.png",
+    "options": [
+      "Schwer",
+      "Einfach",
+      "Klar",
+      "Schnell"
+    ],
+    "correctAnswer": "Schwer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "assets/tebakgambar_question/A1_5/Lambat.png",
+    "options": [
+      "Langsam",
+      "Schnell",
+      "Leicht",
+      "Stark"
+    ],
+    "correctAnswer": "Langsam"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "assets/tebakgambar_question/A2_1/Haus.png",
+    "options": [
+      "kalt",
+      "hungrig",
+      "schlafen",
+      "durstig"
+    ],
+    "correctAnswer": "durstig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "assets/tebakgambar_question/A2_1/Lapar.png",
+    "options": [
+      "kalt",
+      "hungrig",
+      "trinken",
+      "durstig"
+    ],
+    "correctAnswer": "hungrig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "assets/tebakgambar_question/A2_1/Bangun.png",
+    "options": [
+      "schlafen",
+      "aufwachen",
+      "fahren",
+      "stehen"
+    ],
+    "correctAnswer": "aufwachen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "assets/tebakgambar_question/A2_1/Berbelanja.png",
+    "options": [
+      "kaufen",
+      "essen",
+      "einkaufen",
+      "kochen"
+    ],
+    "correctAnswer": "einkaufen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "assets/tebakgambar_question/A2_1/Sarapan.png",
+    "options": [
+      "frühstücken",
+      "kochen",
+      "abendessen",
+      "trinken"
+    ],
+    "correctAnswer": "frühstücken"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "assets/tebakgambar_question/A2_1/Berjalan.png",
+    "options": [
+      "rennen",
+      "spazieren",
+      "laufen",
+      "stehen"
+    ],
+    "correctAnswer": "spazieren"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "assets/tebakgambar_question/A2_1/Mencuri.png",
+    "options": [
+      "kaufen",
+      "suchen",
+      "schlagen",
+      "stehlen"
+    ],
+    "correctAnswer": "stehlen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "assets/tebakgambar_question/A2_1/Boleh.png",
+    "options": [
+      "müssen",
+      "dürfen",
+      "sollen",
+      "können"
+    ],
+    "correctAnswer": "dürfen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "assets/tebakgambar_question/A2_1/Memotret.png",
+    "options": [
+      "sehen",
+      "fotografieren",
+      "malen",
+      "schreiben"
+    ],
+    "correctAnswer": "fotografieren"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "assets/tebakgambar_question/A2_1/Rajin.png",
+    "options": [
+      "faul",
+      "fleißig",
+      "schnell",
+      "langsam"
+    ],
+    "correctAnswer": "fleißig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "assets/tebakgambar_question/A2_2/Sopan.png",
+    "options": [
+      "höflich",
+      "laut",
+      "freundlich",
+      "leise"
+    ],
+    "correctAnswer": "höflich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "assets/tebakgambar_question/A2_2/Dingin.png",
+    "options": [
+      "heiß",
+      "kühl",
+      "warm",
+      "schön"
+    ],
+    "correctAnswer": "kühl"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "assets/tebakgambar_question/A2_2/Enak.png",
+    "options": [
+      "lecker",
+      "bitter",
+      "sauer",
+      "süß"
+    ],
+    "correctAnswer": "lecker"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "assets/tebakgambar_question/A2_2/Lelah.png",
+    "options": [
+      "wach",
+      "mürrisch",
+      "müde",
+      "fit"
+    ],
+    "correctAnswer": "müde"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "assets/tebakgambar_question/A2_2/Kotor.png",
+    "options": [
+      "schmutzig",
+      "sauber",
+      "rein",
+      "klar"
+    ],
+    "correctAnswer": "schmutzig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "assets/tebakgambar_question/A2_2/Menawarkan.png",
+    "options": [
+      "nehmen",
+      "geben",
+      "anbieten",
+      "senden"
+    ],
+    "correctAnswer": "anbieten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "assets/tebakgambar_question/A2_2/Terbang.png",
+    "options": [
+      "laufen",
+      "reisen",
+      "steigen",
+      "fliegen"
+    ],
+    "correctAnswer": "fliegen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "assets/tebakgambar_question/A2_2/Menikah.png",
+    "options": [
+      "lieben",
+      "fragen",
+      "heiraten",
+      "trennen"
+    ],
+    "correctAnswer": "heiraten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "assets/tebakgambar_question/A2_2/Tertawa.png",
+    "options": [
+      "weinen",
+      "spielen",
+      "lachen",
+      "singen"
+    ],
+    "correctAnswer": "lachen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "assets/tebakgambar_question/A2_2/Membersihkan.png",
+    "options": [
+      "putzen",
+      "kochen",
+      "waschen",
+      "tragen"
+    ],
+    "correctAnswer": "putzen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "assets/tebakgambar_question/A2_3/Merokok.png",
+    "options": [
+      "trinken",
+      "rauchen",
+      "essen",
+      "lesen"
+    ],
+    "correctAnswer": "rauchen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "assets/tebakgambar_question/A2_3/Menang.png",
+    "options": [
+      "verlieren",
+      "laufen",
+      "gewinnen",
+      "spielen"
+    ],
+    "correctAnswer": "gewinnen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "assets/tebakgambar_question/A2_3/Mengunjungi.png",
+    "options": [
+      "besuchen",
+      "sehen",
+      "laufen",
+      "suchen"
+    ],
+    "correctAnswer": "besuchen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "assets/tebakgambar_question/A2_3/Memesan.png",
+    "options": [
+      "kaufen",
+      "bezahlen",
+      "bestellen",
+      "anrufen"
+    ],
+    "correctAnswer": "bestellen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "assets/tebakgambar_question/A2_3/Mengambil.png",
+    "options": [
+      "lassen",
+      "geben",
+      "nehmen",
+      "zeigen"
+    ],
+    "correctAnswer": "nehmen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "assets/tebakgambar_question/A2_3/Rapi.png",
+    "options": [
+      "sauber",
+      "frisch",
+      "ordentlich",
+      "neu"
+    ],
+    "correctAnswer": "ordentlich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "assets/tebakgambar_question/A2_3/Berantakan.png",
+    "options": [
+      "sauber",
+      "alt",
+      "unordentlich",
+      "laut"
+    ],
+    "correctAnswer": "unordentlich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "assets/tebakgambar_question/A2_3/Berbahaya.png",
+    "options": [
+      "ruhig",
+      "sicher",
+      "gefährlich",
+      "schnell"
+    ],
+    "correctAnswer": "gefährlich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "assets/tebakgambar_question/A2_3/Kuno.png",
+    "options": [
+      "modern",
+      "alt",
+      "neu",
+      "altmodisch"
+    ],
+    "correctAnswer": "altmodisch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "assets/tebakgambar_question/A2_3/Gemuk.png",
+    "options": [
+      "dünn",
+      "klein",
+      "groß",
+      "dick"
+    ],
+    "correctAnswer": "dick"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "assets/tebakgambar_question/A2_4/Marah.png",
+    "options": [
+      "traurig",
+      "glücklich",
+      "böse",
+      "stolz"
+    ],
+    "correctAnswer": "böse"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "assets/tebakgambar_question/A2_4/Sehat.png",
+    "options": [
+      "gesund",
+      "krank",
+      "müde",
+      "stark"
+    ],
+    "correctAnswer": "gesund"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "assets/tebakgambar_question/A2_4/Manis.png",
+    "options": [
+      "sauer",
+      "süß",
+      "bitter",
+      "scharf"
+    ],
+    "correctAnswer": "süß"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "assets/tebakgambar_question/A2_4/Lembut.png",
+    "options": [
+      "hart",
+      "laut",
+      "sauber",
+      "weich"
+    ],
+    "correctAnswer": "weich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "assets/tebakgambar_question/A2_4/Rich.png",
+    "options": [
+      "arm",
+      "teuer",
+      "billig",
+      "reich"
+    ],
+    "correctAnswer": "reich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "assets/tebakgambar_question/A2_4/Bertanya.png",
+    "options": [
+      "antworten",
+      "denken",
+      "bitten",
+      "hören"
+    ],
+    "correctAnswer": "bitten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "assets/tebakgambar_question/A2_4/Menikmati.png",
+    "options": [
+      "weinen",
+      "genießen",
+      "vergessen",
+      "verlieren"
+    ],
+    "correctAnswer": "genießen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "assets/tebakgambar_question/A2_4/Membayar.png",
+    "options": [
+      "finden",
+      "kaufen",
+      "verkaufen",
+      "zahlen"
+    ],
+    "correctAnswer": "zahlen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "assets/tebakgambar_question/A2_4/Berdiri.png",
+    "options": [
+      "stehen",
+      "sitzen",
+      "laufen",
+      "liegen"
+    ],
+    "correctAnswer": "stehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "assets/tebakgambar_question/A2_4/Pergi Keluar.png",
+    "options": [
+      "ausgehen",
+      "ankommen",
+      "zurückkommen",
+      "eintreten"
+    ],
+    "correctAnswer": "ausgehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "assets/tebakgambar_question/A2_5/Mengirim.png",
+    "options": [
+      "kaufen",
+      "schicken",
+      "finden",
+      "helfen"
+    ],
+    "correctAnswer": "schicken"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "assets/tebakgambar_question/A2_5/Mengundang.png",
+    "options": [
+      "schreiben",
+      "verkaufen",
+      "einladen",
+      "bringen"
+    ],
+    "correctAnswer": "zahlen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "assets/tebakgambar_question/A2_5/Duduk.png",
+    "options": [
+      "stehen",
+      "schlafen",
+      "sitzen",
+      "gehen"
+    ],
+    "correctAnswer": "sitzen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "assets/tebakgambar_question/A2_5/Mengingat.png",
+    "options": [
+      "erinnern",
+      "vergessen",
+      "verlieren",
+      "ernen"
+    ],
+    "correctAnswer": "erinnern"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "assets/tebakgambar_question/A2_5/Memberi Tahu.png",
+    "options": [
+      "erzählen",
+      "lesen",
+      "rufen",
+      "anrufen"
+    ],
+    "correctAnswer": "erzählen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "assets/tebakgambar_question/A2_5/Lucu.png",
+    "options": [
+      "traurig",
+      "sauer",
+      "langweilig",
+      "lustig"
+    ],
+    "correctAnswer": "lustig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "assets/tebakgambar_question/A2_5/Bersih.png",
+    "options": [
+      "staubig",
+      "nass",
+      "schmutzig",
+      "sauber"
+    ],
+    "correctAnswer": "sauber"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "assets/tebakgambar_question/A2_5/Penuh.png",
+    "options": [
+      "leer",
+      "voll",
+      "offen",
+      "langsam"
+    ],
+    "correctAnswer": "voll"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "assets/tebakgambar_question/A2_5/Kosong.png",
+    "options": [
+      "frei",
+      "fertig",
+      "leer",
+      "voll"
+    ],
+    "correctAnswer": "leer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "assets/tebakgambar_question/A2_5/Aman.png",
+    "options": [
+      "sicher",
+      "gefährlich",
+      "kaputt",
+      "stark"
+    ],
+    "correctAnswer": "sicher"
+  }
+]

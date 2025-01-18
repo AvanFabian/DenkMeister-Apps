@@ -1,43 +1,1376 @@
 [
-    {
-      "level": 1,
-      "difficulty": "Tingkat A1",
-      "question": "______  ______  ______  ______",
-      "options": ["Essen", "Das", "Lecker", "ist"],
-      "correctOrder": ["Das", "Essen", "ist", "Lecker"],
-      "answerClue": "Kucing nabrak pohon"
-    },
-    {
-      "level": 1,
-      "difficulty": "Tingkat A1",
-      "question": "______  ______  ______  ______",
-      "options": ["Hund", "Der", "ist", "schnell"],
-      "correctOrder": ["Der", "Hund", "ist", "schnell"],
-      "answerClue": "Kucing nabrak uwit"
-    },
-    {
-      "level": 2,
-      "difficulty": "Tingkat A1",
-      "question": "______  ______  ______  ______",
-      "options": ["Katze", "Die", "ist", "süß"],
-      "correctOrder": ["Die", "Katze", "ist", "süß"],
-      "answerClue": "Kucing nabrak anjing"
-    },
-    {
-      "level": 2,
-      "difficulty": "Tingkat A1",
-      "question": "______  ______  ______  ______",
-      "options": ["Auto", "Das", "ist", "rot"],
-      "correctOrder": ["Das", "Auto", "ist", "rot"],
-      "answerClue": "Kucing nabrak mobil"
-    },
-    {
-      "level": 3,
-      "difficulty": "Tingkat A1",
-      "question": "______  ______  ______  ______",
-      "options": ["Haus", "Das", "ist", "groß"],
-      "correctOrder": ["Das", "Haus", "ist", "groß"],
-      "answerClue": "Kucing nabrak rumah"
-    }
-  ]
-  
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "klug",
+      "Kind",
+      "ist",
+      "Das",
+      "sehr"
+    ],
+    "correctOrder": [
+      "Das",
+      "Kind",
+      "ist",
+      "sehr",
+      "klug"
+    ],
+    "answerClue": "The child is very smart."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "spielt",
+      "Hund",
+      "im",
+      "Der",
+      "Garten"
+    ],
+    "correctOrder": [
+      "Der",
+      "Hund",
+      "spielt",
+      "im",
+      "Garten"
+    ],
+    "answerClue": "The dog is playing in the garden."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Ich",
+      "zur",
+      "gehe",
+      "Schule"
+    ],
+    "correctOrder": [
+      "Ich",
+      "gehe",
+      "zur",
+      "Schule"
+    ],
+    "answerClue": "I go to school."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "heute",
+      "Das",
+      "ist",
+      "gut",
+      "Wetter"
+    ],
+    "correctOrder": [
+      "Das",
+      "Wetter",
+      "ist",
+      "heute",
+      "gut"
+    ],
+    "answerClue": "The weather is good today."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "neuen",
+      "hat",
+      "Job",
+      "Er",
+      "einen"
+    ],
+    "correctOrder": [
+      "Er",
+      "hat",
+      "einen",
+      "neuen",
+      "Job"
+    ],
+    "answerClue": "He has a new job."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______",
+    "options": [
+      "schläft",
+      "Die",
+      "Katze"
+    ],
+    "correctOrder": [
+      "Die",
+      "Katze",
+      "schläft"
+    ],
+    "answerClue": "The cat is sleeping."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "grün",
+      "Der",
+      "ist",
+      "Baum"
+    ],
+    "correctOrder": [
+      "Der",
+      "Baum",
+      "ist",
+      "grün"
+    ],
+    "answerClue": "The tree is green."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "ist",
+      "Das",
+      "groß",
+      "Haus"
+    ],
+    "correctOrder": [
+      "Das",
+      "Haus",
+      "ist",
+      "groß"
+    ],
+    "answerClue": "The house is big."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Junge",
+      "im",
+      "Der",
+      "spielt",
+      "Park"
+    ],
+    "correctOrder": [
+      "Der",
+      "Junge",
+      "spielt",
+      "im",
+      "Park"
+    ],
+    "answerClue": "The boy is playing in the park."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______",
+    "options": [
+      "Wasser",
+      "Ich",
+      "trinke"
+    ],
+    "correctOrder": [
+      "Ich",
+      "trinke",
+      "Wasser"
+    ],
+    "answerClue": "I drink water."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Himmel",
+      "ist",
+      "blau",
+      "Der"
+    ],
+    "correctOrder": [
+      "Der",
+      "Himmel",
+      "ist",
+      "blau"
+    ],
+    "answerClue": "The sky is blue."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "ist",
+      "Auto",
+      "Das",
+      "schnell"
+    ],
+    "correctOrder": [
+      "Das",
+      "Auto",
+      "ist",
+      "schnell"
+    ],
+    "answerClue": "The car is fast."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "einen",
+      "esse",
+      "Apfel",
+      "Ich"
+    ],
+    "correctOrder": [
+      "Ich",
+      "esse",
+      "einen",
+      "Apfel"
+    ],
+    "answerClue": "I eat an apple."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Baby",
+      "Milch",
+      "trinkt",
+      "Das",
+      "gerne"
+    ],
+    "correctOrder": [
+      "Das",
+      "Baby",
+      "trinkt",
+      "gerne",
+      "Milch"
+    ],
+    "answerClue": "The baby likes to drink milk."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "ist",
+      "Der",
+      "Tee",
+      "heiß"
+    ],
+    "correctOrder": [
+      "Der",
+      "Tee",
+      "ist",
+      "heiß"
+    ],
+    "answerClue": "The tea is hot."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Brot",
+      "ist",
+      "frisch",
+      "Das"
+    ],
+    "correctOrder": [
+      "Das",
+      "Brot",
+      "ist",
+      "frisch"
+    ],
+    "answerClue": "The bread is fresh."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______",
+    "options": [
+      "Schokolade",
+      "Ich",
+      "kaufe"
+    ],
+    "correctOrder": [
+      "Ich",
+      "kaufe",
+      "Schokolade"
+    ],
+    "answerClue": "I buy chocolate."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "ist",
+      "sauber",
+      "Fenster",
+      "Das"
+    ],
+    "correctOrder": [
+      "Das",
+      "Fenster",
+      "ist",
+      "sauber"
+    ],
+    "answerClue": "The window is clean."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "sehe",
+      "Ich",
+      "den",
+      "Mond"
+    ],
+    "correctOrder": [
+      "Ich",
+      "sehe",
+      "den",
+      "Mond"
+    ],
+    "answerClue": "I see the moon."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "läuft",
+      "Hund",
+      "Der",
+      "schnell"
+    ],
+    "correctOrder": [
+      "Der",
+      "Hund",
+      "läuft",
+      "schnell"
+    ],
+    "answerClue": "The dog runs fast."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Blume",
+      "ist",
+      "gelb",
+      "Die"
+    ],
+    "correctOrder": [
+      "Die",
+      "Blume",
+      "ist",
+      "gelb"
+    ],
+    "answerClue": "The flower is yellow."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "mit",
+      "Die",
+      "dem",
+      "spielen",
+      "Kinder",
+      "Ball"
+    ],
+    "correctOrder": [
+      "Die",
+      "Kinder",
+      "spielen",
+      "mit",
+      "dem",
+      "Ball"
+    ],
+    "answerClue": "The children play with the ball."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______",
+    "options": [
+      "liebe",
+      "Ich",
+      "dich"
+    ],
+    "correctOrder": [
+      "Ich",
+      "liebe",
+      "dich"
+    ],
+    "answerClue": "I love you."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Sommer",
+      "heiß",
+      "ist",
+      "Der"
+    ],
+    "correctOrder": [
+      "Der",
+      "Sommer",
+      "ist",
+      "heiß"
+    ],
+    "answerClue": "The summer is hot."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "spiele",
+      "meinem",
+      "mit",
+      "Fußball",
+      "Ich",
+      "Freund"
+    ],
+    "correctOrder": [
+      "Ich",
+      "spiele",
+      "Fußball",
+      "mit",
+      "meinem",
+      "Freund"
+    ],
+    "answerClue": "I play football with my friend."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Stuhl",
+      "Der",
+      "ist",
+      "bequem"
+    ],
+    "correctOrder": [
+      "Der",
+      "Stuhl",
+      "ist",
+      "bequem"
+    ],
+    "answerClue": "The chair is comfortable."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "liest",
+      "Mein",
+      "die",
+      "Zeitung",
+      "Vater"
+    ],
+    "correctOrder": [
+      "Mein",
+      "Vater",
+      "liest",
+      "die",
+      "Zeitung"
+    ],
+    "answerClue": "My father reads the newspaper."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "schreibe",
+      "E-Mail",
+      "eine",
+      "Ich"
+    ],
+    "correctOrder": [
+      "Ich",
+      "schreibe",
+      "eine",
+      "E-Mail"
+    ],
+    "answerClue": "I write an email."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Katze",
+      "eine",
+      "Er",
+      "hat"
+    ],
+    "correctOrder": [
+      "Er",
+      "hat",
+      "eine",
+      "Katze"
+    ],
+    "answerClue": "He has a cat."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "in",
+      "Indonesien",
+      "wohne",
+      "Ich"
+    ],
+    "correctOrder": [
+      "Ich",
+      "wohne",
+      "in",
+      "Indonesien"
+    ],
+    "answerClue": "I live in Indonesia."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "ist",
+      "Das",
+      "Samstag",
+      "Konzert",
+      "am"
+    ],
+    "correctOrder": [
+      "Das",
+      "Konzert",
+      "ist",
+      "am",
+      "Samstag"
+    ],
+    "answerClue": "The concert is on Saturday."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "zwölf",
+      "zeigt",
+      "Die",
+      "Uhr"
+    ],
+    "correctOrder": [
+      "Die",
+      "Uhr",
+      "zeigt",
+      "zwölf"
+    ],
+    "answerClue": "The clock shows twelve."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______",
+    "options": [
+      "Deutsch",
+      "Wir",
+      "lernen"
+    ],
+    "correctOrder": [
+      "Wir",
+      "lernen",
+      "Deutsch"
+    ],
+    "answerClue": "We are learning German."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "ins",
+      "Ich",
+      "Kino",
+      "gehe"
+    ],
+    "correctOrder": [
+      "Ich",
+      "gehe",
+      "ins",
+      "Kino"
+    ],
+    "answerClue": "I go to the cinema."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Vater",
+      "arbeitet",
+      "Büro",
+      "Mein",
+      "im"
+    ],
+    "correctOrder": [
+      "Mein",
+      "Vater",
+      "arbeitet",
+      "im",
+      "Büro"
+    ],
+    "answerClue": "My father works in the office."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Das",
+      "Essen",
+      "lecker",
+      "ist"
+    ],
+    "correctOrder": [
+      "Das",
+      "Essen",
+      "ist",
+      "lecker"
+    ],
+    "answerClue": "The food is delicious."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Katzen",
+      "habe",
+      "zwei",
+      "Ich"
+    ],
+    "correctOrder": [
+      "Ich",
+      "habe",
+      "zwei",
+      "Katzen"
+    ],
+    "answerClue": "I have two cats."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "sind",
+      "Blumen",
+      "Die",
+      "bunt"
+    ],
+    "correctOrder": [
+      "Die",
+      "Blumen",
+      "sind",
+      "bunt"
+    ],
+    "answerClue": "The flowers are colorful."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Computer",
+      "Der",
+      "ist",
+      "teuer"
+    ],
+    "correctOrder": [
+      "Der",
+      "Computer",
+      "ist",
+      "teuer"
+    ],
+    "answerClue": "The computer is expensive."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "fliegt",
+      "hoch",
+      "Der",
+      "Vogel"
+    ],
+    "correctOrder": [
+      "Der",
+      "Vogel",
+      "fliegt",
+      "hoch"
+    ],
+    "answerClue": "The bird flies high."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "klein",
+      "Zimmer",
+      "Das",
+      "ist"
+    ],
+    "correctOrder": [
+      "Das",
+      "Zimmer",
+      "ist",
+      "klein"
+    ],
+    "answerClue": "The room is small."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Schwester",
+      "hat",
+      "Sie",
+      "eine"
+    ],
+    "correctOrder": [
+      "Sie",
+      "hat",
+      "eine",
+      "Schwester"
+    ],
+    "answerClue": "She has a sister."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______",
+    "options": [
+      "ist",
+      "Morgen",
+      "Dienstag"
+    ],
+    "correctOrder": [
+      "Morgen",
+      "ist",
+      "Dienstag"
+    ],
+    "answerClue": "Tomorrow is Tuesday."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______",
+    "options": [
+      "Äpfel",
+      "Wir",
+      "essen"
+    ],
+    "correctOrder": [
+      "Wir",
+      "essen",
+      "Äpfel"
+    ],
+    "answerClue": "We eat apples."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "fährt",
+      "Er",
+      "Auto",
+      "ein"
+    ],
+    "correctOrder": [
+      "Er",
+      "fährt",
+      "ein",
+      "Auto"
+    ],
+    "answerClue": "He drives a car."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "groß",
+      "Die",
+      "Stadt",
+      "ist"
+    ],
+    "correctOrder": [
+      "Die",
+      "Stadt",
+      "ist",
+      "groß"
+    ],
+    "answerClue": "The city is big."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Zeit",
+      "Ich",
+      "keine",
+      "habe"
+    ],
+    "correctOrder": [
+      "Ich",
+      "habe",
+      "keine",
+      "Zeit"
+    ],
+    "answerClue": "I don’t have time."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Magazin",
+      "liest",
+      "Er",
+      "ein"
+    ],
+    "correctOrder": [
+      "Er",
+      "liest",
+      "ein",
+      "Magazin"
+    ],
+    "answerClue": "He reads a magazine."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Haus",
+      "wohnt",
+      "in",
+      "Sie",
+      "einem"
+    ],
+    "correctOrder": [
+      "Sie",
+      "wohnt",
+      "in",
+      "einem",
+      "Haus"
+    ],
+    "answerClue": "She lives in a house."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______",
+    "options": [
+      "spiele",
+      "Ich",
+      "Gitarre"
+    ],
+    "correctOrder": [
+      "Ich",
+      "spiele",
+      "Gitarre"
+    ],
+    "answerClue": "I play guitar."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "ist",
+      "Die",
+      "kaputt",
+      "Lampe"
+    ],
+    "correctOrder": [
+      "Die",
+      "Lampe",
+      "ist",
+      "kaputt"
+    ],
+    "answerClue": "The lamp is broken."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Fußball",
+      "Bruder",
+      "spielt",
+      "Mein"
+    ],
+    "correctOrder": [
+      "Mein",
+      "Bruder",
+      "spielt",
+      "Fußball"
+    ],
+    "answerClue": "My brother plays football."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Fenster",
+      "Das",
+      "offen",
+      "ist"
+    ],
+    "correctOrder": [
+      "Das",
+      "Fenster",
+      "ist",
+      "offen"
+    ],
+    "answerClue": "The window is open."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "hat",
+      "Geschwister",
+      "zwei",
+      "Sie"
+    ],
+    "correctOrder": [
+      "Sie",
+      "hat",
+      "zwei",
+      "Geschwister"
+    ],
+    "answerClue": "She has two siblings."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Bild",
+      "Das",
+      "schlecht",
+      "ist"
+    ],
+    "correctOrder": [
+      "Das",
+      "Bild",
+      "ist",
+      "schlecht"
+    ],
+    "answerClue": "The picture is bad."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "ist",
+      "nett",
+      "Lehrer",
+      "Der",
+      "sehr"
+    ],
+    "correctOrder": [
+      "Der",
+      "Lehrer",
+      "ist",
+      "sehr",
+      "nett"
+    ],
+    "answerClue": "The teacher is very nice."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Apfel",
+      "süß",
+      "Der",
+      "ist"
+    ],
+    "correctOrder": [
+      "Der",
+      "Apfel",
+      "ist",
+      "süß"
+    ],
+    "answerClue": "The apple is sweet."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Brot",
+      "kaufe",
+      "Ich",
+      "Abend",
+      "heute"
+    ],
+    "correctOrder": [
+      "Ich",
+      "kaufe",
+      "Brot",
+      "heute",
+      "Abend"
+    ],
+    "answerClue": "I buy bread tonight."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "neues",
+      "hat",
+      "Auto",
+      "Er",
+      "ein"
+    ],
+    "correctOrder": [
+      "Er",
+      "hat",
+      "ein",
+      "neues",
+      "Auto"
+    ],
+    "answerClue": "He has a new car."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "kalt",
+      "Dezember",
+      "ist",
+      "im",
+      "Es"
+    ],
+    "correctOrder": [
+      "Es",
+      "ist",
+      "kalt",
+      "im",
+      "Dezember"
+    ],
+    "answerClue": "It is cold in December."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "bist",
+      "schön",
+      "so",
+      "Du"
+    ],
+    "correctOrder": [
+      "Du",
+      "bist",
+      "so",
+      "schön"
+    ],
+    "answerClue": "You are so beautiful."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "beginnt",
+      "Die",
+      "Schule",
+      "September",
+      "im"
+    ],
+    "correctOrder": [
+      "Die",
+      "Schule",
+      "beginnt",
+      "im",
+      "September"
+    ],
+    "answerClue": "School begins in September."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Winter",
+      "kalt",
+      "ist",
+      "Der"
+    ],
+    "correctOrder": [
+      "Der",
+      "Winter",
+      "ist",
+      "kalt"
+    ],
+    "answerClue": "The winter is cold."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______",
+    "options": [
+      "Wasser",
+      "trinkt",
+      "Er"
+    ],
+    "correctOrder": [
+      "Er",
+      "trinkt",
+      "Wasser"
+    ],
+    "answerClue": "He drinks water."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______",
+    "options": [
+      "esse",
+      "Ich",
+      "Frühstück"
+    ],
+    "correctOrder": [
+      "Ich",
+      "esse",
+      "Frühstück"
+    ],
+    "answerClue": "I eat breakfast."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "zeigt",
+      "Die",
+      "sechs",
+      "Uhr"
+    ],
+    "correctOrder": [
+      "Die",
+      "Uhr",
+      "zeigt",
+      "sechs"
+    ],
+    "answerClue": "The clock shows six."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Klavier",
+      "spielt",
+      "Er",
+      "gerne"
+    ],
+    "correctOrder": [
+      "Er",
+      "spielt",
+      "gerne",
+      "Klavier"
+    ],
+    "answerClue": "He likes to play piano."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______",
+    "options": [
+      "machst",
+      "Du",
+      "Hausaufgabe"
+    ],
+    "correctOrder": [
+      "Du",
+      "machst",
+      "Hausaufgabe"
+    ],
+    "answerClue": "You are doing homework."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "frei",
+      "Freitag",
+      "haben",
+      "Wir",
+      "am"
+    ],
+    "correctOrder": [
+      "Wir",
+      "haben",
+      "am",
+      "Freitag",
+      "frei"
+    ],
+    "answerClue": "We are free on Friday."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "geht's",
+      "Guten",
+      "dir",
+      "Morgen",
+      "Wie"
+    ],
+    "correctOrder": [
+      "Guten",
+      "Morgen!",
+      "Wie",
+      "geht's",
+      "dir?"
+    ],
+    "answerClue": "Good morning! How are you?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Mann",
+      "hübsch",
+      "ist",
+      "sehr",
+      "Der"
+    ],
+    "correctOrder": [
+      "Der",
+      "Mann",
+      "ist",
+      "sehr",
+      "hübsch"
+    ],
+    "answerClue": "The man is very handsome."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Tassen",
+      "Kaffee",
+      "Ich",
+      "zwei",
+      "brauche"
+    ],
+    "correctOrder": [
+      "Ich",
+      "brauche",
+      "zwei",
+      "Tassen",
+      "Kaffee"
+    ],
+    "answerClue": "I need two cups of coffee."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "tut",
+      "Es",
+      "leid",
+      "mir"
+    ],
+    "correctOrder": [
+      "Es",
+      "tut",
+      "mir",
+      "leid"
+    ],
+    "answerClue": "I am sorry."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "kalt",
+      "Die",
+      "ist",
+      "Milch"
+    ],
+    "correctOrder": [
+      "Die",
+      "Milch",
+      "ist",
+      "kalt"
+    ],
+    "answerClue": "The milk is cold."
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "ist",
+      "Der",
+      "spannend",
+      "Film"
+    ],
+    "correctOrder": [
+      "Der",
+      "Film",
+      "ist",
+      "spannend"
+    ],
+    "answerClue": "The movie is exciting."
+  }
+]

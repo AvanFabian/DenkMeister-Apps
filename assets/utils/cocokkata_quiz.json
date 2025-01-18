@@ -1,136 +1,1802 @@
 [
-    {
-      "level": 1,
-      "difficulty": "Tingkat A1",
-      "question": "Ayah",
-      "options": ["der Vater", "der Onkel", "der Bruder", "der Muter"],
-      "correctAnswer": "der Vater"
-    },
-    {
-      "level": 1,
-      "difficulty": "Tingkat A1",
-      "question": "Mutter",
-      "options": ["die Mutter", "die Vater", "die Schwester", "die Bruder"],
-      "correctAnswer": "die Mutter"
-    },
-    {
-      "level": 2,
-      "difficulty": "Tingkat A1",
-      "question": "Schwester",
-      "options": ["die Schwester", "die Bruder", "die Mutter", "die Vater"],
-      "correctAnswer": "die Schwester"
-    },
-    {
-      "level": 2,
-      "difficulty": "Tingkat A1",
-      "question": "Bruder",
-      "options": ["der Bruder", "der Vater", "der Mutter", "der Schwester"],
-      "correctAnswer": "der Bruder"
-    },
-    {
-      "level": 3,
-      "difficulty": "Tingkat A1",
-      "question": "Opa",
-      "options": ["der Opa", "die Oma", "der Vater", "die Mutter"],
-      "correctAnswer": "der Opa"
-    },
-    {
-      "level": 3,
-      "difficulty": "Tingkat A1",
-      "question": "Oma",
-      "options": ["die Oma", "der Opa", "die Mutter", "der Vater"],
-      "correctAnswer": "die Oma"
-    },
-    {
-      "level": 4,
-      "difficulty": "Tingkat A1",
-      "question": "Tante",
-      "options": ["die Tante", "der Onkel", "die Mutter", "der Vater"],
-      "correctAnswer": "die Tante"
-    },
-    {
-      "level": 4,
-      "difficulty": "Tingkat A1",
-      "question": "Onkel",
-      "options": ["der Onkel", "die Tante", "der Vater", "die Mutter"],
-      "correctAnswer": "der Onkel"
-    },
-    {
-      "level": 5,
-      "difficulty": "Tingkat A1",
-      "question": "Cousin",
-      "options": ["der Cousin", "die Cousine", "der Bruder", "die Schwester"],
-      "correctAnswer": "der Cousin"
-    },
-    {
-      "level": 5,
-      "difficulty": "Tingkat A1",
-      "question": "Cousine",
-      "options": ["die Cousine", "der Cousin", "die Schwester", "der Bruder"],
-      "correctAnswer": "die Cousine"
-    },
-    {
-      "level": 6,
-      "difficulty": "Tingkat A1",
-      "question": "Enkel",
-      "options": ["der Enkel", "die Enkelin", "der Opa", "die Oma"],
-      "correctAnswer": "der Enkel"
-    },
-    {
-      "level": 6,
-      "difficulty": "Tingkat A1",
-      "question": "Enkelin",
-      "options": ["die Enkelin", "der Enkel", "die Oma", "der Opa"],
-      "correctAnswer": "die Enkelin"
-    },
-    {
-      "level": 7,
-      "difficulty": "Tingkat A1",
-      "question": "Schwiegermutter",
-      "options": ["die Schwiegermutter", "der Schwiegervater", "die Mutter", "der Vater"],
-      "correctAnswer": "die Schwiegermutter"
-    },
-    {
-      "level": 7,
-      "difficulty": "Tingkat A1",
-      "question": "Schwiegervater",
-      "options": ["der Schwiegervater", "die Schwiegermutter", "der Vater", "die Mutter"],
-      "correctAnswer": "der Schwiegervater"
-    },
-    {
-      "level": 8,
-      "difficulty": "Tingkat A1",
-      "question": "Schwiegertochter",
-      "options": ["die Schwiegertochter", "der Schwiegersohn", "die Tochter", "der Sohn"],
-      "correctAnswer": "die Schwiegertochter"
-    },
-    {
-      "level": 8,
-      "difficulty": "Tingkat A1",
-      "question": "Schwiegersohn",
-      "options": ["der Schwiegersohn", "die Schwiegertochter", "der Sohn", "die Tochter"],
-      "correctAnswer": "der Schwiegersohn"
-    },
-    {
-      "level": 9,
-      "difficulty": "Tingkat A1",
-      "question": "Schwager",
-      "options": ["der Schwager", "die Schwägerin", "der Bruder", "die Schwester"],
-      "correctAnswer": "der Schwager"
-    },
-    {
-      "level": 9,
-      "difficulty": "Tingkat A1",
-      "question": "Schwägerin",
-      "options": ["die Schwägerin", "der Schwager", "die Schwester", "der Bruder"],
-      "correctAnswer": "die Schwägerin"
-    },
-    {
-      "level": 10,
-      "difficulty": "Tingkat A1",
-      "question": "Neffe",
-      "options": ["der Neffe", "die Nichte", "der Sohn", "die Tochter"],
-      "correctAnswer": "der Neffe"
-    }
-  ]
-  
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Tujuh",
+    "options": [
+      "fünf",
+      "sieben",
+      "vier",
+      "acht"
+    ],
+    "correctAnswer": "sieben"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Putih",
+    "options": [
+      "blau",
+      "schwarz",
+      "weiß",
+      "rot"
+    ],
+    "correctAnswer": "weiß"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Selasa",
+    "options": [
+      "Montag",
+      "Dienstag",
+      "Donnerstag",
+      "Freitag"
+    ],
+    "correctAnswer": "Dienstag"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "April",
+    "options": [
+      "April",
+      "Mai",
+      "Juni",
+      "Juli"
+    ],
+    "correctAnswer": "April"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Anak laki-laki",
+    "options": [
+      "Mädchen",
+      "Junge",
+      "Frau",
+      "Mann"
+    ],
+    "correctAnswer": "Junge"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Roti",
+    "options": [
+      "Fleisch",
+      "Brot",
+      "Kaffee",
+      "Saft"
+    ],
+    "correctAnswer": "Brot"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Membaca",
+    "options": [
+      "lesen",
+      "schreiben",
+      "singen",
+      "tanzen"
+    ],
+    "correctAnswer": "lesen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Komputer",
+    "options": [
+      "Fernseher",
+      "Computer",
+      "Bild",
+      "Schlüssel"
+    ],
+    "correctAnswer": "Computer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Harimau",
+    "options": [
+      "Löwe",
+      "Tiger",
+      "Bär",
+      "Elefant"
+    ],
+    "correctAnswer": "Tiger"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Toko",
+    "options": [
+      "Café",
+      "Museum",
+      "Laden",
+      "Apotheke"
+    ],
+    "correctAnswer": "Laden"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Halo",
+    "options": [
+      "Guten Tag",
+      "Hallo",
+      "Tschüss",
+      "Ja"
+    ],
+    "correctAnswer": "Hallo"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Apa",
+    "options": [
+      "Wer",
+      "Was",
+      "Wo",
+      "Warum"
+    ],
+    "correctAnswer": "Was"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Mudah",
+    "options": [
+      "schwer",
+      "einfach",
+      "bunt",
+      "billig"
+    ],
+    "correctAnswer": "einfach"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Kemarin",
+    "options": [
+      "heute",
+      "morgen",
+      "gestern",
+      "jetzt"
+    ],
+    "correctAnswer": "gestern"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Panjang",
+    "options": [
+      "kurz",
+      "lang",
+      "laut",
+      "leicht"
+    ],
+    "correctAnswer": "lang"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Sering",
+    "options": [
+      "oft",
+      "selten",
+      "nie",
+      "schnell"
+    ],
+    "correctAnswer": "oft"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Kuat",
+    "options": [
+      "traurig",
+      "stark",
+      "schwach",
+      "langsam"
+    ],
+    "correctAnswer": "stark"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Hangat",
+    "options": [
+      "kalt",
+      "warm",
+      "schnell",
+      "neu"
+    ],
+    "correctAnswer": "warm"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Bersama",
+    "options": [
+      "zusammen",
+      "allein",
+      "oben",
+      "unten"
+    ],
+    "correctAnswer": "zusammen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 1",
+    "question": "Rumah sakit",
+    "options": [
+      "Apotheke",
+      "Kino",
+      "Krankenhaus",
+      "Supermarkt"
+    ],
+    "correctAnswer": "Krankenhaus"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Sembilan",
+    "options": [
+      "sieben",
+      "acht",
+      "neun",
+      "zehn"
+    ],
+    "correctAnswer": "neun"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Coklat",
+    "options": [
+      "orange",
+      "braun",
+      "weiß",
+      "grau"
+    ],
+    "correctAnswer": "braun"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Jumat",
+    "options": [
+      "Montag",
+      "Freitag",
+      "Dienstag",
+      "Sonntag"
+    ],
+    "correctAnswer": "Freitag"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Juni",
+    "options": [
+      "Mai",
+      "Juli",
+      "Juni",
+      "August"
+    ],
+    "correctAnswer": "Juni"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Kakek",
+    "options": [
+      "Onkel",
+      "Großvater",
+      "Vater",
+      "Bruder"
+    ],
+    "correctAnswer": "Großvater"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Telur",
+    "options": [
+      "Käse",
+      "Fleisch",
+      "Ei",
+      "Brot"
+    ],
+    "correctAnswer": "Ei"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Mengatakan",
+    "options": [
+      "sagen",
+      "machen",
+      "hören",
+      "lesen"
+    ],
+    "correctAnswer": "sagen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Jendela",
+    "options": [
+      "Fernseher",
+      "Tür",
+      "Fenster",
+      "Schlüssel"
+    ],
+    "correctAnswer": "Fenster"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Singa",
+    "options": [
+      "Bär",
+      "Löwe",
+      "Tiger",
+      "Elefant"
+    ],
+    "correctAnswer": "Löwe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Restoran",
+    "options": [
+      "Supermarkt",
+      "Apotheke",
+      "Restaurant",
+      "Café"
+    ],
+    "correctAnswer": "Restaurant"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Selamat malam",
+    "options": [
+      "Guten Tag",
+      "Hallo",
+      "Gute Nacht",
+      "Tschüss"
+    ],
+    "correctAnswer": "Gute Nacht"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Mengapa",
+    "options": [
+      "Wo",
+      "Wann",
+      "Warum",
+      "Was"
+    ],
+    "correctAnswer": "Warum"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Murah",
+    "options": [
+      "billig",
+      "teuer",
+      "bunt",
+      "schwer"
+    ],
+    "correctAnswer": "billig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Sebentar lagi",
+    "options": [
+      "gestern",
+      "morgen",
+      "bald",
+      "heute"
+    ],
+    "correctAnswer": "bald"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Kecil",
+    "options": [
+      "groß",
+      "klein",
+      "lang",
+      "kurz"
+    ],
+    "correctAnswer": "klein"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Jarang",
+    "options": [
+      "oft",
+      "selten",
+      "nie",
+      "schnell"
+    ],
+    "correctAnswer": "selten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Sedih",
+    "options": [
+      "glücklich",
+      "traurig",
+      "schön",
+      "stark"
+    ],
+    "correctAnswer": "traurig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Cukup",
+    "options": [
+      "laut",
+      "genug",
+      "langsam",
+      "schnell"
+    ],
+    "correctAnswer": "genug"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Bersama",
+    "options": [
+      "allein",
+      "zusammen",
+      "unten",
+      "oben"
+    ],
+    "correctAnswer": "zusammen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 2",
+    "question": "Supermarket",
+    "options": [
+      "Kino",
+      "Bank",
+      "Supermarkt",
+      "Apotheke"
+    ],
+    "correctAnswer": "Supermarkt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Tiga belas",
+    "options": [
+      "zwölf",
+      "vierzehn",
+      "dreizehn",
+      "fünfzehn"
+    ],
+    "correctAnswer": "dreizehn"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Oranye",
+    "options": [
+      "weiß",
+      "grau",
+      "orange",
+      "braun"
+    ],
+    "correctAnswer": "orange"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "April",
+    "options": [
+      "Mai",
+      "Juni",
+      "März",
+      "April"
+    ],
+    "correctAnswer": "April"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Juli",
+    "options": [
+      "Mai",
+      "Juni",
+      "Juli",
+      "August"
+    ],
+    "correctAnswer": "Juli"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Keponakan",
+    "options": [
+      "Nichte",
+      "Neffe",
+      "Tante",
+      "Bruder"
+    ],
+    "correctAnswer": "Neffe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Pisang",
+    "options": [
+      "Apfel",
+      "Banane",
+      "Traube",
+      "Orange"
+    ],
+    "correctAnswer": "Banane"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Membaca",
+    "options": [
+      "schreiben",
+      "hören",
+      "lesen",
+      "sagen"
+    ],
+    "correctAnswer": "lesen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Kunci",
+    "options": [
+      "Tasche",
+      "Uhr",
+      "Schlüssel",
+      "Bild"
+    ],
+    "correctAnswer": "Schlüssel"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Harimau",
+    "options": [
+      "Löwe",
+      "Elefant",
+      "Tiger",
+      "Kamel"
+    ],
+    "correctAnswer": "Tiger"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Museum",
+    "options": [
+      "Bank",
+      "Apotheke",
+      "Restaurant",
+      "Museum"
+    ],
+    "correctAnswer": "Museum"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Sampai jumpa lagi",
+    "options": [
+      "Hallo",
+      "Guten Tag",
+      "Auf Wiedersehen",
+      "Tschüss"
+    ],
+    "correctAnswer": "Auf Wiedersehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Dimana",
+    "options": [
+      "Warum",
+      "Wo",
+      "Wann",
+      "Was"
+    ],
+    "correctAnswer": "Wo"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Segar",
+    "options": [
+      "warm",
+      "frisch",
+      "laut",
+      "schnell"
+    ],
+    "correctAnswer": "frisch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Indah",
+    "options": [
+      "hässlich",
+      "schön",
+      "traurig",
+      "stark"
+    ],
+    "correctAnswer": "schön"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Panjang",
+    "options": [
+      "lang",
+      "kurz",
+      "langsam",
+      "bunt"
+    ],
+    "correctAnswer": "lang"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Tidak ramah",
+    "options": [
+      "freundlich",
+      "nett",
+      "unfreundlich",
+      "stark"
+    ],
+    "correctAnswer": "unfreundlich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Buruk",
+    "options": [
+      "schlecht",
+      "schön",
+      "stark",
+      "traurig"
+    ],
+    "correctAnswer": "schlecht"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Hangat",
+    "options": [
+      "kalt",
+      "warm",
+      "langsam",
+      "groß"
+    ],
+    "correctAnswer": "warm"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Bersama",
+    "options": [
+      "allein",
+      "zusammen",
+      "unten",
+      "oben"
+    ],
+    "correctAnswer": "zusammen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 3",
+    "question": "Gereja",
+    "options": [
+      "Bank",
+      "Kirche",
+      "Supermarkt",
+      "Museum"
+    ],
+    "correctAnswer": "Kirche"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Dua belas",
+    "options": [
+      "dreizehn",
+      "zwölf",
+      "elf",
+      "vierzehn"
+    ],
+    "correctAnswer": "zwölf"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Merah muda",
+    "options": [
+      "grau",
+      "rosa",
+      "weiß",
+      "braun"
+    ],
+    "correctAnswer": "rosa"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "September",
+    "options": [
+      "Oktober",
+      "August",
+      "September",
+      "Juli"
+    ],
+    "correctAnswer": "September"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "November",
+    "options": [
+      "Dezember",
+      "November",
+      "Oktober",
+      "Januar"
+    ],
+    "correctAnswer": "November"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Sepupu laki-laki",
+    "options": [
+      "Cousine",
+      "Neffe",
+      "Cousin",
+      "Bruder"
+    ],
+    "correctAnswer": "Cousin"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Jus",
+    "options": [
+      "Wasser",
+      "Saft",
+      "Tee",
+      "Milch"
+    ],
+    "correctAnswer": "Saft"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Menulis",
+    "options": [
+      "hören",
+      "lesen",
+      "schreiben",
+      "sagen"
+    ],
+    "correctAnswer": "schreiben"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Televisi",
+    "options": [
+      "Fenster",
+      "Kühlschrank",
+      "Fernseher",
+      "Bild"
+    ],
+    "correctAnswer": "Fernseher"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Beruang",
+    "options": [
+      "Löwe",
+      "Elefant",
+      "Bär",
+      "Kamel"
+    ],
+    "correctAnswer": "Bär"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Kafe",
+    "options": [
+      "Restaurant",
+      "Supermarkt",
+      "Kino",
+      "Café"
+    ],
+    "correctAnswer": "Café"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Selamat datang",
+    "options": [
+      "Tschüss",
+      "Willkommen",
+      "Hallo",
+      "Auf Wiedersehen"
+    ],
+    "correctAnswer": "Willkommen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Bagaimana",
+    "options": [
+      "Warum",
+      "Wie",
+      "Wann",
+      "Wo"
+    ],
+    "correctAnswer": "Wie"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Awal",
+    "options": [
+      "spät",
+      "früh",
+      "schnell",
+      "bunt"
+    ],
+    "correctAnswer": "früh"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Hari ini",
+    "options": [
+      "gestern",
+      "heute",
+      "morgen",
+      "bald"
+    ],
+    "correctAnswer": "heute"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Diam-diam",
+    "options": [
+      "laut",
+      "bunt",
+      "ruhig",
+      "frisch"
+    ],
+    "correctAnswer": "ruhig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Jarang",
+    "options": [
+      "oft",
+      "schnell",
+      "selten",
+      "nie"
+    ],
+    "correctAnswer": "selten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Lemah",
+    "options": [
+      "stark",
+      "langsam",
+      "schwach",
+      "traurig"
+    ],
+    "correctAnswer": "schwach"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Cukup",
+    "options": [
+      "genug",
+      "schlecht",
+      "leicht",
+      "stark"
+    ],
+    "correctAnswer": "genug"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Jalan",
+    "options": [
+      "Brücke",
+      "Straße",
+      "Kirche",
+      "Laden"
+    ],
+    "correctAnswer": "Straße"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 4",
+    "question": "Balaikota",
+    "options": [
+      "Bank",
+      "Krankenhaus",
+      "Rathaus",
+      "Kino"
+    ],
+    "correctAnswer": "Rathaus"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Empat puluh",
+    "options": [
+      "fünfzig",
+      "vierzig",
+      "dreißig",
+      "zwanzig"
+    ],
+    "correctAnswer": "vierzig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Abu-abu",
+    "options": [
+      "grau",
+      "weiß",
+      "braun",
+      "schwarz"
+    ],
+    "correctAnswer": "grau"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Agustus",
+    "options": [
+      "Juli",
+      "September",
+      "August",
+      "Oktober"
+    ],
+    "correctAnswer": "August"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Desember",
+    "options": [
+      "Dezember",
+      "November",
+      "Januar",
+      "Oktober"
+    ],
+    "correctAnswer": "Dezember"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Sepupu perempuan",
+    "options": [
+      "Cousin",
+      "Tante",
+      "Cousine",
+      "Schwester"
+    ],
+    "correctAnswer": "Cousine"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Makanan ringan",
+    "options": [
+      "Schokolade",
+      "Snacks",
+      "Käse",
+      "Brot"
+    ],
+    "correctAnswer": "Snacks"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Mendengar",
+    "options": [
+      "schreiben",
+      "hören",
+      "sagen",
+      "lesen"
+    ],
+    "correctAnswer": "hören"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Microwave",
+    "options": [
+      "Kühlschrank",
+      "Fernseher",
+      "Mikrowelle",
+      "Schlüssel"
+    ],
+    "correctAnswer": "Mikrowelle"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Katak",
+    "options": [
+      "Löwe",
+      "Bär",
+      "Frosch",
+      "Elefant"
+    ],
+    "correctAnswer": "Frosch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Kantor polisi",
+    "options": [
+      "Postamt",
+      "Polizeistation",
+      "Krankenhaus",
+      "Bank"
+    ],
+    "correctAnswer": "Polizeistation"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Ya",
+    "options": [
+      "Nein",
+      "Ja",
+      "Vielleicht",
+      "Willkommen"
+    ],
+    "correctAnswer": "Ja"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Apa",
+    "options": [
+      "Wer",
+      "Was",
+      "Wann",
+      "Wo"
+    ],
+    "correctAnswer": "Was"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Bagus",
+    "options": [
+      "schlecht",
+      "schön",
+      "stark",
+      "traurig"
+    ],
+    "correctAnswer": "schön"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Sering",
+    "options": [
+      "oft",
+      "selten",
+      "schnell",
+      "nie"
+    ],
+    "correctAnswer": "oft"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Lantang, nyaring",
+    "options": [
+      "leise",
+      "laut",
+      "bunt",
+      "langsam"
+    ],
+    "correctAnswer": "laut"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Besok",
+    "options": [
+      "gestern",
+      "morgen",
+      "heute",
+      "bald"
+    ],
+    "correctAnswer": "morgen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Tidak ramah",
+    "options": [
+      "freundlich",
+      "nett",
+      "unfreundlich",
+      "stark"
+    ],
+    "correctAnswer": "unfreundlich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Di atas",
+    "options": [
+      "oben",
+      "unten",
+      "allein",
+      "zusammen"
+    ],
+    "correctAnswer": "oben"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Kolam renang",
+    "options": [
+      "Schwimmbad",
+      "Supermarkt",
+      "Kino",
+      "Apotheke"
+    ],
+    "correctAnswer": "Schwimmbad"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1 Level 5",
+    "question": "Jembatan",
+    "options": [
+      "Kirche",
+      "Straße",
+      "Brücke",
+      "Bank"
+    ],
+    "correctAnswer": "Brücke"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "selain itu",
+    "options": [
+      "spannend",
+      "indirekt",
+      "außerdem",
+      "müssen"
+    ],
+    "correctAnswer": "außerdem"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "nyaman",
+    "options": [
+      "benutzen",
+      "bequem",
+      "beliebt",
+      "sterben"
+    ],
+    "correctAnswer": "bequem"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "lebar",
+    "options": [
+      "unbeliebt",
+      "interessiert",
+      "breit",
+      "unbequem"
+    ],
+    "correctAnswer": "breit"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "langsung",
+    "options": [
+      "mutig",
+      "können",
+      "liegen",
+      "direkt"
+    ],
+    "correctAnswer": "direkt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "di luar",
+    "options": [
+      "einsteigen",
+      "reservieren",
+      "obwohl",
+      "draußen"
+    ],
+    "correctAnswer": "draußen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "di dalam",
+    "options": [
+      "unpünktlich",
+      "pünktlich",
+      "aussteigen",
+      "drinnen"
+    ],
+    "correctAnswer": "drinnen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "tipis",
+    "options": [
+      "verlieren",
+      "dünn",
+      "unbequem",
+      "vielleicht"
+    ],
+    "correctAnswer": "dünn"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "sempit",
+    "options": [
+      "passen",
+      "eng",
+      "obwohl",
+      "legen"
+    ],
+    "correctAnswer": "eng"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "serius",
+    "options": [
+      "breit",
+      "ernst",
+      "modern",
+      "sterben"
+    ],
+    "correctAnswer": "ernst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 1",
+    "question": "dengan senang hati",
+    "options": [
+      "kostenpflichtig",
+      "für",
+      "jedoch",
+      "gern"
+    ],
+    "correctAnswer": "gern"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "keras",
+    "options": [
+      "pünktlich",
+      "hart",
+      "dünn",
+      "arm"
+    ],
+    "correctAnswer": "hart"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "tidak langsung",
+    "options": [
+      "dünn",
+      "bleiben",
+      "modern",
+      "indirekt"
+    ],
+    "correctAnswer": "indirekt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "namun",
+    "options": [
+      "jedoch",
+      "modern",
+      "beliebt",
+      "ernst"
+    ],
+    "correctAnswer": "jedoch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "jarang, hampir tidak",
+    "options": [
+      "kaum",
+      "sauer",
+      "sterben",
+      "arm"
+    ],
+    "correctAnswer": "kaum"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "kreatif",
+    "options": [
+      "sauer",
+      "bleiben",
+      "kreativ",
+      "unbequem"
+    ],
+    "correctAnswer": "kreativ"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "membosankan",
+    "options": [
+      "langweilig",
+      "ausmachen",
+      "arm",
+      "bleiben"
+    ],
+    "correctAnswer": "langweilig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "logis",
+    "options": [
+      "interessiert",
+      "unbequem",
+      "verlassen",
+      "logisch"
+    ],
+    "correctAnswer": "logisch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "modern",
+    "options": [
+      "modern",
+      "beliebt",
+      "liefern",
+      "erlauben"
+    ],
+    "correctAnswer": "modern"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "berani",
+    "options": [
+      "wenig",
+      "mutig",
+      "reparieren",
+      "setzen"
+    ],
+    "correctAnswer": "mutig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 2",
+    "question": "tepat waktu",
+    "options": [
+      "pünktlich",
+      "vergessen",
+      "interessiert",
+      "bleiben"
+    ],
+    "correctAnswer": "pünktlich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "asam",
+    "options": [
+      "sauer",
+      "setzen",
+      "unpünktlich",
+      "langweilig"
+    ],
+    "correctAnswer": "sauer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "menarik",
+    "options": [
+      "hängen",
+      "spannend",
+      "ernst",
+      "verlassen"
+    ],
+    "correctAnswer": "spannend"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "disukai",
+    "options": [
+      "ausgeben",
+      "bequem",
+      "beliebt",
+      "sterben"
+    ],
+    "correctAnswer": "beliebt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "meskipun",
+    "options": [
+      "obwohl",
+      "können",
+      "sollen",
+      "jedoch"
+    ],
+    "correctAnswer": "obwohl"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "tidak nyaman",
+    "options": [
+      "wenig",
+      "unbequem",
+      "beliebt",
+      "langweilig"
+    ],
+    "correctAnswer": "unbequem"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "kasar",
+    "options": [
+      "kaum",
+      "rau",
+      "erklären",
+      "sauer"
+    ],
+    "correctAnswer": "rau"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "tidak tepat waktu",
+    "options": [
+      "bleiben",
+      "kostenpflichtig",
+      "sollen",
+      "unpünktlich"
+    ],
+    "correctAnswer": "unpünktlich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "tidak disukai",
+    "options": [
+      "arm",
+      "können",
+      "setzen",
+      "unbeliebt"
+    ],
+    "correctAnswer": "unbeliebt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "sebelumnya",
+    "options": [
+      "kostenpflichtig",
+      "beliebt",
+      "ausziehen",
+      "vorher"
+    ],
+    "correctAnswer": "vorher"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 3",
+    "question": "mungkin",
+    "options": [
+      "hängen",
+      "korrigieren",
+      "kaum",
+      "vielleicht"
+    ],
+    "correctAnswer": "vielleicht"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "kurang",
+    "options": [
+      "spannend",
+      "arm",
+      "wenig",
+      "langweilig"
+    ],
+    "correctAnswer": "wenig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "penting",
+    "options": [
+      "wichtig",
+      "setzen",
+      "ausmachen",
+      "mögen"
+    ],
+    "correctAnswer": "wichtig"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "tertarik",
+    "options": [
+      "drinnen",
+      "abholen",
+      "interessiert",
+      "beliebt"
+    ],
+    "correctAnswer": "interessiert"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "menjemput",
+    "options": [
+      "unbeliebt",
+      "einsteigen",
+      "hängen",
+      "abholen"
+    ],
+    "correctAnswer": "abholen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "memulai",
+    "options": [
+      "benutzen",
+      "anfangen",
+      "spannend",
+      "sollen"
+    ],
+    "correctAnswer": "anfangen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "mengenakan pakaian",
+    "options": [
+      "beliebt",
+      "anziehen",
+      "gern haben",
+      "bequem"
+    ],
+    "correctAnswer": "anziehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "mengeluarkan uang",
+    "options": [
+      "ausgeben",
+      "eng",
+      "bequem",
+      "gern haben"
+    ],
+    "correctAnswer": "ausgeben"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "menonaktifkan",
+    "options": [
+      "langweilig",
+      "jedoch",
+      "drinnen",
+      "ausmachen"
+    ],
+    "correctAnswer": "ausmachen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "terlihat/muncul",
+    "options": [
+      "kostenpflichtig",
+      "kaum",
+      "aussehen",
+      "können"
+    ],
+    "correctAnswer": "aussehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 4",
+    "question": "turun/keluar",
+    "options": [
+      "hängen",
+      "unbequem",
+      "kostenpflichtig",
+      "aussteigen"
+    ],
+    "correctAnswer": "aussteigen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "melepas pakaian",
+    "options": [
+      "sauer",
+      "ausziehen",
+      "interessiert",
+      "bequem"
+    ],
+    "correctAnswer": "ausziehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "memperhatikan",
+    "options": [
+      "abholen",
+      "verlieren",
+      "für",
+      "aufpassen"
+    ],
+    "correctAnswer": "aufpassen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "menggunakan",
+    "options": [
+      "benutzen",
+      "bleiben",
+      "dünn",
+      "aussehen"
+    ],
+    "correctAnswer": "benutzen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "menginap/tinggal",
+    "options": [
+      "obwohl",
+      "unbequem",
+      "vorher",
+      "bleiben"
+    ],
+    "correctAnswer": "bleiben"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "naik/masuk",
+    "options": [
+      "einsteigen",
+      "eng",
+      "langweilig",
+      "kreativ"
+    ],
+    "correctAnswer": "einsteigen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "menjelaskan",
+    "options": [
+      "obwohl",
+      "aufpassen",
+      "verlassen",
+      "erklären"
+    ],
+    "correctAnswer": "erklären"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "mengizinkan",
+    "options": [
+      "kaum",
+      "pünktlich",
+      "erlauben",
+      "draußen"
+    ],
+    "correctAnswer": "erlauben"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "suka, menyenangkan",
+    "options": [
+      "pünktlich",
+      "gern haben",
+      "wollen",
+      "anziehen"
+    ],
+    "correctAnswer": "gern haben"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "untuk",
+    "options": [
+      "gern",
+      "für",
+      "sauer",
+      "vorher"
+    ],
+    "correctAnswer": "für"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2 Level 5",
+    "question": "mengucapkan selamat",
+    "options": [
+      "gratulieren",
+      "anfangen",
+      "ausgeben",
+      "obwohl"
+    ],
+    "correctAnswer": "gratulieren"
+  }
+]
