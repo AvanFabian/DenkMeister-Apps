@@ -80,9 +80,20 @@ flutter:
     - assets/Medal-silver.png
     - assets/Medal-gold.png
     - assets/tebakgambar_question/
+    - assets/tebakgambar_question/A1_1/
+    - assets/tebakgambar_question/A1_2/
+    - assets/tebakgambar_question/A1_3/
+    - assets/tebakgambar_question/A1_4/
+    - assets/tebakgambar_question/A1_5/
+    - assets/tebakgambar_question/A2_1/
+    - assets/tebakgambar_question/A2_2/
+    - assets/tebakgambar_question/A2_3/
+    - assets/tebakgambar_question/A2_4/
+    - assets/tebakgambar_question/A2_5/
     - assets/utils/
     - assets/libraryhome_icon/
     - assets/pengaturan_icon/
+    - assets/checkanswer_icon/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

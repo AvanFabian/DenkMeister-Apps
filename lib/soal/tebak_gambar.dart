@@ -18,24 +18,42 @@ class _TebakGambarState extends State<TebakGambar> {
   List<Question> _questions = [];
   int _currentQuestionIndex = 0;
   int _answeredCount = 0;
+  Question? currentQuestion;
+  bool _isLoading = true;
 
   @override
   void initState() {
     super.initState();
-    loadQuestions().then((questions) {
-      setState(() {
-        // Filter questions based on the level from widget.currentlevel
-        _questions = questions
-            .where((q) => q.level == int.parse(widget.currentlevel) && q.difficulty == widget.difficulty)
-            .toList();
-      });
-    });
+    loadQuestions();
   }
 
-  Future<List<Question>> loadQuestions() async {
-    final data = await rootBundle.loadString('assets/utils/tebakgambar_quiz.json');
-    final List<dynamic> jsonResult = json.decode(data);
-    return jsonResult.map((json) => Question.fromJson(json)).toList();
+  Future<void> loadQuestions() async {
+    try {
+      final String jsonString = await rootBundle.loadString('assets/utils/tebakgambar_quiz.json');
+      final List<dynamic> jsonData = json.decode(jsonString);
+
+      // Filter questions for current level and difficulty
+      _questions = jsonData
+          .map((json) => Question.fromJson(json))
+          .where((question) => question.level == int.parse(widget.currentlevel) && question.difficulty == widget.difficulty)
+          .toList();
+
+      setState(() {
+        _isLoading = false;
+        // Set currentQuestion only if questions exist for this level
+        if (_questions.isNotEmpty) {
+          currentQuestion = _questions[_currentQuestionIndex];
+        } else {
+          currentQuestion = null;
+        }
+      });
+    } catch (e) {
+      print('Error loading questions: $e');
+      setState(() {
+        _isLoading = false;
+        currentQuestion = null;
+      });
+    }
   }
 
   // Call this when an answer is checked
@@ -59,7 +77,7 @@ class _TebakGambarState extends State<TebakGambar> {
       context: context,
       builder: (BuildContext context) {
         Future.delayed(const Duration(seconds: 2), () {
-          Navigator.of(context).pop();
+          // Navigator.of(context).pop();
           // Move to the next question or reset
           if (_currentQuestionIndex < _questions.length - 1) {
             setState(() {
@@ -77,7 +95,7 @@ class _TebakGambarState extends State<TebakGambar> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Image.asset(
-                isCorrect ? 'assets/quiz/check_ring_round.png' : 'assets/quiz/close_ring.png',
+                isCorrect ? 'assets/checkanswer_icon/check_ring_round.png' : 'assets/checkanswer_icon/close_ring.png',
                 height: 80.0,
                 width: 80.0,
               ),
@@ -135,68 +153,109 @@ class _TebakGambarState extends State<TebakGambar> {
       body: Column(
         children: [
           Expanded(
-            child: SingleChildScrollView(
-              child: Column(
-                children: <Widget>[
-                  const SizedBox(height: 24.0),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 24.0),
-                    child: Card(
-                      elevation: 4.0,
-                      color: Colors.grey[350],
-                      child: Padding(
-                        padding: const EdgeInsets.all(16.0),
-                        child: SizedBox(
-                          height: 240.0,
-                          child: Center(
-                            child: Image.asset(
-                              currentQuestion.question, // Gambar dari JSON
-                              fit: BoxFit.contain,
+            child: _isLoading
+                ? const Center(
+                    child: CircularProgressIndicator(),
+                  )
+                : currentQuestion == null
+                    ? Center(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            const Icon(
+                              Icons.info_outline,
+                              size: 48,
+                              color: Colors.grey,
                             ),
-                          ),
+                            const SizedBox(height: 16),
+                            const Text(
+                              'No Data Added Yet',
+                              style: TextStyle(
+                                fontSize: 24.0,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black87,
+                              ),
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              'Level ${widget.currentlevel} ${widget.difficulty}',
+                              style: const TextStyle(
+                                fontSize: 16.0,
+                                color: Colors.grey,
+                              ),
+                            ),
+                            const SizedBox(height: 24),
+                            ElevatedButton(
+                              onPressed: () {
+                                Navigator.pop(context);
+                              },
+                              child: const Text('Go Back'),
+                            ),
+                          ],
+                        ),
+                      )
+                    : SingleChildScrollView(
+                        child: Column(
+                          children: <Widget>[
+                            const SizedBox(height: 24.0),
+                            Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 24.0),
+                              child: Card(
+                                elevation: 4.0,
+                                color: Colors.grey[350],
+                                child: Padding(
+                                  padding: const EdgeInsets.all(16.0),
+                                  child: SizedBox(
+                                    height: 240.0,
+                                    child: Center(
+                                      child: Image.asset(
+                                        currentQuestion.question, // Gambar dari JSON
+                                        fit: BoxFit.contain,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: 16.0),
+
+                            // Opsi Jawaban
+                            Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                              child: Column(
+                                children: currentQuestion.options.map((option) {
+                                  return Padding(
+                                    padding: const EdgeInsets.only(top: 16.0, left: 16.0, right: 16.0),
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.grey[350], // Same color as the Card
+                                        borderRadius: BorderRadius.circular(8.0),
+                                      ),
+                                      child: ElevatedButton(
+                                        style: ElevatedButton.styleFrom(
+                                          backgroundColor: Colors.transparent, // Transparent to show Container color
+                                          shadowColor: Colors.transparent, // Remove default button shadow
+                                          padding: const EdgeInsets.all(16.0), // Padding inside button
+                                          shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0),
+                                          ),
+                                        ),
+                                        onPressed: () => _checkAnswer(option),
+                                        child: Center(
+                                          child: Text(
+                                            option,
+                                            style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.black),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  );
+                                }).toList(),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
-                    ),
-                  ),
-                  const SizedBox(height: 16.0),
-
-                  // Opsi Jawaban
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                    child: Column(
-                      children: currentQuestion.options.map((option) {
-                        return Padding(
-                          padding: const EdgeInsets.only(top: 16.0, left: 16.0, right: 16.0),
-                          child: Container(
-                            decoration: BoxDecoration(
-                              color: Colors.grey[350], // Same color as the Card
-                              borderRadius: BorderRadius.circular(8.0),
-                            ),
-                            child: ElevatedButton(
-                              style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.transparent, // Transparent to show Container color
-                                shadowColor: Colors.transparent, // Remove default button shadow
-                                padding: const EdgeInsets.all(16.0), // Padding inside button
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                              ),
-                              onPressed: () => _checkAnswer(option),
-                              child: Center(
-                                child: Text(
-                                  option,
-                                  style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.black),
-                                ),
-                              ),
-                            ),
-                          ),
-                        );
-                      }).toList(),
-                    ),
-                  ),
-                ],
-              ),
-            ),
           ),
         ],
       ),

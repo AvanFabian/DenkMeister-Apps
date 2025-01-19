@@ -1,7 +1,7 @@
 [
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Angka 1.png",
     "options": [
       "Zwei",
@@ -13,7 +13,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Angka 5.png",
     "options": [
       "Vier",
@@ -25,7 +25,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Angka 10.png",
     "options": [
       "Zehn",
@@ -37,7 +37,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Angka 2.png",
     "options": [
       "Drei",
@@ -49,7 +49,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Hari Minggu.png",
     "options": [
       "der Samstag",
@@ -61,7 +61,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Hari Senin.png",
     "options": [
       "der Dienstag",
@@ -73,7 +73,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Bulan Januari.png",
     "options": [
       "der Januar",
@@ -85,7 +85,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Bulan Maret.png",
     "options": [
       "der März",
@@ -97,7 +97,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Hari.png",
     "options": [
       "der Woche",
@@ -109,7 +109,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Ibu.png",
     "options": [
       "der Vater",
@@ -121,7 +121,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Ayah.png",
     "options": [
       "der Vater",
@@ -133,7 +133,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Paman.png",
     "options": [
       "die Tante",
@@ -145,7 +145,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Keluarga.png",
     "options": [
       "der Dienstag",
@@ -157,7 +157,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Susu.png",
     "options": [
       "der Junge",
@@ -169,7 +169,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Apel.png",
     "options": [
       "die Banane",
@@ -181,7 +181,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Keju.png",
     "options": [
       "der Käse",
@@ -193,7 +193,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Melihat.png",
     "options": [
       "Zehn",
@@ -205,7 +205,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Belajar.png",
     "options": [
       "Laufen",
@@ -217,7 +217,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Makan.png",
     "options": [
       "Duschen",
@@ -229,7 +229,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_1/Tidur.png",
     "options": [
       "Sehen",
@@ -241,7 +241,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Angka 4.png",
     "options": [
       "Eins",
@@ -253,7 +253,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Angka 6.png",
     "options": [
       "Sechs",
@@ -265,7 +265,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Angka 20.png",
     "options": [
       "Zehn",
@@ -277,7 +277,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Warna Merah.png",
     "options": [
       "Rot",
@@ -289,7 +289,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Warna Hijau.png",
     "options": [
       "Blau",
@@ -301,7 +301,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Hari Jumat.png",
     "options": [
       "der Montag",
@@ -313,7 +313,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Bulan Februari.png",
     "options": [
       "der Oktober",
@@ -325,7 +325,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Bulan.png",
     "options": [
       "der Monat",
@@ -337,7 +337,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Hari Sabtu.png",
     "options": [
       "die Lampe",
@@ -349,7 +349,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Saudara Laki-laki.png",
     "options": [
       "die Schwester",
@@ -361,7 +361,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Nenek.png",
     "options": [
       "der Großvater",
@@ -373,7 +373,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Bibi.png",
     "options": [
       "der Onkel",
@@ -385,7 +385,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Teh.png",
     "options": [
       "das Auto",
@@ -397,7 +397,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Kue.png",
     "options": [
       "der Kuchen",
@@ -409,7 +409,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Pergi.png",
     "options": [
       "Blume",
@@ -421,7 +421,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Berbicara.png",
     "options": [
       "Hören",
@@ -433,7 +433,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Jatuh.png",
     "options": [
       "Hund",
@@ -445,7 +445,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Meja.png",
     "options": [
       "die Tasche",
@@ -457,7 +457,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Kursi.png",
     "options": [
       "der Vogel",
@@ -469,7 +469,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_2/Kasur.png",
     "options": [
       "das Bett",
@@ -481,7 +481,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Kucing.png",
     "options": [
       "der Hund",
@@ -493,7 +493,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Ikan.png",
     "options": [
       "der Fisch",
@@ -505,7 +505,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Anjing.png",
     "options": [
       "das Pferd",
@@ -517,7 +517,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Burung.png",
     "options": [
       "das Bild",
@@ -529,7 +529,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Sekolah.png",
     "options": [
       "das Krankenhaus",
@@ -541,7 +541,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Taman.png",
     "options": [
       "der Park",
@@ -553,7 +553,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Universitas.png",
     "options": [
       "die Wohnung",
@@ -565,7 +565,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Pasar.png",
     "options": [
       "das Haus",
@@ -577,7 +577,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Selamat Pagi.png",
     "options": [
       "Guten Tag",
@@ -589,7 +589,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Selamat Tinggal.png",
     "options": [
       "Bitte",
@@ -601,7 +601,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Apa Kabar.png",
     "options": [
       "Wo bist du?",
@@ -613,7 +613,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Terima kasih.png",
     "options": [
       "Danke",
@@ -625,7 +625,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Tua.png",
     "options": [
       "Jung",
@@ -637,7 +637,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Gelap.png",
     "options": [
       "Dunkel",
@@ -649,7 +649,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Besar.png",
     "options": [
       "Klein",
@@ -661,7 +661,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Cantik.png",
     "options": [
       "Tschüss",
@@ -673,7 +673,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Tinggi.png",
     "options": [
       "Niedrig",
@@ -685,7 +685,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Sakit.png",
     "options": [
       "Glücklich",
@@ -697,7 +697,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Angka 3.png",
     "options": [
       "Drei",
@@ -709,7 +709,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_3/Angka 30.png",
     "options": [
       "Zehn",
@@ -721,7 +721,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Angka 8.png",
     "options": [
       "Acht",
@@ -733,7 +733,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Angka 100.png",
     "options": [
       "Zwei",
@@ -745,7 +745,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Warna Biru.png",
     "options": [
       "Blau",
@@ -757,7 +757,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Warna Kuning.png",
     "options": [
       "Gelb",
@@ -769,7 +769,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Warna Hitam.png",
     "options": [
       "Rot",
@@ -781,7 +781,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Hari Rabu.png",
     "options": [
       "der Montag",
@@ -793,7 +793,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Hari Kamis.png",
     "options": [
       "der Sonntag",
@@ -805,7 +805,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Tahun.png",
     "options": [
       "das Jahr",
@@ -817,7 +817,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Saudara Perempuan.png",
     "options": [
       "die Schwester",
@@ -829,7 +829,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Anak-anak.png",
     "options": [
       "das Kind",
@@ -841,7 +841,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Kakek.png",
     "options": [
       "der Großvater",
@@ -853,7 +853,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Air.png",
     "options": [
       "das Wasser",
@@ -865,7 +865,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Buah.png",
     "options": [
       "das Obst",
@@ -877,7 +877,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Sayuran.png",
     "options": [
       "das Gemüse",
@@ -889,7 +889,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Mencintai.png",
     "options": [
       "Lieben",
@@ -901,7 +901,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Membantu.png",
     "options": [
       "Helfen",
@@ -913,7 +913,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Mandi.png",
     "options": [
       "Duschen",
@@ -925,7 +925,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Memasak.png",
     "options": [
       "Gehen",
@@ -937,7 +937,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Pintu.png",
     "options": [
       "die Tür",
@@ -949,7 +949,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_4/Lemari.png",
     "options": [
       "der Schrank",
@@ -961,7 +961,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Pulpen.png",
     "options": [
       "der Bleistift",
@@ -973,7 +973,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Buku.png",
     "options": [
       "die Lampe",
@@ -985,7 +985,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Lampu.png",
     "options": [
       "die Lampe",
@@ -997,7 +997,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Monyet.png",
     "options": [
       "der Affe",
@@ -1009,7 +1009,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Tikus.png",
     "options": [
       "die Maus",
@@ -1021,7 +1021,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Sapi.png",
     "options": [
       "der Elefant",
@@ -1033,7 +1033,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Kupu-Kupu.png",
     "options": [
       "der Vogel",
@@ -1045,7 +1045,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Rumah.png",
     "options": [
       "das Haus",
@@ -1057,7 +1057,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Perpustakaan.png",
     "options": [
       "die Bibliothek",
@@ -1069,7 +1069,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Stasiun.png",
     "options": [
       "der Flughafen",
@@ -1081,7 +1081,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Bandara.png",
     "options": [
       "der Flughafen",
@@ -1093,7 +1093,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Selamat Siang.png",
     "options": [
       "Guten Tag",
@@ -1105,7 +1105,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Selamat Malem.png",
     "options": [
       "Guten Abend",
@@ -1117,7 +1117,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Permisi.png",
     "options": [
       "Entschuldigung",
@@ -1129,7 +1129,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Maafkan Aku.png",
     "options": [
       "Es tut mir leid",
@@ -1141,7 +1141,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Panas.png",
     "options": [
       "Heiß",
@@ -1153,7 +1153,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Pintar.png",
     "options": [
       "Klug",
@@ -1165,7 +1165,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Mahal.png",
     "options": [
       "Teuer",
@@ -1177,7 +1177,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Sulit.png",
     "options": [
       "Schwer",
@@ -1189,7 +1189,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
     "question": "assets/tebakgambar_question/A1_5/Lambat.png",
     "options": [
       "Langsam",
@@ -1201,7 +1201,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_1/Haus.png",
     "options": [
       "kalt",
@@ -1213,7 +1213,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_1/Lapar.png",
     "options": [
       "kalt",
@@ -1225,7 +1225,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_1/Bangun.png",
     "options": [
       "schlafen",
@@ -1237,7 +1237,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_1/Berbelanja.png",
     "options": [
       "kaufen",
@@ -1249,7 +1249,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_1/Sarapan.png",
     "options": [
       "frühstücken",
@@ -1261,7 +1261,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_1/Berjalan.png",
     "options": [
       "rennen",
@@ -1273,7 +1273,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_1/Mencuri.png",
     "options": [
       "kaufen",
@@ -1285,7 +1285,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_1/Boleh.png",
     "options": [
       "müssen",
@@ -1297,7 +1297,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_1/Memotret.png",
     "options": [
       "sehen",
@@ -1309,7 +1309,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_1/Rajin.png",
     "options": [
       "faul",
@@ -1321,7 +1321,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_2/Sopan.png",
     "options": [
       "höflich",
@@ -1333,7 +1333,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_2/Dingin.png",
     "options": [
       "heiß",
@@ -1345,7 +1345,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_2/Enak.png",
     "options": [
       "lecker",
@@ -1357,7 +1357,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_2/Lelah.png",
     "options": [
       "wach",
@@ -1369,7 +1369,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_2/Kotor.png",
     "options": [
       "schmutzig",
@@ -1381,7 +1381,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_2/Menawarkan.png",
     "options": [
       "nehmen",
@@ -1393,7 +1393,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_2/Terbang.png",
     "options": [
       "laufen",
@@ -1405,7 +1405,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_2/Menikah.png",
     "options": [
       "lieben",
@@ -1417,7 +1417,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_2/Tertawa.png",
     "options": [
       "weinen",
@@ -1429,7 +1429,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_2/Membersihkan.png",
     "options": [
       "putzen",
@@ -1441,7 +1441,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_3/Merokok.png",
     "options": [
       "trinken",
@@ -1453,7 +1453,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_3/Menang.png",
     "options": [
       "verlieren",
@@ -1465,7 +1465,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_3/Mengunjungi.png",
     "options": [
       "besuchen",
@@ -1477,7 +1477,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_3/Memesan.png",
     "options": [
       "kaufen",
@@ -1489,7 +1489,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_3/Mengambil.png",
     "options": [
       "lassen",
@@ -1501,7 +1501,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_3/Rapi.png",
     "options": [
       "sauber",
@@ -1513,7 +1513,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_3/Berantakan.png",
     "options": [
       "sauber",
@@ -1525,7 +1525,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_3/Berbahaya.png",
     "options": [
       "ruhig",
@@ -1537,7 +1537,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_3/Kuno.png",
     "options": [
       "modern",
@@ -1549,7 +1549,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_3/Gemuk.png",
     "options": [
       "dünn",
@@ -1561,7 +1561,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_4/Marah.png",
     "options": [
       "traurig",
@@ -1573,7 +1573,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_4/Sehat.png",
     "options": [
       "gesund",
@@ -1585,7 +1585,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_4/Manis.png",
     "options": [
       "sauer",
@@ -1597,7 +1597,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_4/Lembut.png",
     "options": [
       "hart",
@@ -1609,7 +1609,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_4/Rich.png",
     "options": [
       "arm",
@@ -1621,7 +1621,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_4/Bertanya.png",
     "options": [
       "antworten",
@@ -1633,7 +1633,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_4/Menikmati.png",
     "options": [
       "weinen",
@@ -1645,7 +1645,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_4/Membayar.png",
     "options": [
       "finden",
@@ -1657,7 +1657,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_4/Berdiri.png",
     "options": [
       "stehen",
@@ -1669,7 +1669,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_4/Pergi Keluar.png",
     "options": [
       "ausgehen",
@@ -1681,7 +1681,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_5/Mengirim.png",
     "options": [
       "kaufen",
@@ -1693,7 +1693,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_5/Mengundang.png",
     "options": [
       "schreiben",
@@ -1705,7 +1705,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_5/Duduk.png",
     "options": [
       "stehen",
@@ -1717,7 +1717,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_5/Mengingat.png",
     "options": [
       "erinnern",
@@ -1729,7 +1729,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_5/Memberi Tahu.png",
     "options": [
       "erzählen",
@@ -1741,7 +1741,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_5/Lucu.png",
     "options": [
       "traurig",
@@ -1753,7 +1753,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_5/Bersih.png",
     "options": [
       "staubig",
@@ -1765,7 +1765,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_5/Penuh.png",
     "options": [
       "leer",
@@ -1777,7 +1777,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_5/Kosong.png",
     "options": [
       "frei",
@@ -1789,7 +1789,7 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
     "question": "assets/tebakgambar_question/A2_5/Aman.png",
     "options": [
       "sicher",

@@ -1,4 +1,3 @@
-// quiz_dashboard.dart
 import 'package:flutter/material.dart';
 import 'package:tebak_gambar/utils/quizprogressmanager.dart';
 import 'package:tebak_gambar/quiz_tingkat_kesulitan.dart';
@@ -219,7 +218,7 @@ class _QuizdashboardState extends State<Quizdashboard> {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => Difficulty(
+                                builder: (context) => TingkatKesulitan(
                                   quizName: quizNames[index],
                                 ),
                               ),

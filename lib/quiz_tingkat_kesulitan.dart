@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:tebak_gambar/quiz_levelling.dart';
 
-class Difficulty extends StatelessWidget {
+class TingkatKesulitan extends StatelessWidget {
   final String quizName;
 
-  const Difficulty({super.key, required this.quizName});
+  const TingkatKesulitan({super.key, required this.quizName});
 
   @override
   Widget build(BuildContext context) {
@@ -74,16 +74,16 @@ class Difficulty extends StatelessWidget {
                             ];
 
                             final List<String> quizDescriptions = [
-                              'Tingkat A1',
-                              'Tingkat A2',
-                              'Tingkat B1',
+                              'A1',
+                              'A2',
+                              'B1',
                             ];
 
                             // Define a list of colors for each difficulty level
                             final List<Color> cardColors = [
-                              const Color(0xFFEBFFFB), // Color for Tingkat A1
-                              const Color(0xFFFFF8E5), // Color for Tingkat A2
-                              const Color(0xFFFFE5E5), // Color for Tingkat B1
+                              const Color(0xFFEBFFFB), // Color for A1
+                              const Color(0xFFFFF8E5), // Color for A2
+                              const Color(0xFFFFE5E5), // Color for B1
                             ];
 
                             return Padding(
@@ -91,17 +91,17 @@ class Difficulty extends StatelessWidget {
                               child: GestureDetector(
                                 onTap: () {
                                   // Navigate to the respective screen based on quizDescriptions
-                                  if (quizDescriptions[index] == 'Tingkat A1') {
+                                  if (quizDescriptions[index] == 'A1') {
                                     Navigator.push(
                                       context,
                                       MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDescriptions[index])),
                                     );
-                                  } else if (quizDescriptions[index] == 'Tingkat A2') {
+                                  } else if (quizDescriptions[index] == 'A2') {
                                     Navigator.push(
                                       context,
                                       MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDescriptions[index])),
                                     );
-                                  } else if (quizDescriptions[index] == 'Tingkat B1') {
+                                  } else if (quizDescriptions[index] == 'B1') {
                                     Navigator.push(
                                       context,
                                       MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDescriptions[index])),
