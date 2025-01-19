@@ -20,7 +20,8 @@ class QuizLevelling extends StatefulWidget {
 }
 
 class _QuizLevellingState extends State<QuizLevelling> {
-  Map<int, bool> _availableLevels = {};
+  Map<String, bool> _availableLevels = {};
+  Map<String, String> _levelMarks = {};
   bool _isLoading = true;
 
   @override
@@ -46,16 +47,21 @@ class _QuizLevellingState extends State<QuizLevelling> {
 
       final String jsonString = await rootBundle.loadString(jsonPath);
       final List<dynamic> jsonData = json.decode(jsonString);
-      final questions = jsonData.map((json) => Question.fromJson(json)).toList();
 
-      // Create a map of levels that have questions
-      final Map<int, bool> availableLevels = {};
-      for (int i = 1; i <= 7; i++) {
-        availableLevels[i] = questions.any((q) => q.level == i && q.difficulty == widget.difficulty);
+      // Create maps for available levels and their marks
+      final Map<String, bool> availableLevels = {};
+      final Map<String, String> levelMarks = {};
+
+      // Get unique level marks from questions
+      for (final question in jsonData) {
+        final String levelMark = question['levelmark'] ?? 'Level ${question['level']}';
+        availableLevels[levelMark] = true;
+        levelMarks[levelMark] = levelMark;
       }
 
       setState(() {
         _availableLevels = availableLevels;
+        _levelMarks = levelMarks;
         _isLoading = false;
       });
     } catch (e) {
@@ -73,20 +79,23 @@ class _QuizLevellingState extends State<QuizLevelling> {
 
   @override
   Widget build(BuildContext context) {
+    // Define positions for 5 levels
+    final List<Map<String, double>> positions = [
+      {'top': -30.0, 'left': -5.0}, // Level 1
+      {'top': 120.0, 'right': 4.0}, // Level 2
+      {'top': 270.0, 'left': 28.0}, // Level 3
+      {'top': 420.0, 'right': -20.0}, // Level 4
+      {'top': 570.0, 'left': 14.0}, // Level 5
+    ];
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color(0xFF007BFF),
         leading: Padding(
           padding: const EdgeInsets.only(left: 16.0),
           child: IconButton(
-            icon: const Icon(
-              Icons.arrow_back_ios,
-              size: 24.0,
-              color: Colors.white,
-            ),
-            onPressed: () {
-              Navigator.pop(context);
-            },
+            icon: const Icon(Icons.arrow_back_ios, size: 24.0, color: Colors.white),
+            onPressed: () => Navigator.pop(context),
           ),
         ),
         actions: const [
@@ -114,27 +123,15 @@ class _QuizLevellingState extends State<QuizLevelling> {
                   children: [
                     Image.asset(
                       'assets/jalur-leveling.png',
-                      height: 1100.0,
+                      height: 800.0, // Reduced height for 5 levels
                       fit: BoxFit.cover,
                     ),
                     if (_isLoading)
-                      const Center(
-                        child: CircularProgressIndicator(),
-                      )
+                      const Center(child: CircularProgressIndicator())
                     else
-                      ...List.generate(7, (index) {
-                        List<Map<String, double>> positions = [
-                          {'top': -30.0, 'left': -5.0},
-                          {'top': 40.0, 'right': 4.0},
-                          {'top': 180.0, 'left': 28.0},
-                          {'top': 310.0, 'right': -20.0},
-                          {'top': 405.0, 'left': 14.0},
-                          {'top': 540.0, 'right': 18.0},
-                          {'top': 660.0, 'left': 32.0},
-                        ];
-
-                        final levelNumber = index + 1;
-                        final hasQuestions = _availableLevels[levelNumber] ?? false;
+                      ...List.generate(5, (index) {
+                        final levelMark = 'Level ${index + 1}';
+                        final hasQuestions = _availableLevels[levelMark] ?? false;
 
                         return Positioned(
                           top: positions[index]['top'],
@@ -144,21 +141,22 @@ class _QuizLevellingState extends State<QuizLevelling> {
                             onTap: hasQuestions
                                 ? () {
                                     Widget destinationPage;
+                                    final levelMark = 'Level ${index + 1}';
                                     if (widget.quizName == "Tebak Gambar") {
                                       destinationPage =
-                                          TebakGambar(currentlevel: '$levelNumber', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty);
+                                          TebakGambar(currentlevel: '${index + 1}', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty, levelMark: levelMark);
                                     } else if (widget.quizName == "Cocok Kata") {
                                       destinationPage =
-                                          CocokKata(currentlevel: '$levelNumber', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty);
+                                          CocokKata(currentlevel: '${index + 1}', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty, levelMark: levelMark);
                                     } else if (widget.quizName == "Kalimat Rumpang") {
                                       destinationPage =
-                                          KalimatRumpang(currentlevel: '$levelNumber', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty);
+                                          KalimatRumpang(currentlevel: '${index + 1}', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty, levelMark: levelMark);
                                     } else if (widget.quizName == "Susun Kalimat") {
                                       destinationPage =
-                                          SusunKalimat(currentlevel: '$levelNumber', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty);
+                                          SusunKalimat(currentlevel: '${index + 1}', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty, levelMark: levelMark);
                                     } else {
                                       destinationPage =
-                                          TebakGambar(currentlevel: '$levelNumber', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty);
+                                          TebakGambar(currentlevel: '${index + 1}', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty, levelMark: levelMark);
                                     }
 
                                     Navigator.push(
@@ -174,7 +172,7 @@ class _QuizLevellingState extends State<QuizLevelling> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    '$levelNumber',
+                                    '${index + 1}',
                                     style: TextStyle(color: hasQuestions ? Colors.black : Colors.grey[600], fontSize: 28.0, fontWeight: FontWeight.bold),
                                   ),
                                   if (!hasQuestions)

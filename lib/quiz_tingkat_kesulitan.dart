@@ -73,11 +73,12 @@ class TingkatKesulitan extends StatelessWidget {
                               'Mahir',
                             ];
 
-                            final List<String> quizDescriptions = [
+                            final List<String> quizDifficulty = [
                               'A1',
                               'A2',
                               'B1',
                             ];
+                            
 
                             // Define a list of colors for each difficulty level
                             final List<Color> cardColors = [
@@ -90,21 +91,21 @@ class TingkatKesulitan extends StatelessWidget {
                               padding: const EdgeInsets.only(top: 4.0, left: 8.0, right: 8.0),
                               child: GestureDetector(
                                 onTap: () {
-                                  // Navigate to the respective screen based on quizDescriptions
-                                  if (quizDescriptions[index] == 'A1') {
+                                  // Navigate to the respective screen based on quizDiffculty
+                                  if (quizDifficulty[index] == 'A1') {
                                     Navigator.push(
                                       context,
-                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDescriptions[index])),
+                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDifficulty[index])),
                                     );
-                                  } else if (quizDescriptions[index] == 'A2') {
+                                  } else if (quizDifficulty[index] == 'A2') {
                                     Navigator.push(
                                       context,
-                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDescriptions[index])),
+                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDifficulty[index])),
                                     );
-                                  } else if (quizDescriptions[index] == 'B1') {
+                                  } else if (quizDifficulty[index] == 'B1') {
                                     Navigator.push(
                                       context,
-                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDescriptions[index])),
+                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDifficulty[index])),
                                     );
                                   }
                                 },
@@ -125,7 +126,7 @@ class TingkatKesulitan extends StatelessWidget {
                                               ),
                                               const SizedBox(height: 8.0),
                                               Text(
-                                                quizDescriptions[index],
+                                                quizDifficulty[index],
                                                 style: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.w300),
                                               ),
                                             ],

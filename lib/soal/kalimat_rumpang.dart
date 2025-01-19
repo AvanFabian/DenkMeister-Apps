@@ -6,10 +6,12 @@ import 'package:tebak_gambar/utils/quizprogressmanager.dart';
 
 class KalimatRumpang extends StatefulWidget {
   final String currentlevel;
+  final String levelMark;
+
   final Function(int) onProgressUpdate; // Add this line
   final String difficulty;
 
-  const KalimatRumpang({super.key, required this.currentlevel, required this.onProgressUpdate, required this.difficulty});
+  const KalimatRumpang({super.key, required this.currentlevel, required this.onProgressUpdate, required this.difficulty, required this.levelMark});
 
   @override
   _KalimatRumpangState createState() => _KalimatRumpangState();
@@ -19,55 +21,69 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
   List<Question> _questions = [];
   int _currentQuestionIndex = 0;
   int _answeredCount = 0;
+  Question? currentQuestion;
+  bool _isLoading = true;
 
   @override
   void initState() {
     super.initState();
-    loadQuestions().then((questions) {
-      setState(() {
-        // Filter questions based on the level from widget.currentLevel
-        _questions = questions.where((q) => q.level == int.parse(widget.currentlevel) && q.difficulty == widget.difficulty).toList();
-      });
-    });
+    loadQuestions();
   }
 
-  Future<List<Question>> loadQuestions() async {
-    final data = await rootBundle.loadString('assets/utils/kalimatrumpang_quiz.json');
-    final List<dynamic> jsonResult = json.decode(data);
-    return jsonResult.map((json) => Question.fromJson(json)).toList();
+  Future<void> loadQuestions() async {
+    try {
+      final String jsonString = await rootBundle.loadString('assets/utils/kalimatrumpang_quiz.json');
+      final List<dynamic> jsonData = json.decode(jsonString);
+
+      // Filter questions based on levelmark and difficulty
+      _questions = jsonData
+          .map((json) => Question.fromJson(json))
+          .where((question) => question.levelMark == widget.levelMark && question.difficulty == widget.difficulty)
+          .toList();
+
+      setState(() {
+        _isLoading = false;
+        if (_questions.isNotEmpty) {
+          currentQuestion = _questions[_currentQuestionIndex];
+        } else {
+          currentQuestion = null;
+        }
+      });
+    } catch (e) {
+      print('Error loading questions: $e');
+      setState(() {
+        _isLoading = false;
+        currentQuestion = null;
+      });
+    }
   }
 
   // Call this when an answer is checked
   Future<void> _checkAnswer(String selectedAnswer) async {
     final isCorrect = selectedAnswer == _questions[_currentQuestionIndex].correctAnswer;
-    // Increment answered questions (correct or incorrect)
+
+    // Save progress with level and difficulty info
+    await QuizProgressManager.saveAnsweredQuestion('kalimat_rumpang', widget.currentlevel, widget.difficulty);
+
     setState(() {
       _answeredCount++;
     });
 
-    // Save to persistent storage
-    int savedCount = await QuizProgressManager.getAnsweredQuestions('answered_questions_tebak_gambar');
-    // await QuizProgressManager.saveAnsweredQuestions(savedCount + 1);
-    await QuizProgressManager.saveAnsweredQuestions('answered_questions_tebak_gambar', savedCount + 1);
-
-    // Notify parent page
+    // Notify parent page of progress update
     widget.onProgressUpdate(_answeredCount);
 
-    // Show dialog with image and text for only 2 seconds
     showDialog(
       context: context,
       builder: (BuildContext context) {
         Future.delayed(const Duration(seconds: 2), () {
-          Navigator.of(context).pop();
-          // Move to the next question or reset
+          // Navigator.of(context).pop(); // Close dialog
           if (_currentQuestionIndex < _questions.length - 1) {
             setState(() {
               _currentQuestionIndex++;
             });
           } else {
-            setState(() {
-              _currentQuestionIndex = 0;
-            });
+            // All questions answered for this level
+            Navigator.of(context).pop(); // Return to level selection
           }
         });
 
@@ -76,7 +92,7 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Image.asset(
-                isCorrect ? 'assets/quiz/check_ring_round.png' : 'assets/quiz/close_ring.png',
+                isCorrect ? 'assets/checkanswer_icon/check_ring_round.png' : 'assets/checkanswer_icon/close_ring.png',
                 height: 80.0,
                 width: 80.0,
               ),
@@ -134,64 +150,105 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
       body: Column(
         children: [
           Expanded(
-            child: SingleChildScrollView(
-              child: Column(
-                children: <Widget>[
-                  const SizedBox(height: 24.0),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 24.0),
-                    child: Card(
-                      elevation: 4.0,
-                      color: Colors.grey[350],
-                      child: Padding(
-                        padding: const EdgeInsets.all(16.0),
-                        child: Text(
-                          currentQuestion.question, // Question text
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+            child: _isLoading
+                ? const Center(
+                    child: CircularProgressIndicator(),
+                  )
+                : currentQuestion == null
+                    ? Center(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            const Icon(
+                              Icons.info_outline,
+                              size: 48,
+                              color: Colors.grey,
+                            ),
+                            const SizedBox(height: 16),
+                            const Text(
+                              'No Data Added Yet',
+                              style: TextStyle(
+                                fontSize: 24.0,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black87,
+                              ),
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              'Level ${widget.currentlevel} ${widget.difficulty}',
+                              style: const TextStyle(
+                                fontSize: 16.0,
+                                color: Colors.grey,
+                              ),
+                            ),
+                            const SizedBox(height: 24),
+                            ElevatedButton(
+                              onPressed: () {
+                                Navigator.pop(context);
+                              },
+                              child: const Text('Go Back'),
+                            ),
+                          ],
+                        ),
+                      )
+                    : SingleChildScrollView(
+                        child: Column(
+                          children: <Widget>[
+                            const SizedBox(height: 24.0),
+                            Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 24.0),
+                              child: Card(
+                                elevation: 4.0,
+                                color: Colors.grey[350],
+                                child: Padding(
+                                  padding: const EdgeInsets.all(16.0),
+                                  child: Text(
+                                    currentQuestion.question, // Question text
+                                    textAlign: TextAlign.center,
+                                    style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: 16.0),
+
+                            // Answer Options
+                            Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                              child: Column(
+                                children: currentQuestion.options.map((option) {
+                                  return Padding(
+                                    padding: const EdgeInsets.only(top: 16.0, left: 16.0, right: 16.0),
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.grey[350], // Same color as the Card
+                                        borderRadius: BorderRadius.circular(8.0),
+                                      ),
+                                      child: ElevatedButton(
+                                        style: ElevatedButton.styleFrom(
+                                          backgroundColor: Colors.transparent, // Transparent to show Container color
+                                          shadowColor: Colors.transparent, // Remove default button shadow
+                                          padding: const EdgeInsets.all(16.0), // Padding inside button
+                                          shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0),
+                                          ),
+                                        ),
+                                        onPressed: () => _checkAnswer(option),
+                                        child: Center(
+                                          child: Text(
+                                            option,
+                                            style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.black),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  );
+                                }).toList(),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
-                    ),
-                  ),
-                  const SizedBox(height: 16.0),
-
-                  // Answer Options
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                    child: Column(
-                      children: currentQuestion.options.map((option) {
-                        return Padding(
-                          padding: const EdgeInsets.only(top: 16.0, left: 16.0, right: 16.0),
-                          child: Container(
-                            decoration: BoxDecoration(
-                              color: Colors.grey[350], // Same color as the Card
-                              borderRadius: BorderRadius.circular(8.0),
-                            ),
-                            child: ElevatedButton(
-                              style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.transparent, // Transparent to show Container color
-                                shadowColor: Colors.transparent, // Remove default button shadow
-                                padding: const EdgeInsets.all(16.0), // Padding inside button
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                              ),
-                              onPressed: () => _checkAnswer(option),
-                              child: Center(
-                                child: Text(
-                                  option,
-                                  style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.black),
-                                ),
-                              ),
-                            ),
-                          ),
-                        );
-                      }).toList(),
-                    ),
-                  ),
-                ],
-              ),
-            ),
           ),
         ],
       ),

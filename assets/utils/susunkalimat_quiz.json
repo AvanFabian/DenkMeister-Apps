@@ -1,7 +1,8 @@
 [
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "klug",
@@ -21,7 +22,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "spielt",
@@ -41,7 +43,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______",
     "options": [
       "Ich",
@@ -59,7 +62,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "heute",
@@ -79,7 +83,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "neuen",
@@ -99,7 +104,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______",
     "options": [
       "schläft",
@@ -115,7 +121,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______",
     "options": [
       "grün",
@@ -133,7 +140,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______",
     "options": [
       "ist",
@@ -151,7 +159,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "Junge",
@@ -171,7 +180,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______",
     "options": [
       "Wasser",
@@ -187,7 +197,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______",
     "options": [
       "Himmel",
@@ -205,7 +216,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______",
     "options": [
       "ist",
@@ -223,7 +235,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______",
     "options": [
       "einen",
@@ -241,7 +254,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "Baby",
@@ -261,7 +275,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "______ ______ ______ ______",
     "options": [
       "ist",
@@ -279,7 +294,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______",
     "options": [
       "Brot",
@@ -297,7 +313,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______",
     "options": [
       "Schokolade",
@@ -313,7 +330,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______",
     "options": [
       "ist",
@@ -331,7 +349,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______",
     "options": [
       "sehe",
@@ -349,7 +368,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______",
     "options": [
       "läuft",
@@ -367,7 +387,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______",
     "options": [
       "Blume",
@@ -385,7 +406,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______ ______ ______",
     "options": [
       "mit",
@@ -407,7 +429,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______",
     "options": [
       "liebe",
@@ -423,7 +446,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______",
     "options": [
       "Sommer",
@@ -441,7 +465,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______ ______ ______",
     "options": [
       "spiele",
@@ -463,7 +488,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______",
     "options": [
       "Stuhl",
@@ -481,7 +507,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "liest",
@@ -501,7 +528,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______",
     "options": [
       "schreibe",
@@ -519,7 +547,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______",
     "options": [
       "Katze",
@@ -537,7 +566,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "______ ______ ______ ______",
     "options": [
       "in",
@@ -555,7 +585,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "ist",
@@ -575,7 +606,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______",
     "options": [
       "zwölf",
@@ -593,7 +625,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______",
     "options": [
       "Deutsch",
@@ -609,7 +642,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______",
     "options": [
       "ins",
@@ -627,7 +661,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "Vater",
@@ -647,7 +682,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______",
     "options": [
       "Das",
@@ -665,7 +701,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______",
     "options": [
       "Katzen",
@@ -683,7 +720,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______",
     "options": [
       "sind",
@@ -701,7 +739,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______",
     "options": [
       "Computer",
@@ -719,7 +758,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______",
     "options": [
       "fliegt",
@@ -737,7 +777,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______",
     "options": [
       "klein",
@@ -755,7 +796,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______",
     "options": [
       "Schwester",
@@ -773,7 +815,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______",
     "options": [
       "ist",
@@ -789,7 +832,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______",
     "options": [
       "Äpfel",
@@ -805,7 +849,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "______ ______ ______ ______",
     "options": [
       "fährt",
@@ -823,7 +868,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______",
     "options": [
       "groß",
@@ -841,7 +887,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______",
     "options": [
       "Zeit",
@@ -859,7 +906,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______",
     "options": [
       "Magazin",
@@ -877,7 +925,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "Haus",
@@ -897,7 +946,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______",
     "options": [
       "spiele",
@@ -913,7 +963,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______",
     "options": [
       "ist",
@@ -931,7 +982,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______",
     "options": [
       "Fußball",
@@ -949,7 +1001,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______",
     "options": [
       "Fenster",
@@ -967,7 +1020,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______",
     "options": [
       "hat",
@@ -985,7 +1039,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______",
     "options": [
       "Bild",
@@ -1003,7 +1058,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "ist",
@@ -1023,7 +1079,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______",
     "options": [
       "Apfel",
@@ -1041,7 +1098,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "Brot",
@@ -1061,7 +1119,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "neues",
@@ -1081,7 +1140,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "kalt",
@@ -1101,7 +1161,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______",
     "options": [
       "bist",
@@ -1119,7 +1180,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "beginnt",
@@ -1139,7 +1201,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______",
     "options": [
       "Winter",
@@ -1157,7 +1220,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______",
     "options": [
       "Wasser",
@@ -1173,7 +1237,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______",
     "options": [
       "esse",
@@ -1189,7 +1254,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______",
     "options": [
       "zeigt",
@@ -1207,7 +1273,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______",
     "options": [
       "Klavier",
@@ -1225,7 +1292,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______",
     "options": [
       "machst",
@@ -1241,7 +1309,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "frei",
@@ -1261,7 +1330,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "geht's",
@@ -1281,7 +1351,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "Mann",
@@ -1301,7 +1372,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______ ______",
     "options": [
       "Tassen",
@@ -1321,7 +1393,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______",
     "options": [
       "tut",
@@ -1339,7 +1412,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______",
     "options": [
       "kalt",
@@ -1357,7 +1431,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "______ ______ ______ ______",
     "options": [
       "ist",

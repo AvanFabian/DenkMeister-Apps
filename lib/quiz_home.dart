@@ -82,14 +82,23 @@ class _QuizdashboardState extends State<Quizdashboard> {
     required String answeredKey,
     required String quizType,
   }) async {
-    final totalQuestions = await _getQuestionCount(jsonFilePath);
-    final answeredQuestions = await QuizProgressManager.getAnsweredQuestions(answeredKey);
+    try {
+      // Get total questions from JSON
+      final String jsonString = await rootBundle.loadString(jsonFilePath);
+      final List<dynamic> jsonData = json.decode(jsonString);
+      final totalQuestions = jsonData.length;
 
-    setState(() {
-      _totalQuestions[quizType] = totalQuestions;
-      _answeredCounts[quizType] = answeredQuestions;
-      _progressValues[quizType] = totalQuestions > 0 ? answeredQuestions / totalQuestions : 0.0;
-    });
+      // Get total answered questions across all levels
+      final answeredQuestions = await QuizProgressManager.getTotalAnsweredQuestions(quizType);
+
+      setState(() {
+        _totalQuestions[quizType] = totalQuestions;
+        _answeredCounts[quizType] = answeredQuestions;
+        _progressValues[quizType] = totalQuestions > 0 ? (answeredQuestions / totalQuestions) : 0.0;
+      });
+    } catch (e) {
+      print("Error loading quiz progress: $e");
+    }
   }
 
   Future<int> _getQuestionCount(String jsonFilePath) async {

@@ -6,10 +6,12 @@ import 'package:tebak_gambar/utils/quizprogressmanager.dart';
 
 class TebakGambar extends StatefulWidget {
   final String currentlevel;
+  final String levelMark; 
   final Function(int) onProgressUpdate; // Add this line
   final String difficulty;
 
-  const TebakGambar({super.key, required this.currentlevel, required this.onProgressUpdate, required this.difficulty});
+  const TebakGambar(
+      {super.key, required this.currentlevel, required this.onProgressUpdate, required this.difficulty, required this.levelMark}); // Add levelMark parameter
   @override
   _TebakGambarState createState() => _TebakGambarState();
 }
@@ -32,15 +34,16 @@ class _TebakGambarState extends State<TebakGambar> {
       final String jsonString = await rootBundle.loadString('assets/utils/tebakgambar_quiz.json');
       final List<dynamic> jsonData = json.decode(jsonString);
 
-      // Filter questions for current level and difficulty
+      // Filter questions based on levelmark and difficulty
       _questions = jsonData
           .map((json) => Question.fromJson(json))
-          .where((question) => question.level == int.parse(widget.currentlevel) && question.difficulty == widget.difficulty)
+          .where((question) => 
+            question.levelMark == widget.levelMark && 
+            question.difficulty == widget.difficulty)
           .toList();
 
       setState(() {
         _isLoading = false;
-        // Set currentQuestion only if questions exist for this level
         if (_questions.isNotEmpty) {
           currentQuestion = _questions[_currentQuestionIndex];
         } else {
@@ -59,34 +62,29 @@ class _TebakGambarState extends State<TebakGambar> {
   // Call this when an answer is checked
   Future<void> _checkAnswer(String selectedAnswer) async {
     final isCorrect = selectedAnswer == _questions[_currentQuestionIndex].correctAnswer;
-    // Increment answered questions (correct or incorrect)
+
+    // Save progress with level and difficulty info
+    await QuizProgressManager.saveAnsweredQuestion('tebak_gambar', widget.currentlevel, widget.difficulty);
+
     setState(() {
       _answeredCount++;
     });
 
-    // Save to persistent storage
-    int savedCount = await QuizProgressManager.getAnsweredQuestions('answered_questions_tebak_gambar');
-    // await QuizProgressManager.saveAnsweredQuestions(savedCount + 1);
-    await QuizProgressManager.saveAnsweredQuestions('answered_questions_tebak_gambar', savedCount + 1);
-
-    // Notify parent page
+    // Notify parent page of progress update
     widget.onProgressUpdate(_answeredCount);
 
-    // Show dialog with image and text for only 2 seconds
     showDialog(
       context: context,
       builder: (BuildContext context) {
         Future.delayed(const Duration(seconds: 2), () {
-          // Navigator.of(context).pop();
-          // Move to the next question or reset
+          // Navigator.of(context).pop(); // Close dialog
           if (_currentQuestionIndex < _questions.length - 1) {
             setState(() {
               _currentQuestionIndex++;
             });
           } else {
-            setState(() {
-              _currentQuestionIndex = 0;
-            });
+            // All questions answered for this level
+            Navigator.of(context).pop(); // Return to level selection
           }
         });
 

@@ -1,7 +1,8 @@
 [
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Tujuh",
     "options": [
       "fünf",
@@ -13,7 +14,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Putih",
     "options": [
       "blau",
@@ -25,7 +27,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Selasa",
     "options": [
       "Montag",
@@ -37,7 +40,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "April",
     "options": [
       "April",
@@ -49,7 +53,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Anak laki-laki",
     "options": [
       "Mädchen",
@@ -61,7 +66,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Roti",
     "options": [
       "Fleisch",
@@ -73,7 +79,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Membaca",
     "options": [
       "lesen",
@@ -85,7 +92,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Komputer",
     "options": [
       "Fernseher",
@@ -97,7 +105,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Harimau",
     "options": [
       "Löwe",
@@ -109,7 +118,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Toko",
     "options": [
       "Café",
@@ -121,7 +131,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Halo",
     "options": [
       "Guten Tag",
@@ -133,7 +144,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Apa",
     "options": [
       "Wer",
@@ -145,7 +157,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Mudah",
     "options": [
       "schwer",
@@ -157,7 +170,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Kemarin",
     "options": [
       "heute",
@@ -169,7 +183,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Panjang",
     "options": [
       "kurz",
@@ -181,7 +196,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Sering",
     "options": [
       "oft",
@@ -193,7 +209,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Kuat",
     "options": [
       "traurig",
@@ -205,7 +222,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Hangat",
     "options": [
       "kalt",
@@ -217,7 +235,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Bersama",
     "options": [
       "zusammen",
@@ -229,7 +248,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Rumah sakit",
     "options": [
       "Apotheke",
@@ -241,7 +261,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Sembilan",
     "options": [
       "sieben",
@@ -253,7 +274,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Coklat",
     "options": [
       "orange",
@@ -265,7 +287,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Jumat",
     "options": [
       "Montag",
@@ -277,7 +300,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Juni",
     "options": [
       "Mai",
@@ -289,7 +313,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Kakek",
     "options": [
       "Onkel",
@@ -301,7 +326,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Telur",
     "options": [
       "Käse",
@@ -313,7 +339,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Mengatakan",
     "options": [
       "sagen",
@@ -325,7 +352,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Jendela",
     "options": [
       "Fernseher",
@@ -337,7 +365,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Singa",
     "options": [
       "Bär",
@@ -349,7 +378,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Restoran",
     "options": [
       "Supermarkt",
@@ -361,7 +391,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Selamat malam",
     "options": [
       "Guten Tag",
@@ -373,7 +404,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Mengapa",
     "options": [
       "Wo",
@@ -385,7 +417,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Murah",
     "options": [
       "billig",
@@ -397,7 +430,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Sebentar lagi",
     "options": [
       "gestern",
@@ -409,7 +443,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Kecil",
     "options": [
       "groß",
@@ -421,7 +456,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Jarang",
     "options": [
       "oft",
@@ -433,7 +469,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Sedih",
     "options": [
       "glücklich",
@@ -445,7 +482,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Cukup",
     "options": [
       "laut",
@@ -457,7 +495,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Bersama",
     "options": [
       "allein",
@@ -469,7 +508,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 2",
+    "difficulty": "A1",
+    "levelmark": "Level 2",
     "question": "Supermarket",
     "options": [
       "Kino",
@@ -481,7 +521,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Tiga belas",
     "options": [
       "zwölf",
@@ -493,7 +534,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Oranye",
     "options": [
       "weiß",
@@ -505,7 +547,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "April",
     "options": [
       "Mai",
@@ -517,7 +560,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Juli",
     "options": [
       "Mai",
@@ -529,7 +573,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Keponakan",
     "options": [
       "Nichte",
@@ -541,7 +586,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Pisang",
     "options": [
       "Apfel",
@@ -553,7 +599,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Membaca",
     "options": [
       "schreiben",
@@ -565,7 +612,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Kunci",
     "options": [
       "Tasche",
@@ -577,7 +625,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Harimau",
     "options": [
       "Löwe",
@@ -589,7 +638,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Museum",
     "options": [
       "Bank",
@@ -601,7 +651,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Sampai jumpa lagi",
     "options": [
       "Hallo",
@@ -613,7 +664,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Dimana",
     "options": [
       "Warum",
@@ -625,7 +677,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Segar",
     "options": [
       "warm",
@@ -637,7 +690,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Indah",
     "options": [
       "hässlich",
@@ -649,7 +703,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Panjang",
     "options": [
       "lang",
@@ -661,7 +716,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Tidak ramah",
     "options": [
       "freundlich",
@@ -673,7 +729,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Buruk",
     "options": [
       "schlecht",
@@ -685,7 +742,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Hangat",
     "options": [
       "kalt",
@@ -697,7 +755,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Bersama",
     "options": [
       "allein",
@@ -709,7 +768,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 3",
+    "difficulty": "A1",
+    "levelmark": "Level 3",
     "question": "Gereja",
     "options": [
       "Bank",
@@ -721,7 +781,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Dua belas",
     "options": [
       "dreizehn",
@@ -733,7 +794,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Merah muda",
     "options": [
       "grau",
@@ -745,7 +807,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "September",
     "options": [
       "Oktober",
@@ -757,7 +820,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "November",
     "options": [
       "Dezember",
@@ -769,7 +833,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Sepupu laki-laki",
     "options": [
       "Cousine",
@@ -781,7 +846,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Jus",
     "options": [
       "Wasser",
@@ -793,7 +859,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Menulis",
     "options": [
       "hören",
@@ -805,7 +872,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Televisi",
     "options": [
       "Fenster",
@@ -817,7 +885,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Beruang",
     "options": [
       "Löwe",
@@ -829,7 +898,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Kafe",
     "options": [
       "Restaurant",
@@ -841,7 +911,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Selamat datang",
     "options": [
       "Tschüss",
@@ -853,7 +924,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Bagaimana",
     "options": [
       "Warum",
@@ -865,7 +937,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Awal",
     "options": [
       "spät",
@@ -877,7 +950,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Hari ini",
     "options": [
       "gestern",
@@ -889,7 +963,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Diam-diam",
     "options": [
       "laut",
@@ -901,7 +976,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Jarang",
     "options": [
       "oft",
@@ -913,7 +989,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Lemah",
     "options": [
       "stark",
@@ -925,7 +1002,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Cukup",
     "options": [
       "genug",
@@ -937,7 +1015,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Jalan",
     "options": [
       "Brücke",
@@ -949,7 +1028,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 4",
+    "difficulty": "A1",
+    "levelmark": "Level 4",
     "question": "Balaikota",
     "options": [
       "Bank",
@@ -961,7 +1041,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Empat puluh",
     "options": [
       "fünfzig",
@@ -973,7 +1054,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Abu-abu",
     "options": [
       "grau",
@@ -985,7 +1067,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Agustus",
     "options": [
       "Juli",
@@ -997,7 +1080,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Desember",
     "options": [
       "Dezember",
@@ -1009,7 +1093,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Sepupu perempuan",
     "options": [
       "Cousin",
@@ -1021,7 +1106,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Makanan ringan",
     "options": [
       "Schokolade",
@@ -1033,7 +1119,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Mendengar",
     "options": [
       "schreiben",
@@ -1045,7 +1132,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Microwave",
     "options": [
       "Kühlschrank",
@@ -1057,7 +1145,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Katak",
     "options": [
       "Löwe",
@@ -1069,7 +1158,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Kantor polisi",
     "options": [
       "Postamt",
@@ -1081,7 +1171,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Ya",
     "options": [
       "Nein",
@@ -1093,7 +1184,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Apa",
     "options": [
       "Wer",
@@ -1105,7 +1197,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Bagus",
     "options": [
       "schlecht",
@@ -1117,7 +1210,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Sering",
     "options": [
       "oft",
@@ -1129,7 +1223,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Lantang, nyaring",
     "options": [
       "leise",
@@ -1141,7 +1236,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Besok",
     "options": [
       "gestern",
@@ -1153,7 +1249,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Tidak ramah",
     "options": [
       "freundlich",
@@ -1165,7 +1262,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Di atas",
     "options": [
       "oben",
@@ -1177,7 +1275,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Kolam renang",
     "options": [
       "Schwimmbad",
@@ -1189,7 +1288,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 5",
+    "difficulty": "A1",
+    "levelmark": "Level 5",
     "question": "Jembatan",
     "options": [
       "Kirche",
@@ -1201,7 +1301,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
+    "levelmark": "Level 1",
     "question": "selain itu",
     "options": [
       "spannend",
@@ -1213,7 +1314,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
+    "levelmark": "Level 1",
     "question": "nyaman",
     "options": [
       "benutzen",
@@ -1225,7 +1327,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
+    "levelmark": "Level 1",
     "question": "lebar",
     "options": [
       "unbeliebt",
@@ -1237,7 +1340,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
+    "levelmark": "Level 1",
     "question": "langsung",
     "options": [
       "mutig",
@@ -1249,7 +1353,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
+    "levelmark": "Level 1",
     "question": "di luar",
     "options": [
       "einsteigen",
@@ -1261,7 +1366,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
+    "levelmark": "Level 1",
     "question": "di dalam",
     "options": [
       "unpünktlich",
@@ -1273,7 +1379,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
+    "levelmark": "Level 1",
     "question": "tipis",
     "options": [
       "verlieren",
@@ -1285,7 +1392,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
+    "levelmark": "Level 1",
     "question": "sempit",
     "options": [
       "passen",
@@ -1297,7 +1405,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
+    "levelmark": "Level 1",
     "question": "serius",
     "options": [
       "breit",
@@ -1309,7 +1418,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 1",
+    "difficulty": "A2",
+    "levelmark": "Level 1",
     "question": "dengan senang hati",
     "options": [
       "kostenpflichtig",
@@ -1321,7 +1431,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
+    "levelmark": "Level 2",
     "question": "keras",
     "options": [
       "pünktlich",
@@ -1333,7 +1444,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
+    "levelmark": "Level 2",
     "question": "tidak langsung",
     "options": [
       "dünn",
@@ -1345,7 +1457,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
+    "levelmark": "Level 2",
     "question": "namun",
     "options": [
       "jedoch",
@@ -1357,7 +1470,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
+    "levelmark": "Level 2",
     "question": "jarang, hampir tidak",
     "options": [
       "kaum",
@@ -1369,7 +1483,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
+    "levelmark": "Level 2",
     "question": "kreatif",
     "options": [
       "sauer",
@@ -1381,7 +1496,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
+    "levelmark": "Level 2",
     "question": "membosankan",
     "options": [
       "langweilig",
@@ -1393,7 +1509,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
+    "levelmark": "Level 2",
     "question": "logis",
     "options": [
       "interessiert",
@@ -1405,7 +1522,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
+    "levelmark": "Level 2",
     "question": "modern",
     "options": [
       "modern",
@@ -1417,7 +1535,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
+    "levelmark": "Level 2",
     "question": "berani",
     "options": [
       "wenig",
@@ -1429,7 +1548,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 2",
+    "difficulty": "A2",
+    "levelmark": "Level 2",
     "question": "tepat waktu",
     "options": [
       "pünktlich",
@@ -1441,7 +1561,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
+    "levelmark": "Level 3",
     "question": "asam",
     "options": [
       "sauer",
@@ -1453,7 +1574,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
+    "levelmark": "Level 3",
     "question": "menarik",
     "options": [
       "hängen",
@@ -1465,7 +1587,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
+    "levelmark": "Level 3",
     "question": "disukai",
     "options": [
       "ausgeben",
@@ -1477,7 +1600,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
+    "levelmark": "Level 3",
     "question": "meskipun",
     "options": [
       "obwohl",
@@ -1489,7 +1613,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
+    "levelmark": "Level 3",
     "question": "tidak nyaman",
     "options": [
       "wenig",
@@ -1501,7 +1626,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
+    "levelmark": "Level 3",
     "question": "kasar",
     "options": [
       "kaum",
@@ -1513,7 +1639,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
+    "levelmark": "Level 3",
     "question": "tidak tepat waktu",
     "options": [
       "bleiben",
@@ -1525,7 +1652,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
+    "levelmark": "Level 3",
     "question": "tidak disukai",
     "options": [
       "arm",
@@ -1537,7 +1665,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
+    "levelmark": "Level 3",
     "question": "sebelumnya",
     "options": [
       "kostenpflichtig",
@@ -1549,7 +1678,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 3",
+    "difficulty": "A2",
+    "levelmark": "Level 3",
     "question": "mungkin",
     "options": [
       "hängen",
@@ -1561,7 +1691,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
+    "levelmark": "Level 4",
     "question": "kurang",
     "options": [
       "spannend",
@@ -1573,7 +1704,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
+    "levelmark": "Level 4",
     "question": "penting",
     "options": [
       "wichtig",
@@ -1585,7 +1717,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
+    "levelmark": "Level 4",
     "question": "tertarik",
     "options": [
       "drinnen",
@@ -1597,7 +1730,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
+    "levelmark": "Level 4",
     "question": "menjemput",
     "options": [
       "unbeliebt",
@@ -1609,7 +1743,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
+    "levelmark": "Level 4",
     "question": "memulai",
     "options": [
       "benutzen",
@@ -1621,7 +1756,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
+    "levelmark": "Level 4",
     "question": "mengenakan pakaian",
     "options": [
       "beliebt",
@@ -1633,7 +1769,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
+    "levelmark": "Level 4",
     "question": "mengeluarkan uang",
     "options": [
       "ausgeben",
@@ -1645,7 +1782,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
+    "levelmark": "Level 4",
     "question": "menonaktifkan",
     "options": [
       "langweilig",
@@ -1657,7 +1795,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
+    "levelmark": "Level 4",
     "question": "terlihat/muncul",
     "options": [
       "kostenpflichtig",
@@ -1669,7 +1808,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 4",
+    "difficulty": "A2",
+    "levelmark": "Level 4",
     "question": "turun/keluar",
     "options": [
       "hängen",
@@ -1681,7 +1821,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
+    "levelmark": "Level 5",
     "question": "melepas pakaian",
     "options": [
       "sauer",
@@ -1693,7 +1834,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
+    "levelmark": "Level 5",
     "question": "memperhatikan",
     "options": [
       "abholen",
@@ -1705,7 +1847,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
+    "levelmark": "Level 5",
     "question": "menggunakan",
     "options": [
       "benutzen",
@@ -1717,7 +1860,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
+    "levelmark": "Level 5",
     "question": "menginap/tinggal",
     "options": [
       "obwohl",
@@ -1729,7 +1873,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
+    "levelmark": "Level 5",
     "question": "naik/masuk",
     "options": [
       "einsteigen",
@@ -1741,7 +1886,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
+    "levelmark": "Level 5",
     "question": "menjelaskan",
     "options": [
       "obwohl",
@@ -1753,7 +1899,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
+    "levelmark": "Level 5",
     "question": "mengizinkan",
     "options": [
       "kaum",
@@ -1765,7 +1912,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
+    "levelmark": "Level 5",
     "question": "suka, menyenangkan",
     "options": [
       "pünktlich",
@@ -1777,7 +1925,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
+    "levelmark": "Level 5",
     "question": "untuk",
     "options": [
       "gern",
@@ -1789,7 +1938,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A2 Level 5",
+    "difficulty": "A2",
+    "levelmark": "Level 5",
     "question": "mengucapkan selamat",
     "options": [
       "gratulieren",

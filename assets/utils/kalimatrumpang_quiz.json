@@ -1,7 +1,8 @@
 [
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "___! Bis morgen.",
     "options": [
       "Hallo",
@@ -13,7 +14,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "___. Wo ist das Badezimmer?",
     "options": [
       "Danke",
@@ -25,7 +27,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Kannst du mir bitte ___?",
     "options": [
       "schreiben",
@@ -37,7 +40,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Ich ___ Max. Und du?",
     "options": [
       "koche",
@@ -49,7 +53,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Hallo! ___ machst du?",
     "options": [
       "Wie alt",
@@ -61,7 +66,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Freut mich. Wie ___ du?",
     "options": [
       "bist",
@@ -73,7 +79,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "___ bist du? Ich bin 20 Jahre alt.",
     "options": [
       "Wer",
@@ -85,7 +92,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Woher kommst du? ___ komme aus Indonesien.",
     "options": [
       "Ich",
@@ -97,7 +105,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Auf ___!",
     "options": [
       "Wiedersehen",
@@ -109,7 +118,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Welche Musik ___ du gern?",
     "options": [
       "liest",
@@ -121,7 +131,8 @@
   },
   {
     "level": 1,
-    "difficulty": "A1 Level 1",
+    "difficulty": "A1",
+    "levelmark": "Level 1",
     "question": "Welche ___ sprichst du?",
     "options": [
       "Filme",

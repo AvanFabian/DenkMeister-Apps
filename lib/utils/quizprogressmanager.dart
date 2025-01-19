@@ -1,3 +1,4 @@
+// Modified QuizProgressManager
 import 'package:shared_preferences/shared_preferences.dart';
 
 class QuizProgressManager {
@@ -6,21 +7,39 @@ class QuizProgressManager {
   static const String answeredQuestionsKalimatRumpangKey = 'answered_questions_kalimat_rumpang';
   static const String answeredQuestionsSusunKalimatKey = 'answered_questions_susun_kalimat';
 
-  // General method to get answered questions by key
-  static Future<int> getAnsweredQuestions(String key) async {
+  // Save answered question with level and difficulty
+  static Future<void> saveAnsweredQuestion(String quizType, String level, String difficulty) async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.getInt(key) ?? 0; // Default to 0 if no value saved
+    final key = '${quizType}_${level}_$difficulty';
+    final currentCount = prefs.getInt(key) ?? 0;
+    await prefs.setInt(key, currentCount + 1);
+    
+    // Also update total count
+    final totalKey = 'total_$quizType';
+    final totalCount = prefs.getInt(totalKey) ?? 0;
+    await prefs.setInt(totalKey, totalCount + 1);
   }
 
-  // General method to save answered questions by key
-  static Future<void> saveAnsweredQuestions(String key, int count) async {
+  // Get answered questions count for a specific level and difficulty
+  static Future<int> getAnsweredQuestionsForLevel(String quizType, String level, String difficulty) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setInt(key, count);
+    final key = '${quizType}_${level}_$difficulty';
+    return prefs.getInt(key) ?? 0;
   }
 
-  // General method to reset answered questions by key
-  static Future<void> resetAnsweredQuestions(String key) async {
+  // Get total answered questions for a quiz type
+  static Future<int> getTotalAnsweredQuestions(String quizType) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.remove(key);
+    final totalKey = 'total_$quizType';
+    return prefs.getInt(totalKey) ?? 0;
+  }
+
+  // Reset progress for a specific quiz type
+  static Future<void> resetProgress(String quizType) async {
+    final prefs = await SharedPreferences.getInstance();
+    final keys = prefs.getKeys().where((key) => key.startsWith(quizType));
+    for (var key in keys) {
+      await prefs.remove(key);
+    }
   }
 }
