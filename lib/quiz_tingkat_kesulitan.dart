@@ -60,23 +60,20 @@ class TingkatKesulitan extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(top: 8.0, left: 16.0, right: 16.0),
                         child: Column(
-                          children: List.generate(3, (index) {
+                          children: List.generate(2, (index) {
                             final imagePaths = [
                               'assets/Medal-bronze.png',
                               'assets/Medal-silver.png',
-                              'assets/Medal-gold.png',
                             ];
 
                             final List<String> quizNames = [
                               'Pemula',
                               'Menengah',
-                              'Mahir',
                             ];
 
                             final List<String> quizDifficulty = [
                               'A1',
                               'A2',
-                              'B1',
                             ];
                             
 
@@ -98,11 +95,6 @@ class TingkatKesulitan extends StatelessWidget {
                                       MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDifficulty[index])),
                                     );
                                   } else if (quizDifficulty[index] == 'A2') {
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDifficulty[index])),
-                                    );
-                                  } else if (quizDifficulty[index] == 'B1') {
                                     Navigator.push(
                                       context,
                                       MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDifficulty[index])),

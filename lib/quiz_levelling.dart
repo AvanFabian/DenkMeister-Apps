@@ -2,10 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:tebak_gambar/models/questionmodel.dart';
 import 'package:tebak_gambar/soal/cocok_kata.dart';
 import 'package:tebak_gambar/soal/kalimat_rumpang.dart';
-// import 'package:tebak_gambar/quizprogressmanager.dart';
 import 'package:tebak_gambar/soal/susun_kalimat.dart';
 import 'package:tebak_gambar/soal/tebak_gambar.dart';
 
@@ -82,10 +80,15 @@ class _QuizLevellingState extends State<QuizLevelling> {
     // Define positions for 5 levels
     final List<Map<String, double>> positions = [
       {'top': -30.0, 'left': -5.0}, // Level 1
-      {'top': 120.0, 'right': 4.0}, // Level 2
-      {'top': 270.0, 'left': 28.0}, // Level 3
-      {'top': 420.0, 'right': -20.0}, // Level 4
-      {'top': 570.0, 'left': 14.0}, // Level 5
+      {'top': 30.0, 'right': 4.0}, // Level 2
+      {'top': 130.0, 'left': 28.0}, // Level 3
+      {'top': 240.0, 'right': -20.0}, // Level 4
+      {'top': 320.0, 'left': 14.0}, // Level 5
+      {'top': 430.0, 'right': 14.0}, // Level 6
+      {'top': 530.0, 'left': 16.0}, // Level 7
+      {'top': 640.0, 'right': -10.0}, // Level 8
+      {'top': 746.0, 'left': 0.0}, // Level 9
+      {'top': 846.0, 'right': -20.0}, // Level 10
     ];
 
     return Scaffold(
@@ -123,13 +126,12 @@ class _QuizLevellingState extends State<QuizLevelling> {
                   children: [
                     Image.asset(
                       'assets/jalur-leveling.png',
-                      height: 800.0, // Reduced height for 5 levels
-                      fit: BoxFit.cover,
+                      height: 900.0, // Reduced height for 5 levels
                     ),
                     if (_isLoading)
                       const Center(child: CircularProgressIndicator())
                     else
-                      ...List.generate(5, (index) {
+                      ...List.generate(10, (index) {
                         final levelMark = 'Level ${index + 1}';
                         final hasQuestions = _availableLevels[levelMark] ?? false;
 
@@ -143,20 +145,35 @@ class _QuizLevellingState extends State<QuizLevelling> {
                                     Widget destinationPage;
                                     final levelMark = 'Level ${index + 1}';
                                     if (widget.quizName == "Tebak Gambar") {
-                                      destinationPage =
-                                          TebakGambar(currentlevel: '${index + 1}', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty, levelMark: levelMark);
+                                      destinationPage = TebakGambar(
+                                          currentlevel: '${index + 1}',
+                                          onProgressUpdate: _onProgressUpdate,
+                                          difficulty: widget.difficulty,
+                                          levelMark: levelMark);
                                     } else if (widget.quizName == "Cocok Kata") {
-                                      destinationPage =
-                                          CocokKata(currentlevel: '${index + 1}', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty, levelMark: levelMark);
+                                      destinationPage = CocokKata(
+                                          currentlevel: '${index + 1}',
+                                          onProgressUpdate: _onProgressUpdate,
+                                          difficulty: widget.difficulty,
+                                          levelMark: levelMark);
                                     } else if (widget.quizName == "Kalimat Rumpang") {
-                                      destinationPage =
-                                          KalimatRumpang(currentlevel: '${index + 1}', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty, levelMark: levelMark);
+                                      destinationPage = KalimatRumpang(
+                                          currentlevel: '${index + 1}',
+                                          onProgressUpdate: _onProgressUpdate,
+                                          difficulty: widget.difficulty,
+                                          levelMark: levelMark);
                                     } else if (widget.quizName == "Susun Kalimat") {
-                                      destinationPage =
-                                          SusunKalimat(currentlevel: '${index + 1}', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty, levelMark: levelMark);
+                                      destinationPage = SusunKalimat(
+                                          currentlevel: '${index + 1}',
+                                          onProgressUpdate: _onProgressUpdate,
+                                          difficulty: widget.difficulty,
+                                          levelMark: levelMark);
                                     } else {
-                                      destinationPage =
-                                          TebakGambar(currentlevel: '${index + 1}', onProgressUpdate: _onProgressUpdate, difficulty: widget.difficulty, levelMark: levelMark);
+                                      destinationPage = TebakGambar(
+                                          currentlevel: '${index + 1}',
+                                          onProgressUpdate: _onProgressUpdate,
+                                          difficulty: widget.difficulty,
+                                          levelMark: levelMark);
                                     }
 
                                     Navigator.push(
@@ -173,7 +190,12 @@ class _QuizLevellingState extends State<QuizLevelling> {
                                 children: [
                                   Text(
                                     '${index + 1}',
-                                    style: TextStyle(color: hasQuestions ? Colors.black : Colors.grey[600], fontSize: 28.0, fontWeight: FontWeight.bold),
+                                    style: const TextStyle(
+                                      color: Colors.black,
+                                      fontSize: 32.0,
+                                      fontWeight: FontWeight.w900,
+                                      fontFamily: 'Raleway',
+                                    ),
                                   ),
                                   if (!hasQuestions)
                                     const Icon(
