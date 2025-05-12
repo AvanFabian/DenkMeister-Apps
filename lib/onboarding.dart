@@ -44,14 +44,24 @@ class _OnboardingState extends State<Onboarding> {
           const SizedBox(height: 54.0),
           Text(
             title,
-            style: const TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold, color: Colors.white),
-            textAlign: TextAlign.center, // Center the title text
+            style: const TextStyle(
+              fontSize: 22.0,
+              fontWeight: FontWeight.w700,
+              color: Colors.white,
+              fontFamily: 'Raleway',
+            ),
+            textAlign: TextAlign.center,
           ),
           const SizedBox(height: 18.0),
           Text(
             description,
-            style: const TextStyle(fontSize: 14.0, fontWeight: FontWeight.w400, color: Colors.white),
-            textAlign: TextAlign.center, // Center the description text
+            style: const TextStyle(
+              fontSize: 14.0,
+              fontWeight: FontWeight.w400,
+              color: Colors.white,
+              fontFamily: 'Raleway',
+            ),
+            textAlign: TextAlign.center,
           ),
         ],
       ),
@@ -138,7 +148,10 @@ class _OnboardingState extends State<Onboarding> {
                       child: const Text(
                         'Lanjut',
                         style: TextStyle(
-                          color: Colors.black87,
+                          color: Colors.black,
+                          fontFamily: 'Raleway',
+                          fontWeight: FontWeight.w800,
+                          fontSize: 18.0,
                         ),
                       ),
                     ),
@@ -160,13 +173,16 @@ class _OnboardingState extends State<Onboarding> {
                           shape: const RoundedRectangleBorder(
                             borderRadius: BorderRadius.zero, // Set custom border radius
                           ),
-                        backgroundColor: Colors.transparent, // Set background color to transparent
-                        shadowColor: Colors.transparent, // Remove shadow
+                          backgroundColor: Colors.transparent, // Set background color to transparent
+                          shadowColor: Colors.transparent, // Remove shadow
                         ),
                         child: const Text(
                           'Skip',
                           style: TextStyle(
-                            color: Colors.black87,
+                          color: Colors.white,
+                          fontFamily: 'Raleway',
+                          fontWeight: FontWeight.w800,
+                          fontSize: 18.0,
                           ),
                         ),
                       ),

@@ -13,11 +13,25 @@ class QuizProgressManager {
     final key = '${quizType}_${level}_$difficulty';
     final currentCount = prefs.getInt(key) ?? 0;
     await prefs.setInt(key, currentCount + 1);
-    
+
     // Also update total count
     final totalKey = 'total_$quizType';
     final totalCount = prefs.getInt(totalKey) ?? 0;
     await prefs.setInt(totalKey, totalCount + 1);
+  }
+
+  // Save level completion state
+  static Future<void> saveLevelCompletion(String quizType, String level, String difficulty) async {
+    final prefs = await SharedPreferences.getInstance();
+    final key = '${quizType}_completed_${level}_$difficulty';
+    await prefs.setBool(key, true);
+  }
+
+  // Check if level is completed
+  static Future<bool> isLevelCompleted(String quizType, String level, String difficulty) async {
+    final prefs = await SharedPreferences.getInstance();
+    final key = '${quizType}_completed_${level}_$difficulty';
+    return prefs.getBool(key) ?? false;
   }
 
   // Get answered questions count for a specific level and difficulty

@@ -150,7 +150,7 @@ class _QuizdashboardState extends State<Quizdashboard> {
                   child: Center(
                     child: Text(
                       'Pilih Kuis Yang Ingin\n Kamu Mainkan',
-                      style: TextStyle(fontSize: 32.0, fontWeight: FontWeight.bold, color: Colors.white),
+                      style: TextStyle(fontSize: 32.0, fontWeight: FontWeight.bold, color: Colors.white, fontFamily: 'Raleway'),
                       textAlign: TextAlign.left,
                     ),
                   ),
@@ -264,8 +264,9 @@ class _QuizdashboardState extends State<Quizdashboard> {
                                         Text(
                                           quizNames[index],
                                           style: const TextStyle(
-                                            fontSize: 20.0,
+                                            fontSize: 19.0,
                                             fontWeight: FontWeight.bold,
+                                            fontFamily: 'Raleway'
                                           ),
                                         ),
                                         const SizedBox(height: 10.0),
@@ -274,6 +275,7 @@ class _QuizdashboardState extends State<Quizdashboard> {
                                           style: const TextStyle(
                                             fontSize: 12.0,
                                             fontWeight: FontWeight.w300,
+                                            fontFamily: 'Raleway'
                                           ),
                                         ),
                                       ],
@@ -292,16 +294,17 @@ class _QuizdashboardState extends State<Quizdashboard> {
                                           child: CircularProgressIndicator(
                                             value: progressValue,
                                             strokeWidth: 4.0,
-                                            valueColor: const AlwaysStoppedAnimation<Color>(Colors.green),
+                                            valueColor: const AlwaysStoppedAnimation<Color>(Color.fromARGB(255, 0, 140, 72)),
                                           ),
                                         ),
                                         Center(
                                           child: Text(
                                             '$percentage%',
                                             style: const TextStyle(
-                                              fontSize: 12.0,
-                                              fontWeight: FontWeight.w900,
-                                              color: Colors.green,
+                                              fontSize: 13.0,
+                                              fontWeight: FontWeight.bold,
+                                              color: Color.fromARGB(255, 0, 140, 72),
+                                              fontFamily: 'Raleway'
                                             ),
                                           ),
                                         ),

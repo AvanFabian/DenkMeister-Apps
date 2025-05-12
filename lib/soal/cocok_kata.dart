@@ -98,7 +98,7 @@ class _CocokKataState extends State<CocokKata> {
               Text(
                 isCorrect ? "Jawaban Anda benar." : "Jawaban Anda salah.",
                 textAlign: TextAlign.center,
-                style: const TextStyle(fontSize: 18.0),
+                style: const TextStyle(fontSize: 18.0, fontFamily: 'Raleway'),
               ),
             ],
           ),
@@ -139,6 +139,7 @@ class _CocokKataState extends State<CocokKata> {
                   fontSize: 22.0,
                   color: Colors.white,
                   fontWeight: FontWeight.normal,
+                  fontFamily: 'Raleway',
                 ),
               ),
             ),
@@ -169,6 +170,7 @@ class _CocokKataState extends State<CocokKata> {
                                 fontSize: 24.0,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black87,
+                                fontFamily: 'Raleway',
                               ),
                             ),
                             const SizedBox(height: 8),
@@ -177,6 +179,7 @@ class _CocokKataState extends State<CocokKata> {
                               style: const TextStyle(
                                 fontSize: 16.0,
                                 color: Colors.grey,
+                                fontFamily: 'Raleway',
                               ),
                             ),
                             const SizedBox(height: 24),
@@ -206,7 +209,7 @@ class _CocokKataState extends State<CocokKata> {
                                       child: Text(
                                         currentQuestion.question,
                                         textAlign: TextAlign.center,
-                                        style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+                                        style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),
                                       ),
                                     ),
                                   ),
@@ -239,7 +242,7 @@ class _CocokKataState extends State<CocokKata> {
                                         child: Center(
                                           child: Text(
                                             option,
-                                            style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.black),
+                                            style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.black, fontFamily: 'Raleway'),
                                           ),
                                         ),
                                       ),

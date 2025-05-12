@@ -92,7 +92,12 @@ class _LibraryState extends State<Library> {
                     alignment: Alignment.centerLeft,
                     child: Text(
                       'Kosakata',
-                      style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold, color: Color(0xFF181818)),
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontFamily: 'Raleway',
+                        fontWeight: FontWeight.w800,
+                        fontSize: 30.0,
+                      ),
                     ),
                   ),
                 ),
@@ -182,13 +187,14 @@ class _LibraryState extends State<Library> {
                                         children: <Widget>[
                                           Text(
                                             category,
-                                            style: const TextStyle(fontSize: 16.0),
+                                            style: const TextStyle(fontSize: 16.0, fontFamily: 'Raleway'),
                                           ),
                                           Text(
                                             '$totalWords Words',
                                             style: const TextStyle(
                                               fontSize: 12.0,
                                               fontWeight: FontWeight.w300,
+                                              fontFamily: 'Raleway',
                                             ),
                                           ),
                                         ],

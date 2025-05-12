@@ -40,9 +40,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
       // Convert to Question objects and filter by levelMark
       _questions = jsonData
           .map((json) => Question.fromJson(json))
-          .where((question) => 
-            question.levelMark == widget.levelMark && 
-            question.difficulty == widget.difficulty)
+          .where((question) => question.levelMark == widget.levelMark && question.difficulty == widget.difficulty)
           .toList();
 
       setState(() {
@@ -78,13 +76,9 @@ class _SusunKalimatState extends State<SusunKalimat> {
     if (currentQuestion == null) return;
 
     bool isCorrect = _selectedWords.join(' ') == _correctOrder.join(' ');
-    
+
     // Save progress with levelMark
-    await QuizProgressManager.saveAnsweredQuestion(
-      'susun_kalimat',
-      widget.levelMark,
-      widget.difficulty
-    );
+    await QuizProgressManager.saveAnsweredQuestion('susun_kalimat', widget.levelMark, widget.difficulty);
 
     setState(() {
       _answeredCount++;
@@ -105,7 +99,12 @@ class _SusunKalimatState extends State<SusunKalimat> {
               _updateCurrentQuestion();
             });
           } else {
-            Navigator.of(context).pop();
+            // All questions completed
+            // Save completion state
+            QuizProgressManager.saveLevelCompletion('susun_kalimat', widget.levelMark, widget.difficulty);
+            // Navigate back to quiz levelling
+            Navigator.of(context).pop(); // Pop the current screen
+            Navigator.of(context).pop(); // Pop the quiz screen
           }
         });
 
@@ -114,9 +113,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Image.asset(
-                isCorrect 
-                  ? 'assets/checkanswer_icon/check_ring_round.png'
-                  : 'assets/checkanswer_icon/close_ring.png',
+                isCorrect ? 'assets/checkanswer_icon/check_ring_round.png' : 'assets/checkanswer_icon/close_ring.png',
                 height: 80.0,
                 width: 80.0,
               ),
@@ -124,7 +121,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
               Text(
                 isCorrect ? "Susunan benar!" : "Susunan salah.",
                 textAlign: TextAlign.center,
-                style: const TextStyle(fontSize: 18.0),
+                style: const TextStyle(fontSize: 18.0, fontFamily: 'Raleway'),
               ),
               if (!isCorrect) ...[
                 const SizedBox(height: 8.0),
@@ -135,6 +132,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
                     fontSize: 16.0,
                     color: Colors.grey,
                     fontStyle: FontStyle.italic,
+                    fontFamily: 'Raleway',
                   ),
                 ),
               ],
@@ -161,6 +159,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
           fontSize: 24.0,
           fontWeight: FontWeight.bold,
           decoration: TextDecoration.underline,
+          fontFamily: 'Raleway',
         ),
       ),
     );
@@ -205,6 +204,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
                     fontSize: 22.0,
                     color: Colors.white,
                     fontWeight: FontWeight.normal,
+                    fontFamily: 'Raleway',
                   ),
                 ),
               ),
@@ -244,6 +244,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
                                       style: const TextStyle(
                                         fontSize: 16.0,
                                         fontStyle: FontStyle.italic,
+                                        fontFamily: 'Raleway',
                                       ),
                                     ),
                                   ],
@@ -253,7 +254,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
                                     onPressed: () => Navigator.of(context).pop(),
                                     child: const Text(
                                       'Close',
-                                      style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+                                      style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),
                                     ),
                                   ),
                                 ],
@@ -279,7 +280,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
                     child: Text(
                       currentQuestion.question,
                       textAlign: TextAlign.center,
-                      style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+                      style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),
                     ),
                   ),
                 ),
@@ -304,6 +305,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
                           style: const TextStyle(
                             fontSize: 18.0,
                             fontWeight: FontWeight.w500,
+                            fontFamily: 'Raleway',
                           )),
                       deleteIcon: const Icon(Icons.close, size: 20),
                       onDeleted: () => _removeWord(index),
@@ -348,6 +350,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
                                         fontWeight: FontWeight.bold,
                                         decoration: TextDecoration.underline,
                                         color: isWordSelected ? Colors.grey[600] : Colors.black,
+                                        fontFamily: 'Raleway',
                                       ),
                                     ),
                                   ),
@@ -384,6 +387,7 @@ class _SusunKalimatState extends State<SusunKalimat> {
                         fontSize: 24.0,
                         fontWeight: FontWeight.bold,
                         color: (_selectedWords.length == _correctOrder.length) ? Colors.white : Colors.grey[400],
+                        fontFamily: 'Raleway',
                       ),
                     ),
                   ),

@@ -101,7 +101,7 @@ class _TebakGambarState extends State<TebakGambar> {
               Text(
                 isCorrect ? "Jawaban Anda benar." : "Jawaban Anda salah.",
                 textAlign: TextAlign.center,
-                style: const TextStyle(fontSize: 18.0),
+                style: const TextStyle(fontSize: 18.0, fontFamily: 'Raleway'),
               ),
             ],
           ),
@@ -142,6 +142,7 @@ class _TebakGambarState extends State<TebakGambar> {
                   fontSize: 22.0,
                   color: Colors.white,
                   fontWeight: FontWeight.normal,
+                  fontFamily: 'Raleway',
                 ),
               ),
             ),
@@ -172,6 +173,7 @@ class _TebakGambarState extends State<TebakGambar> {
                                 fontSize: 24.0,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black87,
+                                fontFamily: 'Raleway',
                               ),
                             ),
                             const SizedBox(height: 8),
@@ -180,6 +182,7 @@ class _TebakGambarState extends State<TebakGambar> {
                               style: const TextStyle(
                                 fontSize: 16.0,
                                 color: Colors.grey,
+                                fontFamily: 'Raleway',
                               ),
                             ),
                             const SizedBox(height: 24),
@@ -242,7 +245,7 @@ class _TebakGambarState extends State<TebakGambar> {
                                         child: Center(
                                           child: Text(
                                             option,
-                                            style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.black),
+                                            style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.black, fontFamily: 'Raleway'),
                                           ),
                                         ),
                                       ),

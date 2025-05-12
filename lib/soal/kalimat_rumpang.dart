@@ -100,7 +100,10 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
               Text(
                 isCorrect ? "Jawaban Anda benar." : "Jawaban Anda salah.",
                 textAlign: TextAlign.center,
-                style: const TextStyle(fontSize: 18.0),
+                style: const TextStyle(
+                  fontSize: 18.0,
+                  fontFamily: 'Raleway',
+                ),
               ),
             ],
           ),
@@ -141,6 +144,7 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
                   fontSize: 22.0,
                   color: Colors.white,
                   fontWeight: FontWeight.normal,
+                  fontFamily: 'Raleway',
                 ),
               ),
             ),
@@ -165,12 +169,13 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
                               color: Colors.grey,
                             ),
                             const SizedBox(height: 16),
-                            const Text(
+                            Text(
                               'No Data Added Yet',
-                              style: TextStyle(
+                              style: const TextStyle(
                                 fontSize: 24.0,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black87,
+                                fontFamily: 'Raleway',
                               ),
                             ),
                             const SizedBox(height: 8),
@@ -179,6 +184,7 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
                               style: const TextStyle(
                                 fontSize: 16.0,
                                 color: Colors.grey,
+                                fontFamily: 'Raleway',
                               ),
                             ),
                             const SizedBox(height: 24),
@@ -186,7 +192,7 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
                               onPressed: () {
                                 Navigator.pop(context);
                               },
-                              child: const Text('Go Back'),
+                              child: const Text('Go Back', style: TextStyle(fontFamily: 'Raleway')),
                             ),
                           ],
                         ),
@@ -205,7 +211,11 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
                                   child: Text(
                                     currentQuestion.question, // Question text
                                     textAlign: TextAlign.center,
-                                    style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+                                    style: const TextStyle(
+                                      fontSize: 24.0,
+                                      fontWeight: FontWeight.bold,
+                                      fontFamily: 'Raleway',
+                                    ),
                                   ),
                                 ),
                               ),
@@ -237,7 +247,12 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
                                         child: Center(
                                           child: Text(
                                             option,
-                                            style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.black),
+                                            style: const TextStyle(
+                                              fontSize: 24.0,
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.black,
+                                              fontFamily: 'Raleway',
+                                            ),
                                           ),
                                         ),
                                       ),

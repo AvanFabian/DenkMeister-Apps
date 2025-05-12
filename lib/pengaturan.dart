@@ -60,7 +60,7 @@ class _SettingsState extends State<Settings> {
                           alignment: Alignment.centerLeft,
                           child: Text(
                             'Pengaturan',
-                            style: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold),
+                            style: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),
                           ),
                         ),
                       ),
@@ -109,7 +109,7 @@ class _SettingsState extends State<Settings> {
                                           children: <Widget>[
                                             Text(
                                               settingNames[index],
-                                              style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+                                              style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),
                                             ),
                                             if (settingNames[index] == 'Sound')
                                               Switch(

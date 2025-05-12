@@ -33,6 +33,7 @@ class TingkatKesulitan extends StatelessWidget {
                 fontSize: 22.0,
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
+                fontFamily: 'Raleway'
               ),
             ),
           ],
@@ -53,7 +54,7 @@ class TingkatKesulitan extends StatelessWidget {
                           alignment: Alignment.centerLeft,
                           child: Text(
                             'Pilih Tingkatan',
-                            style: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold),
+                            style: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),
                           ),
                         ),
                       ),
@@ -114,12 +115,12 @@ class TingkatKesulitan extends StatelessWidget {
                                             children: <Widget>[
                                               Text(
                                                 quizNames[index],
-                                                style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+                                                style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),
                                               ),
                                               const SizedBox(height: 8.0),
                                               Text(
                                                 quizDifficulty[index],
-                                                style: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.w300),
+                                                style: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.w300, fontFamily: 'Raleway'),
                                               ),
                                             ],
                                           ),
