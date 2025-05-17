@@ -1332,8 +1332,9 @@
     "level": 1,
     "difficulty": "A1",
     "levelmark": "Level 5",
-    "question": "______ ______ ______ ______ ______",
+    "question": "______ ______ ______ ______ ______ ______",
     "options": [
+      "?",
       "geht's",
       "Guten",
       "dir",
@@ -1447,5 +1448,1726 @@
       "spannend"
     ],
     "answerClue": "The movie is exciting."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Der",
+      "sehr",
+      "Kaffee",
+      "heiß",
+      "ist"
+    ],
+    "correctOrder": [
+      "Der",
+      "Kaffee",
+      "ist",
+      "sehr",
+      "heiß"
+    ],
+    "answerClue": "Kopinya sangat panas."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "aufstehen",
+      "ich",
+      "früh",
+      "muss",
+      "Morgen"
+    ],
+    "correctOrder": [
+      "Morgen",
+      "muss",
+      "ich",
+      "früh",
+      "aufstehen"
+    ],
+    "answerClue": "Besok saya harus bangun pagi."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "______ ______ ______ ______ ______ ______ ______",
+    "options": [
+      "Abend",
+      "Buch",
+      "ein",
+      "Am",
+      "gelesen",
+      "ich",
+      "habe"
+    ],
+    "correctOrder": [
+      "Am",
+      "Abend",
+      "habe",
+      "ich",
+      "ein",
+      "Buch",
+      "gelesen"
+    ],
+    "answerClue": "Di malam hari saya membaca buku."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "gern",
+      "Am",
+      "fern.",
+      "ich",
+      "sehe",
+      "Abend"
+    ],
+    "correctOrder": [
+      "Am",
+      "Abend",
+      "sehe",
+      "ich",
+      "gern",
+      "fern"
+    ],
+    "answerClue": "Di malam hari saya suka menonton TV."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "gelernt",
+      "ich",
+      "Nachmittag",
+      "habe",
+      "Am"
+    ],
+    "correctOrder": [
+      "Am",
+      "Nachmittag",
+      "habe",
+      "ich",
+      "gelernt"
+    ],
+    "answerClue": "Saya belajar di sore hari."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "schlafe",
+      "ich",
+      "Wochenende",
+      "lange",
+      "Am"
+    ],
+    "correctOrder": [
+      "Am",
+      "Wochenende",
+      "schlafe",
+      "ich",
+      "lange"
+    ],
+    "answerClue": "Di akhir pekan saya tidur lebih lama."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "auf",
+      "meine",
+      "E-Mail!",
+      "bitte",
+      "Antworte"
+    ],
+    "correctOrder": [
+      "Antworte",
+      "bitte",
+      "auf",
+      "meine",
+      "E-Mail!"
+    ],
+    "answerClue": "Tolong balas email saya!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Arbeitest",
+      "Wochenende?",
+      "am",
+      "du"
+    ],
+    "correctOrder": [
+      "Arbeitest",
+      "du",
+      "am",
+      "Wochenende?"
+    ],
+    "answerClue": "Apakah kamu bekerja di akhir pekan?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "stellen?",
+      "eine",
+      "ich",
+      "Darf",
+      "Ihnen",
+      "Frage"
+    ],
+    "correctOrder": [
+      "Darf",
+      "ich",
+      "Ihnen",
+      "eine",
+      "Frage",
+      "stellen?"
+    ],
+    "answerClue": "Bolehkah saya bertanya?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "dem",
+      "neben",
+      "Schlafzimmer",
+      "Bad",
+      "Das",
+      "ist"
+    ],
+    "correctOrder": [
+      "Das",
+      "Bad",
+      "ist",
+      "neben",
+      "dem",
+      "Schlafzimmer"
+    ],
+    "answerClue": "Kamar mandi berada di sebelah kamar tidur."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "direkt",
+      "liegt",
+      "am",
+      "Das",
+      "Strand",
+      "Hotel"
+    ],
+    "correctOrder": [
+      "Das",
+      "Hotel",
+      "liegt",
+      "direkt",
+      "am",
+      "Strand"
+    ],
+    "answerClue": "Hotelnya berada tepat di tepi pantai."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "unglaublich!",
+      "ja",
+      "ist",
+      "Das"
+    ],
+    "correctOrder": [
+      "Das",
+      "ist",
+      "ja",
+      "unglaublich!"
+    ],
+    "answerClue": "Itu sungguh luar biasa!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Das",
+      "freundlich",
+      "groß",
+      "und",
+      "Pferd",
+      "ist"
+    ],
+    "correctOrder": [
+      "Das",
+      "Pferd",
+      "ist",
+      "groß",
+      "und",
+      "freundlich"
+    ],
+    "answerClue": "Kuda itu besar dan ramah."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "schmeckt",
+      "Der",
+      "lecker",
+      "Apfelkuchen",
+      "sehr"
+    ],
+    "correctOrder": [
+      "Der",
+      "Apfelkuchen",
+      "schmeckt",
+      "sehr",
+      "lecker"
+    ],
+    "answerClue": "Kue apelnya sangat enak."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Der",
+      "mir",
+      "Arzt",
+      "ein",
+      "Rezept",
+      "gibt"
+    ],
+    "correctOrder": [
+      "Der",
+      "Arzt",
+      "gibt",
+      "mir",
+      "ein",
+      "Rezept"
+    ],
+    "answerClue": "Dokter memberikan saya resep obat."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Nähe",
+      "der",
+      "in",
+      "ist",
+      "Bahnhof",
+      "Der"
+    ],
+    "correctOrder": [
+      "Der",
+      "Bahnhof",
+      "ist",
+      "in",
+      "der",
+      "Nähe"
+    ],
+    "answerClue": "Stasiun kereta ada di dekat sini."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "______ ______ ______ ______ ______ ______ ______",
+    "options": [
+      "Buch",
+      "das",
+      "als",
+      "war",
+      "Film",
+      "Der",
+      "besser"
+    ],
+    "correctOrder": [
+      "Der",
+      "Film",
+      "war",
+      "besser",
+      "als",
+      "das",
+      "Buch"
+    ],
+    "answerClue": "Filmnya lebih bagus daripada bukunya."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Stunden",
+      "Der",
+      "zwei",
+      "dauert",
+      "Flug"
+    ],
+    "correctOrder": [
+      "Der",
+      "Flug",
+      "dauert",
+      "zwei",
+      "Stunden"
+    ],
+    "answerClue": "Penerbangannya berlangsung dua jam."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Streng,",
+      "Lehrer",
+      "aber",
+      "nett",
+      "der",
+      "ist"
+    ],
+    "correctOrder": [
+      "Der",
+      "Lehrer",
+      "ist",
+      "streng,",
+      "aber",
+      "nett"
+    ],
+    "answerClue": "Guru itu tegas tapi baik."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "der",
+      "Sprechen",
+      "Vogel",
+      "kann"
+    ],
+    "correctOrder": [
+      "Der",
+      "Vogel",
+      "kann",
+      "sprechen"
+    ],
+    "answerClue": "Burung itu bisa bicara."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Regnet",
+      "spazieren,",
+      "obwohl",
+      "es",
+      "er",
+      "geht"
+    ],
+    "correctOrder": [
+      "Er",
+      "geht",
+      "spazieren,",
+      "obwohl",
+      "es",
+      "regnet"
+    ],
+    "answerClue": "Dia jalan-jalan meskipun hujan."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Unfall",
+      "gestern",
+      "einen",
+      "er",
+      "hatte"
+    ],
+    "correctOrder": [
+      "Er",
+      "hat",
+      "gestern",
+      "einen",
+      "Unfall",
+      "gehabt"
+    ],
+    "answerClue": "Dia mengalami kecelakaan kemarin."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Mensch",
+      "ist",
+      "er",
+      "ein",
+      "ruhiger"
+    ],
+    "correctOrder": [
+      "Er",
+      "ist",
+      "ein",
+      "ruhiger",
+      "Mensch"
+    ],
+    "answerClue": "Dia orang yang tenang."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Laute",
+      "mag",
+      "er",
+      "Musik",
+      "keine"
+    ],
+    "correctOrder": [
+      "Er",
+      "mag",
+      "keine",
+      "laute",
+      "Musik"
+    ],
+    "answerClue": "Dia tidak suka musik keras."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Tennis",
+      "besser",
+      "spielt",
+      "er",
+      "als",
+      "ich"
+    ],
+    "correctOrder": [
+      "Er",
+      "spielt",
+      "besser",
+      "Tennis",
+      "als",
+      "ich"
+    ],
+    "answerClue": "Dia bermain tenis lebih baik daripada saya."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "______ ______ ______ ______ ______ ______ ______",
+    "options": [
+      "Tee",
+      "trinke",
+      "Kaffee,",
+      "aber",
+      "ich",
+      "er",
+      "trinkt"
+    ],
+    "correctOrder": [
+      "Er",
+      "trinkt",
+      "Kaffee,",
+      "aber",
+      "ich",
+      "trinke",
+      "Tee"
+    ],
+    "answerClue": "Dia minum kopi, tapi saya minum teh."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "______ ______ ______ ______ ______ ______ ______ ______",
+    "options": [
+      "Party",
+      "Kuchen",
+      "Kerzen",
+      "gibt",
+      "es",
+      "auf",
+      "der",
+      "und"
+    ],
+    "correctOrder": [
+      "Es",
+      "gibt",
+      "Kuchen",
+      "und",
+      "Kerzen",
+      "auf",
+      "der",
+      "Party"
+    ],
+    "answerClue": "Ada kue dan lilin di pesta."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "______ ______",
+    "options": [
+      "Vorsichtig!",
+      "fahr"
+    ],
+    "correctOrder": [
+      "Fahr",
+      "vorsichtig!"
+    ],
+    "answerClue": "Mengemudilah dengan hati-hati!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "______ ______ ______",
+    "options": [
+      "Einkaufen!",
+      "geh",
+      "bitte"
+    ],
+    "correctOrder": [
+      "Geh",
+      "bitte",
+      "einkaufen!"
+    ],
+    "answerClue": "Tolong pergi belanja!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Dann",
+      "geradeaus",
+      "gehen",
+      "rechts",
+      "sie",
+      "und"
+    ],
+    "correctOrder": [
+      "Gehen",
+      "Sie",
+      "geradeaus",
+      "und",
+      "dann",
+      "rechts"
+    ],
+    "answerClue": "Jalan terus lalu belok kanan."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Wochenende",
+      "hast",
+      "du",
+      "Zeit?",
+      "am"
+    ],
+    "correctOrder": [
+      "Hast",
+      "du",
+      "am",
+      "Wochenende",
+      "Zeit?"
+    ],
+    "answerClue": "Apakah kamu punya waktu di akhir pekan?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "schon",
+      "hast",
+      "Gepostet?",
+      "du",
+      "das",
+      "Foto"
+    ],
+    "correctOrder": [
+      "Hast",
+      "du",
+      "das",
+      "Foto",
+      "schon",
+      "gepostet?"
+    ],
+    "answerClue": "Apakah kamu sudah memposting fotonya?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "______ ______ ______",
+    "options": [
+      "Geschwister?",
+      "du",
+      "hast"
+    ],
+    "correctOrder": [
+      "Hast",
+      "du",
+      "Geschwister?"
+    ],
+    "answerClue": "Apakah kamu punya saudara?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Koffer",
+      "schon",
+      "hast",
+      "deine",
+      "du",
+      "gepackt?"
+    ],
+    "correctOrder": [
+      "Hast",
+      "du",
+      "schon",
+      "deine",
+      "Koffer",
+      "gepackt?"
+    ],
+    "answerClue": "Apakah kamu sudah mengepak koper-kopermu?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Supermarkt",
+      "heute",
+      "morgen",
+      "war",
+      "ich",
+      "im"
+    ],
+    "correctOrder": [
+      "Heute",
+      "Morgen",
+      "war",
+      "ich",
+      "im",
+      "Supermarkt"
+    ],
+    "answerClue": "Pagi ini saya berada di supermarket."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Kino?",
+      "oft",
+      "du",
+      "gehst",
+      "ins"
+    ],
+    "correctOrder": [
+      "Gehst",
+      "du",
+      "oft",
+      "ins",
+      "Kino?"
+    ],
+    "answerClue": "Apakah kamu sering pergi ke bioskop?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Mir",
+      "Salz!",
+      "gib",
+      "bitte",
+      "das"
+    ],
+    "correctOrder": [
+      "Gib",
+      "mir",
+      "bitte",
+      "das",
+      "Salz!"
+    ],
+    "answerClue": "Tolong berikan saya garam!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Heute",
+      "Rabatt?",
+      "einen",
+      "es",
+      "gibt"
+    ],
+    "correctOrder": [
+      "Gibt",
+      "es",
+      "heute",
+      "einen",
+      "Rabatt?"
+    ],
+    "answerClue": "Apakah ada diskon hari ini?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "______ ______ ______ ______ ______ ______ ______",
+    "options": [
+      "Größe",
+      "haben",
+      "in",
+      "sie",
+      "das",
+      "auch",
+      "M?"
+    ],
+    "correctOrder": [
+      "Haben",
+      "Sie",
+      "das",
+      "auch",
+      "in",
+      "Größe",
+      "M?"
+    ],
+    "answerClue": "Apakah Anda punya ini dalam ukuran M?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Zeit?",
+      "Moment",
+      "einen",
+      "sie",
+      "haben"
+    ],
+    "correctOrder": [
+      "Haben",
+      "Sie",
+      "einen",
+      "Moment",
+      "Zeit?"
+    ],
+    "answerClue": "Apakah Anda punya waktu sebentar?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "helfen?",
+      "mir",
+      "du",
+      "Kannst"
+    ],
+    "correctOrder": [
+      "Kannst",
+      "du",
+      "mir",
+      "helfen?"
+    ],
+    "answerClue": "Bisakah kamu membantu saya?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Milch",
+      "und",
+      "Brot",
+      "bitte",
+      "Kauf",
+      "ein!"
+    ],
+    "correctOrder": [
+      "Kauf",
+      "bitte",
+      "Brot",
+      "und",
+      "Milch",
+      "ein!"
+    ],
+    "answerClue": "Tolong belikan roti dan susu!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "morgen",
+      "bitte",
+      "früher!",
+      "Komm"
+    ],
+    "correctOrder": [
+      "Komm",
+      "bitte",
+      "morgen",
+      "früher!"
+    ],
+    "answerClue": "Tolong datang lebih awal besok!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "______ ______ ______ ______ ______ ______ ______",
+    "options": [
+      "bitte",
+      "zeigen?",
+      "Weg",
+      "den",
+      "mir",
+      "Sie",
+      "Können"
+    ],
+    "correctOrder": [
+      "Können",
+      "Sie",
+      "mir",
+      "bitte",
+      "den",
+      "Weg",
+      "zeigen?"
+    ],
+    "answerClue": "Bisakah Anda tunjukkan jalannya?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "morgen!",
+      "Buch",
+      "bis",
+      "das",
+      "Lies"
+    ],
+    "correctOrder": [
+      "Lies",
+      "das",
+      "Buch",
+      "bis",
+      "morgen!"
+    ],
+    "answerClue": "Bacalah buku itu sampai besok!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Tür",
+      "zu!",
+      "die",
+      "bitte",
+      "Mach"
+    ],
+    "correctOrder": [
+      "Mach",
+      "bitte",
+      "die",
+      "Tür",
+      "zu!"
+    ],
+    "answerClue": "Tolong tutup pintunya!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "gemütlich",
+      "aber",
+      "klein",
+      "ist",
+      "Zimmer",
+      "Mein"
+    ],
+    "correctOrder": [
+      "Mein",
+      "Zimmer",
+      "ist",
+      "klein,",
+      "aber",
+      "gemütlich"
+    ],
+    "answerClue": "Kamarku kecil tapi nyaman."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Meine",
+      "Hamburg",
+      "in",
+      "wohnen",
+      "Eltern"
+    ],
+    "correctOrder": [
+      "Meine",
+      "Eltern",
+      "wohnen",
+      "in",
+      "Hamburg"
+    ],
+    "answerClue": "Orang tuaku tinggal di Hamburg."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "______ ______ ______ ______ ______ ______ ______",
+    "options": [
+      "meine",
+      "ich",
+      "mache",
+      "Hausaufgaben",
+      "Schule",
+      "der",
+      "Nach"
+    ],
+    "correctOrder": [
+      "Nach",
+      "der",
+      "Schule",
+      "mache",
+      "ich",
+      "meine",
+      "Hausaufgaben"
+    ],
+    "answerClue": "Setelah sekolah saya mengerjakan PR."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "einen",
+      "Regenschirm",
+      "Nimm",
+      "mit!"
+    ],
+    "correctOrder": [
+      "Nimm",
+      "einen",
+      "Regenschirm",
+      "mit!"
+    ],
+    "answerClue": "Bawalah payung!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "hilfsbereit",
+      "und",
+      "ist",
+      "Sie",
+      "klug"
+    ],
+    "correctOrder": [
+      "Sie",
+      "ist",
+      "klug",
+      "und",
+      "hilfsbereit"
+    ],
+    "answerClue": "Dia pintar dan suka membantu."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Sie",
+      "Buch",
+      "Abend",
+      "jeden",
+      "liest",
+      "ein"
+    ],
+    "correctOrder": [
+      "Sie",
+      "liest",
+      "jeden",
+      "Abend",
+      "ein",
+      "Buch"
+    ],
+    "answerClue": "Dia membaca buku setiap malam."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "früh",
+      "bitte",
+      "Steh",
+      "auf!"
+    ],
+    "correctOrder": [
+      "Steh",
+      "bitte",
+      "früh",
+      "auf!"
+    ],
+    "answerClue": "Tolong bangun pagi!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "dich",
+      "für",
+      "mich",
+      "freue",
+      "Ich",
+      "Super!"
+    ],
+    "correctOrder": [
+      "Super!",
+      "Ich",
+      "freue",
+      "mich",
+      "für",
+      "dich"
+    ],
+    "answerClue": "Hebat! Saya senang untukmu."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "______ ______ ______",
+    "options": [
+      "Wasser!",
+      "mehr",
+      "Trink"
+    ],
+    "correctOrder": [
+      "Trink",
+      "mehr",
+      "Wasser!"
+    ],
+    "answerClue": "Minumlah lebih banyak air!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Hausaufgaben",
+      "nicht!",
+      "deine",
+      "Vergiss"
+    ],
+    "correctOrder": [
+      "Vergiss",
+      "deine",
+      "Hausaufgaben",
+      "nicht!"
+    ],
+    "answerClue": "Jangan lupa pekerjaan rumahmu!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "der",
+      "beginnt",
+      "Wann",
+      "Kurs?"
+    ],
+    "correctOrder": [
+      "Wann",
+      "beginnt",
+      "der",
+      "Kurs?"
+    ],
+    "answerClue": "Kapan kursus dimulai?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "fährt",
+      "Bus?",
+      "nächste",
+      "der",
+      "Wann"
+    ],
+    "correctOrder": [
+      "Wann",
+      "fährt",
+      "der",
+      "nächste",
+      "Bus?"
+    ],
+    "answerClue": "Kapan bus berikutnya berangkat?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Wann",
+      "Geburtstag?",
+      "du",
+      "hast"
+    ],
+    "correctOrder": [
+      "Wann",
+      "hast",
+      "du",
+      "Geburtstag?"
+    ],
+    "answerClue": "Kapan ulang tahunmu?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "______ ______ ______",
+    "options": [
+      "hier!",
+      "bitte",
+      "Warte"
+    ],
+    "correctOrder": [
+      "Warte",
+      "bitte",
+      "hier!"
+    ],
+    "answerClue": "Tolong tunggu di sini!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "lernst",
+      "Deutsch?",
+      "du",
+      "Warum"
+    ],
+    "correctOrder": [
+      "Warum",
+      "lernst",
+      "du",
+      "Deutsch?"
+    ],
+    "answerClue": "Kenapa kamu belajar bahasa Jerman?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "im",
+      "brauchst",
+      "du",
+      "Was",
+      "Supermarkt?"
+    ],
+    "correctOrder": [
+      "Was",
+      "brauchst",
+      "du",
+      "im",
+      "Supermarkt?"
+    ],
+    "answerClue": "Apa yang kamu butuhkan di supermarket?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Was",
+      "gemacht?",
+      "gestern",
+      "du",
+      "hast"
+    ],
+    "correctOrder": [
+      "Was",
+      "hast",
+      "du",
+      "gestern",
+      "gemacht?"
+    ],
+    "answerClue": "Apa yang kamu lakukan kemarin?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "möchtest",
+      "ttrinken?",
+      "du",
+      "Was"
+    ],
+    "correctOrder": [
+      "Was",
+      "möchtest",
+      "du",
+      "trinken?"
+    ],
+    "answerClue": "Apa yang ingin kamu minum?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "______ ______ ______ ______ ______ ______ ______ ______",
+    "options": [
+      "Jacke",
+      "eine",
+      "ich",
+      "trage",
+      "ist,",
+      "kalt",
+      "es",
+      "Wenn"
+    ],
+    "correctOrder": [
+      "Wenn",
+      "es",
+      "kalt",
+      "ist,",
+      "trage",
+      "ich",
+      "eine",
+      "Jacke"
+    ],
+    "answerClue": "Jika dingin, saya memakai jaket."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "______ ______ ______ ______ ______ ______ ______",
+    "options": [
+      "Hause",
+      "Wenn",
+      "zu",
+      "ich",
+      "bleibe",
+      "es",
+      "regnet,"
+    ],
+    "correctOrder": [
+      "Wenn",
+      "es",
+      "regnet,",
+      "bleibe",
+      "ich",
+      "zu",
+      "Hause"
+    ],
+    "answerClue": "Jika hujan, saya tetap di rumah."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Buch?",
+      "dieses",
+      "viel",
+      "kostet",
+      "Wie"
+    ],
+    "correctOrder": [
+      "Wie",
+      "viel",
+      "kostet",
+      "dieses",
+      "Buch?"
+    ],
+    "answerClue": "Berapa harga buku ini?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "dein",
+      "war",
+      "Urlaub?",
+      "Wie"
+    ],
+    "correctOrder": [
+      "Wie",
+      "war",
+      "dein",
+      "Urlaub?"
+    ],
+    "answerClue": "Bagaimana liburanmu?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Sonntag",
+      "am",
+      "Großeltern",
+      "unsere",
+      "besuchen",
+      "Wir"
+    ],
+    "correctOrder": [
+      "Wir",
+      "besuchen",
+      "unsere",
+      "Großeltern",
+      "am",
+      "Sonntag"
+    ],
+    "answerClue": "Kami mengunjungi kakek nenek kami hari Minggu."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "______ ______ ______ ______ ______ ______ ______ ______ ______",
+    "options": [
+      "ist",
+      "kalt",
+      "es",
+      "weil",
+      "Wir",
+      "Hause,",
+      "zu",
+      "heute",
+      "bleiben"
+    ],
+    "correctOrder": [
+      "Wir",
+      "bleiben",
+      "heute",
+      "zu",
+      "Hause,",
+      "weil",
+      "es",
+      "kalt",
+      "ist"
+    ],
+    "answerClue": "Kami tetap di rumah hari ini karena cuacanya dingin."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "nächste",
+      "Apotheke?",
+      "die",
+      "ich",
+      "finde",
+      "Wo"
+    ],
+    "correctOrder": [
+      "Wo",
+      "finde",
+      "ich",
+      "die",
+      "nächste",
+      "Apotheke?"
+    ],
+    "answerClue": "Di mana saya bisa menemukan apotek terdekat?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "Handy?",
+      "dein",
+      "ist",
+      "Wo"
+    ],
+    "correctOrder": [
+      "Wo",
+      "ist",
+      "dein",
+      "Handy?"
+    ],
+    "answerClue": "Di mana ponselmu?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "der",
+      "gehst",
+      "Schule?",
+      "nach",
+      "du",
+      "Wohin"
+    ],
+    "correctOrder": [
+      "Wohin",
+      "gehst",
+      "du",
+      "nach",
+      "der",
+      "Schule?"
+    ],
+    "answerClue": "Ke mana kamu pergi setelah sekolah?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "______ ______ ______",
+    "options": [
+      "Wohnst",
+      "allein?",
+      "du"
+    ],
+    "correctOrder": [
+      "Wohnst",
+      "du",
+      "allein?"
+    ],
+    "answerClue": "Apakah kamu tinggal sendiri?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "wir",
+      "treffen?",
+      "morgen",
+      "Wollen",
+      "uns"
+    ],
+    "correctOrder": [
+      "Wollen",
+      "wir",
+      "uns",
+      "morgen",
+      "treffen?"
+    ],
+    "answerClue": "Apakah kita mau bertemu besok?"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "deine",
+      "aus!",
+      "Schuhe",
+      "bitte",
+      "Zieh"
+    ],
+    "correctOrder": [
+      "Zieh",
+      "bitte",
+      "deine",
+      "Schuhe",
+      "aus!"
+    ],
+    "answerClue": "Tolong lepas sepatumu!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "______ ______ ______ ______",
+    "options": [
+      "aus!",
+      "Schuhe",
+      "Zieh",
+      "deine"
+    ],
+    "correctOrder": [
+      "Zieh",
+      "deine",
+      "Schuhe",
+      "aus!"
+    ],
+    "answerClue": "Lepaskan sepatumu!"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "______ ______ ______ ______ ______ ______ ______",
+    "options": [
+      "Brot",
+      "Marmelade",
+      "mit",
+      "ich",
+      "esse",
+      "Frühstück",
+      "Zum"
+    ],
+    "correctOrder": [
+      "Zum",
+      "Frühstück",
+      "esse",
+      "ich",
+      "Brot",
+      "mit",
+      "Marmelade"
+    ],
+    "answerClue": "Untuk sarapan saya makan roti dengan selai."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "______ ______ ______ ______ ______",
+    "options": [
+      "Blumen",
+      "ich",
+      "Valentinstag",
+      "kaufe",
+      "Zum"
+    ],
+    "correctOrder": [
+      "Zum",
+      "Valentinstag",
+      "kaufe",
+      "ich",
+      "Blumen"
+    ],
+    "answerClue": "Saya membeli bunga untuk Hari Valentine."
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "______ ______ ______ ______ ______ ______",
+    "options": [
+      "Wie",
+      "Restaurant?",
+      "neue",
+      "das",
+      "du",
+      "findest"
+    ],
+    "correctOrder": [
+      "Wie",
+      "findest",
+      "du",
+      "das",
+      "neue",
+      "Restaurant?"
+    ],
+    "answerClue": "Bagaimana pendapatmu tentang restoran baru itu?"
   }
 ]

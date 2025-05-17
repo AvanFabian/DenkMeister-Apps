@@ -1,10 +1,65 @@
 import 'package:flutter/material.dart';
 import 'package:tebak_gambar/quiz_levelling.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart';
 
-class TingkatKesulitan extends StatelessWidget {
+class TingkatKesulitan extends StatefulWidget {
   final String quizName;
 
   const TingkatKesulitan({super.key, required this.quizName});
+
+  @override
+  State<TingkatKesulitan> createState() => _TingkatKesulitanState();
+}
+
+class _TingkatKesulitanState extends State<TingkatKesulitan> {
+  Map<String, bool> _availableDifficulties = {};
+  bool _isLoading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _checkAvailableDifficulties();
+  }
+
+  Future<void> _checkAvailableDifficulties() async {
+    try {
+      String jsonPath;
+      if (widget.quizName == "Tebak Gambar") {
+        jsonPath = 'assets/utils/tebakgambar_quiz.json';
+      } else if (widget.quizName == "Cocok Kata") {
+        jsonPath = 'assets/utils/cocokkata_quiz.json';
+      } else if (widget.quizName == "Kalimat Rumpang") {
+        jsonPath = 'assets/utils/kalimatrumpang_quiz.json';
+      } else if (widget.quizName == "Susun Kalimat") {
+        jsonPath = 'assets/utils/susunkalimat_quiz.json';
+      } else {
+        jsonPath = 'assets/utils/tebakgambar_quiz.json';
+      }
+
+      final String jsonString = await rootBundle.loadString(jsonPath);
+      final List<dynamic> jsonData = json.decode(jsonString);
+
+      // Create map for available difficulties
+      final Map<String, bool> availableDifficulties = {};
+
+      // Check which difficulties have questions
+      for (final question in jsonData) {
+        final String difficulty = question['difficulty'] ?? 'A1';
+        availableDifficulties[difficulty] = true;
+      }
+
+      setState(() {
+        _availableDifficulties = availableDifficulties;
+        _isLoading = false;
+      });
+    } catch (e) {
+      print('Error checking available difficulties: $e');
+      setState(() {
+        _isLoading = false;
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -28,13 +83,8 @@ class TingkatKesulitan extends StatelessWidget {
           children: [
             const Spacer(),
             Text(
-              quizName,
-              style: const TextStyle(
-                fontSize: 22.0,
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-                fontFamily: 'Raleway'
-              ),
+              widget.quizName,
+              style: const TextStyle(fontSize: 22.0, color: Colors.white, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),
             ),
           ],
         ),
@@ -76,35 +126,41 @@ class TingkatKesulitan extends StatelessWidget {
                               'A1',
                               'A2',
                             ];
-                            
 
-                            // Define a list of colors for each difficulty level
                             final List<Color> cardColors = [
                               const Color(0xFFEBFFFB), // Color for A1
                               const Color(0xFFFFF8E5), // Color for A2
                               const Color(0xFFFFE5E5), // Color for B1
                             ];
 
+                            final bool isAvailable = _availableDifficulties[quizDifficulty[index]] ?? false;
+
                             return Padding(
                               padding: const EdgeInsets.only(top: 4.0, left: 8.0, right: 8.0),
                               child: GestureDetector(
                                 onTap: () {
-                                  // Navigate to the respective screen based on quizDiffculty
-                                  if (quizDifficulty[index] == 'A1') {
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDifficulty[index])),
+                                  if (!isAvailable) {
+                                    showDialog(
+                                      context: context,
+                                      builder: (context) => AlertDialog(
+                                        content: const Text(
+                                          'Coming Soon!',
+                                          textAlign: TextAlign.center,
+                                          style: TextStyle(fontSize: 18.0, fontFamily: 'Raleway'),
+                                        ),
+                                      ),
                                     );
-                                  } else if (quizDifficulty[index] == 'A2') {
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(builder: (context) => QuizLevelling(quizName: quizName, difficulty: quizDifficulty[index])),
-                                    );
+                                    return;
                                   }
+
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) => QuizLevelling(quizName: widget.quizName, difficulty: quizDifficulty[index])),
+                                  );
                                 },
                                 child: Card(
                                   elevation: 4.0,
-                                  color: cardColors[index], // Apply different color based on index
+                                  color: isAvailable ? cardColors[index] : Colors.grey[300],
                                   child: Padding(
                                     padding: const EdgeInsets.only(top: 24.0, bottom: 24.0, left: 16.0, right: 16.0),
                                     child: Row(
@@ -115,23 +171,48 @@ class TingkatKesulitan extends StatelessWidget {
                                             children: <Widget>[
                                               Text(
                                                 quizNames[index],
-                                                style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),
+                                                style: TextStyle(
+                                                  fontSize: 20.0,
+                                                  fontWeight: FontWeight.bold,
+                                                  fontFamily: 'Raleway',
+                                                  color: isAvailable ? Colors.black : Colors.grey,
+                                                ),
                                               ),
                                               const SizedBox(height: 8.0),
                                               Text(
                                                 quizDifficulty[index],
-                                                style: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.w300, fontFamily: 'Raleway'),
+                                                style: TextStyle(
+                                                  fontSize: 16.0,
+                                                  fontWeight: FontWeight.w300,
+                                                  fontFamily: 'Raleway',
+                                                  color: isAvailable ? Colors.black : Colors.grey,
+                                                ),
                                               ),
                                             ],
                                           ),
                                         ),
-                                        SizedBox(
-                                          width: 36.0,
-                                          height: 36.0,
-                                          child: Image.asset(
-                                            imagePaths[index],
-                                            fit: BoxFit.cover,
-                                          ),
+                                        Stack(
+                                          children: [
+                                            SizedBox(
+                                              width: 36.0,
+                                              height: 36.0,
+                                              child: Image.asset(
+                                                imagePaths[index],
+                                                fit: BoxFit.cover,
+                                                color: isAvailable ? null : Colors.grey,
+                                              ),
+                                            ),
+                                            if (!isAvailable)
+                                              const Positioned(
+                                                right: 0,
+                                                top: 0,
+                                                child: Icon(
+                                                  Icons.lock,
+                                                  size: 16,
+                                                  color: Colors.grey,
+                                                ),
+                                              ),
+                                          ],
                                         ),
                                       ],
                                     ),

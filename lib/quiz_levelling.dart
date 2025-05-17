@@ -155,7 +155,6 @@ class _QuizLevellingState extends State<QuizLevelling> {
                       ...List.generate(10, (index) {
                         final levelMark = 'Level ${index + 1}';
                         final hasQuestions = _availableLevels[levelMark] ?? false;
-                        final isComingSoon = index >= 5;
 
                         return Positioned(
                           top: positions[index]['top'],
@@ -171,7 +170,7 @@ class _QuizLevellingState extends State<QuizLevelling> {
                                   final isAvailable = availabilitySnapshot.data ?? false;
                                   return GestureDetector(
                                     onTap: () {
-                                      if (isComingSoon) {
+                                      if (!hasQuestions) {
                                         showDialog(
                                           context: context,
                                           builder: (context) => AlertDialog(
@@ -248,7 +247,7 @@ class _QuizLevellingState extends State<QuizLevelling> {
                                       radius: 40.0,
                                       backgroundColor: isCompleted
                                           ? const Color(0xFF007BFF)
-                                          : (!isAvailable || !hasQuestions || isComingSoon)
+                                          : (!isAvailable || !hasQuestions)
                                               ? Colors.grey[300]
                                               : const Color(0xFFD9D9D9),
                                       child: Column(
@@ -263,7 +262,7 @@ class _QuizLevellingState extends State<QuizLevelling> {
                                               fontFamily: 'Raleway',
                                             ),
                                           ),
-                                          if (!isAvailable || !hasQuestions || isComingSoon)
+                                          if (!isAvailable || !hasQuestions)
                                             const Icon(
                                               Icons.lock,
                                               size: 16,

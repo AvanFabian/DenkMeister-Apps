@@ -141,5 +141,3762 @@
       "Sport"
     ],
     "correctAnswer": "Sprachen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 1",
+    "question": "Sie arbeitet ___ Bäckerin.",
+    "options": [
+      "bei",
+      "auf",
+      "für",
+      "als"
+    ],
+    "correctAnswer": "als"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 1",
+    "question": "Ich kaufe einen ___ im Supermarkt.",
+    "options": [
+      "Tisch",
+      "Apfel",
+      "Blume",
+      "Banane"
+    ],
+    "correctAnswer": "Apfel"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 1",
+    "question": "Ich stehe jeden Morgen um 7 Uhr ___.",
+    "options": [
+      "an",
+      "zu",
+      "bei",
+      "Auf"
+    ],
+    "correctAnswer": "Auf"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 1",
+    "question": "Gute ___!",
+    "options": [
+      "Besserung",
+      "Entwicklung",
+      "Reise",
+      "Erinnerung"
+    ],
+    "correctAnswer": "Besserung"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 1",
+    "question": "Die Bücher sind in der ___.",
+    "options": [
+      "Schule",
+      "Kirche",
+      "Tisch",
+      "Bibliothek"
+    ],
+    "correctAnswer": "Bibliothek"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 1",
+    "question": "Die ___ fliegt im Garten.",
+    "options": [
+      "Eule",
+      "Lampe",
+      "Biene",
+      "Katze"
+    ],
+    "correctAnswer": "Biene"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 1",
+    "question": "___ bald!",
+    "options": [
+      "Bis",
+      "Auf",
+      "Zu",
+      "Nach"
+    ],
+    "correctAnswer": "Bis"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 1",
+    "question": "___ später!",
+    "options": [
+      "Auf",
+      "Bis",
+      "Mit",
+      "Bei"
+    ],
+    "correctAnswer": "Bis"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 1",
+    "question": "___ dann!",
+    "options": [
+      "Mit",
+      "Zu",
+      "Nach",
+      "Bis"
+    ],
+    "correctAnswer": "Bis"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Der Himmel ist ___.",
+    "options": [
+      "klein",
+      "weiß",
+      "kalt",
+      "blau"
+    ],
+    "correctAnswer": "blau"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Zum Frühstück esse ich ___.",
+    "options": [
+      "Brot",
+      "Nudeln",
+      "Wasser",
+      "Pizza"
+    ],
+    "correctAnswer": "Brot"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Mein ___ ist sehr nett.",
+    "options": [
+      "Hund",
+      "Bruder",
+      "Apfel",
+      "Tisch"
+    ],
+    "correctAnswer": "Bruder"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Vielen ___!",
+    "options": [
+      "Dank",
+      "Glück",
+      "Tag",
+      "Bitte"
+    ],
+    "correctAnswer": "Dank"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "___ schön!",
+    "options": [
+      "Bitte",
+      "Guten",
+      "Auf",
+      "Danke"
+    ],
+    "correctAnswer": "Danke"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Er liest ___ Buch im Bett.",
+    "options": [
+      "den",
+      "dem",
+      "das",
+      "der"
+    ],
+    "correctAnswer": "das"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Er kauft ___ Brot beim Bäcker.",
+    "options": [
+      "den",
+      "die",
+      "der",
+      "das"
+    ],
+    "correctAnswer": "das"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "___ Bruder ist sehr lustig.",
+    "options": [
+      "Mein",
+      "Dein",
+      "Unser",
+      "dein"
+    ],
+    "correctAnswer": "Dein"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Er bringt ___ Ball ins Haus.",
+    "options": [
+      "dem",
+      "der",
+      "den",
+      "das"
+    ],
+    "correctAnswer": "den"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Ich sehe ___ Mann.",
+    "options": [
+      "den",
+      "der",
+      "die",
+      "dem"
+    ],
+    "correctAnswer": "den"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "___ Tisch ist groß.",
+    "options": [
+      "Die",
+      "Das",
+      "Der",
+      "Den"
+    ],
+    "correctAnswer": "Der"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Ich habe ___ Bleistifte.",
+    "options": [
+      "blau",
+      "zwei",
+      "schön",
+      "drei"
+    ],
+    "correctAnswer": "drei"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "___ musst um 6 Uhr aufstehen.",
+    "options": [
+      "Er",
+      "Du",
+      "Wir",
+      "Ich"
+    ],
+    "correctAnswer": "Du"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Hast du ___ Buch?",
+    "options": [
+      "ein",
+      "einen",
+      "einer",
+      "eine"
+    ],
+    "correctAnswer": "ein"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Ich spreche ___ Deutsch.",
+    "options": [
+      "rot",
+      "ein bisschen",
+      "schwer",
+      "klar"
+    ],
+    "correctAnswer": "ein bisschen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Hast du ___ Schwester?",
+    "options": [
+      "ein",
+      "keine",
+      "eine",
+      "zwei"
+    ],
+    "correctAnswer": "eine"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Ich möchte ___ Apfelsaft.",
+    "options": [
+      "eine",
+      "einen",
+      "kein",
+      "ein"
+    ],
+    "correctAnswer": "einen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "Ich schreibe ___ Brief.",
+    "options": [
+      "ein",
+      "eine",
+      "eines",
+      "einen"
+    ],
+    "correctAnswer": "einen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "___ Tschüss!",
+    "options": [
+      "Tschüss",
+      "Bitte",
+      "Danke",
+      "Einfach"
+    ],
+    "correctAnswer": "Einfach"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 2",
+    "question": "___ Sie bitte!",
+    "options": [
+      "Entschuldigung",
+      "Gratulieren",
+      "Entschuldigen",
+      "Besuchen"
+    ],
+    "correctAnswer": "Entschuldigen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "___. Wo ist das Badezimmer?",
+    "options": [
+      "Entschuldigung",
+      "Danke",
+      "Auf Wiedersehen",
+      "Tschüss"
+    ],
+    "correctAnswer": "Entschuldigung"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "___ bitte!",
+    "options": [
+      "Entschuldigung",
+      "Einladung",
+      "Erinnerung",
+      "Entwicklung"
+    ],
+    "correctAnswer": "Entschuldigung"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "Viel ___ beim Lernen!",
+    "options": [
+      "Arbeit",
+      "Fehler",
+      "Spaß",
+      "Erfolg"
+    ],
+    "correctAnswer": "Erfolg"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "Wir ___ zusammen Mittagessen.",
+    "options": [
+      "fahren",
+      "essen",
+      "sehen",
+      "schreiben"
+    ],
+    "correctAnswer": "essen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "Ich ___ jeden Tag mit dem Bus zur Arbeit.",
+    "options": [
+      "fahre",
+      "esse",
+      "spiele",
+      "lese"
+    ],
+    "correctAnswer": "fahre"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "Er ___ jeden Morgen zur Arbeit.",
+    "options": [
+      "spielt",
+      "geht",
+      "fährt",
+      "liest"
+    ],
+    "correctAnswer": "fährt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "Der ___ schwimmt im Wasser.",
+    "options": [
+      "Fisch",
+      "Bär",
+      "Fleisch",
+      "Delfin"
+    ],
+    "correctAnswer": "Fisch"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "___ Weihnachten!",
+    "options": [
+      "Viel",
+      "Gute",
+      "Glückliche",
+      "Frohe"
+    ],
+    "correctAnswer": "Frohe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "___ Ostern!",
+    "options": [
+      "Frohe",
+      "Gute",
+      "Glückliche",
+      "Viel"
+    ],
+    "correctAnswer": "Frohe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "___ Neues Jahr!",
+    "options": [
+      "Frohe",
+      "Frohes",
+      "Gute",
+      "Herzliche"
+    ],
+    "correctAnswer": "Frohes"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "Ich ___ nach Hause.",
+    "options": [
+      "spiele",
+      "gehe",
+      "lese",
+      "fahre"
+    ],
+    "correctAnswer": "gehe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "Wir ___ morgen ins Kino.",
+    "options": [
+      "lesen",
+      "essen",
+      "schlafen",
+      "gehen"
+    ],
+    "correctAnswer": "gehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "___ du ins Kino?",
+    "options": [
+      "Isst",
+      "Schreibst",
+      "Gehst",
+      "Liest"
+    ],
+    "correctAnswer": "Gehst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "___ du ins Restaurant?",
+    "options": [
+      "Lese",
+      "Gehst",
+      "Trinkst",
+      "Spielst"
+    ],
+    "correctAnswer": "Gehst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "Der Apfel ist ___ als die Birne.",
+    "options": [
+      "größer",
+      "groß",
+      "großes",
+      "großem"
+    ],
+    "correctAnswer": "größer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "___ Nacht!",
+    "options": [
+      "Gute",
+      "Guten",
+      "Gutem",
+      "Guter"
+    ],
+    "correctAnswer": "Gute"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "___ Reise!",
+    "options": [
+      "Guten",
+      "Guter",
+      "Gute",
+      "Herzlichen"
+    ],
+    "correctAnswer": "Gute"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "Alles ___!",
+    "options": [
+      "Guter",
+      "Guten",
+      "Gutem",
+      "Gute"
+    ],
+    "correctAnswer": "Gute"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "___ Reise!",
+    "options": [
+      "Viele",
+      "Gute",
+      "Frohe",
+      "Schöne"
+    ],
+    "correctAnswer": "Gute"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 3",
+    "question": "___ Arbeit!",
+    "options": [
+      "Glückliche",
+      "Frohe",
+      "Viele",
+      "Gute"
+    ],
+    "correctAnswer": "Gute"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "___ Morgen!",
+    "options": [
+      "Guter",
+      "Gutem",
+      "Gute",
+      "Guten"
+    ],
+    "correctAnswer": "Guten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "___ Tag!",
+    "options": [
+      "Guten",
+      "Guter",
+      "Gute",
+      "Gutem"
+    ],
+    "correctAnswer": "Guten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "___ Abend!",
+    "options": [
+      "Gute",
+      "Gutem",
+      "Guten",
+      "Guter"
+    ],
+    "correctAnswer": "Guten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "___ Appetit!",
+    "options": [
+      "Guten",
+      "Gute",
+      "Guten",
+      "Gutem"
+    ],
+    "correctAnswer": "Guten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Mein ___ ist neu und schnell.",
+    "options": [
+      "Auto",
+      "Handy",
+      "Lehrer",
+      "Pferd"
+    ],
+    "correctAnswer": "Handy"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "___ du einen Bruder?",
+    "options": [
+      "Isst",
+      "Spielst",
+      "Hast",
+      "Lernst"
+    ],
+    "correctAnswer": "Hast"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "___ du eine Katze?",
+    "options": [
+      "Hast",
+      "Gehst",
+      "Spielst",
+      "Isst"
+    ],
+    "correctAnswer": "Hast"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Wann ___ du Geburtstag?",
+    "options": [
+      "hast du den",
+      "hast du",
+      "bist",
+      "hast"
+    ],
+    "correctAnswer": "hast"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Ich ___ Max. Und du?",
+    "options": [
+      "heiße",
+      "mache",
+      "koche",
+      "komme"
+    ],
+    "correctAnswer": "heiße"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Freut mich. Wie ___ du?",
+    "options": [
+      "heißt",
+      "duscht",
+      "bist",
+      "hast"
+    ],
+    "correctAnswer": "heißt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Kannst du mir bitte ___?",
+    "options": [
+      "fahren",
+      "schlafen",
+      "kochen",
+      "helfen"
+    ],
+    "correctAnswer": "helfen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "___ willkommen!",
+    "options": [
+      "Fröhlich",
+      "Natürlich",
+      "Höflich",
+      "Herzlich"
+    ],
+    "correctAnswer": "Herzlich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "___ Glückwunsch!",
+    "options": [
+      "Herzlichen",
+      "Schönen",
+      "Gute",
+      "Lieben"
+    ],
+    "correctAnswer": "Herzlichen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Er kommt ___.",
+    "options": [
+      "gut",
+      "heute",
+      "schön",
+      "viele"
+    ],
+    "correctAnswer": "heute"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Komm ___!",
+    "options": [
+      "in",
+      "hier",
+      "nach",
+      "unter"
+    ],
+    "correctAnswer": "hier"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Ich ___ gerne Musik.",
+    "options": [
+      "trinke",
+      "spiele",
+      "höre",
+      "esse"
+    ],
+    "correctAnswer": "höre"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Welche Musik ___ du gern?",
+    "options": [
+      "liest",
+      "fährst",
+      "hörst",
+      "kommst"
+    ],
+    "correctAnswer": "hörst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Der ___ bellt laut.",
+    "options": [
+      "Hund",
+      "Katze",
+      "Elefant",
+      "Pferd"
+    ],
+    "correctAnswer": "Hund"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Woher kommst du? ___ komme aus Indonesien.",
+    "options": [
+      "Ich",
+      "Er",
+      "Du",
+      "Es"
+    ],
+    "correctAnswer": "Ich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 4",
+    "question": "Er wohnt ___ Berlin.",
+    "options": [
+      "über",
+      "an",
+      "auf",
+      "in"
+    ],
+    "correctAnswer": "in"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "___ wohnen in Berlin.",
+    "options": [
+      "Er",
+      "Sie",
+      "Wir",
+      "Du"
+    ],
+    "correctAnswer": "Wir"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "___ dein Zimmer groß?",
+    "options": [
+      "Geh",
+      "Ist",
+      "Spielt",
+      "Hat"
+    ],
+    "correctAnswer": "Ist"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Mein Lieblingsessen ___ Pizza.",
+    "options": [
+      "liest",
+      "fährt",
+      "ist",
+      "hat"
+    ],
+    "correctAnswer": "ist"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Der Apfel ___ rot.",
+    "options": [
+      "ist",
+      "geht",
+      "spielt",
+      "hat"
+    ],
+    "correctAnswer": "ist"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Wir fahren im ___ in Urlaub.",
+    "options": [
+      "Dezember",
+      "Freitag",
+      "Dienstag",
+      "Juli"
+    ],
+    "correctAnswer": "Juli"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Ich trinke morgens ___.",
+    "options": [
+      "Lampe",
+      "Tee",
+      "Kaffee",
+      "Buch"
+    ],
+    "correctAnswer": "Kaffee"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Das Wasser ist ___.",
+    "options": [
+      "schlecht",
+      "rot",
+      "kalt",
+      "teuer"
+    ],
+    "correctAnswer": "kalt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "___ du mir bitte helfen?",
+    "options": [
+      "Spielst",
+      "Isst",
+      "Gehst",
+      "Kannst"
+    ],
+    "correctAnswer": "Kannst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Eine ___ kann sehr schnell laufen.",
+    "options": [
+      "Katze",
+      "Kuh",
+      "Maus",
+      "Schlange"
+    ],
+    "correctAnswer": "Katze"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Ich habe ___ Auto.",
+    "options": [
+      "ein",
+      "kein",
+      "keine",
+      "nicht"
+    ],
+    "correctAnswer": "kein"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Ich habe leider ___ Zeit.",
+    "options": [
+      "keine",
+      "nicht",
+      "eine",
+      "kein"
+    ],
+    "correctAnswer": "keine"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Die ___ sind laut.",
+    "options": [
+      "Kindes",
+      "Kinderen",
+      "Kinder",
+      "Kind"
+    ],
+    "correctAnswer": "Kinder"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Der Arzt arbeitet im ___.",
+    "options": [
+      "Museum",
+      "Krankenhaus",
+      "Dorf",
+      "Haus"
+    ],
+    "correctAnswer": "Krankenhaus"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Ich brauche eine ___ zum Lesen.",
+    "options": [
+      "Suppe",
+      "Brille",
+      "Buch",
+      "Lampe"
+    ],
+    "correctAnswer": "Lampe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Der Weg ist ___.",
+    "options": [
+      "laut",
+      "falsch",
+      "lang",
+      "alt"
+    ],
+    "correctAnswer": "lang"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Wir ___ zusammen im Park.",
+    "options": [
+      "essen",
+      "laufen",
+      "spielen",
+      "fahren"
+    ],
+    "correctAnswer": "laufen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Der Hund ___ im Garten.",
+    "options": [
+      "schläft",
+      "läuft",
+      "fährt",
+      "isst"
+    ],
+    "correctAnswer": "läuft"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Sie ___ sehr schnell.",
+    "options": [
+      "läuft",
+      "schläft",
+      "geht",
+      "isst"
+    ],
+    "correctAnswer": "läuft"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "Die Suppe schmeckt ___.",
+    "options": [
+      "kalt",
+      "stark",
+      "schlecht",
+      "lecker"
+    ],
+    "correctAnswer": "lecker"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 5",
+    "question": "___ du Bücher?",
+    "options": [
+      "Liest",
+      "Fährst",
+      "Trinkst",
+      "Schreibst"
+    ],
+    "correctAnswer": "Liest"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Ein ___ lebt in Afrika.",
+    "options": [
+      "Löwe",
+      "Wolf",
+      "Bär",
+      "Hund"
+    ],
+    "correctAnswer": "Löwe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Mein Vater ___ gerne Sport.",
+    "options": [
+      "liest",
+      "macht",
+      "isst",
+      "fährt"
+    ],
+    "correctAnswer": "macht"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Meine Schwester ___ gern schwimmen.",
+    "options": [
+      "mag",
+      "ist",
+      "fährt",
+      "schläft"
+    ],
+    "correctAnswer": "mag"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "___ du gern reisen?",
+    "options": [
+      "Fährst",
+      "Bist",
+      "Magst",
+      "Spielst"
+    ],
+    "correctAnswer": "Magst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "___ du Pizza?",
+    "options": [
+      "Mag",
+      "Magst",
+      "Mögt",
+      "Mögen"
+    ],
+    "correctAnswer": "Magst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Mein Geburtstag ist im ___.",
+    "options": [
+      "Januar",
+      "Donnerstag",
+      "Samstag",
+      "März"
+    ],
+    "correctAnswer": "März"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "___ Vater arbeitet als Arzt.",
+    "options": [
+      "Sein",
+      "Dein",
+      "Ihr",
+      "Mein"
+    ],
+    "correctAnswer": "Mein"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "___ Mutter arbeitet im Krankenhaus.",
+    "options": [
+      "Seine",
+      "Deine",
+      "Meine",
+      "Ihre"
+    ],
+    "correctAnswer": "Meine"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Ich helfe ___ Freundin.",
+    "options": [
+      "meiner",
+      "meinem",
+      "meinen",
+      "meine"
+    ],
+    "correctAnswer": "meiner"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Ich spiele ___ Freunden Fußball.",
+    "options": [
+      "bei",
+      "für",
+      "mit",
+      "auf"
+    ],
+    "correctAnswer": "mit"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Ich esse Brot ___ Käse.",
+    "options": [
+      "mit",
+      "ohne",
+      "auf",
+      "bei"
+    ],
+    "correctAnswer": "mit"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Ich fahre ___ Auto zur Arbeit.",
+    "options": [
+      "mit dem",
+      "in dem",
+      "auf dem",
+      "für den"
+    ],
+    "correctAnswer": "mit dem"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Heute ist ___.",
+    "options": [
+      "Sonntag",
+      "April",
+      "Winter",
+      "Montag"
+    ],
+    "correctAnswer": "Montag"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "___ sie heute arbeiten?",
+    "options": [
+      "Müsst",
+      "Mussst",
+      "Müssen",
+      "Muss"
+    ],
+    "correctAnswer": "Muss"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Du ___ nach Hause gehen.",
+    "options": [
+      "spielst",
+      "musst",
+      "isst",
+      "fährst"
+    ],
+    "correctAnswer": "musst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Meine Schwester ist sehr ___.",
+    "options": [
+      "blau",
+      "nett",
+      "stark",
+      "schwer"
+    ],
+    "correctAnswer": "nett"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Ich ___ das Fenster.",
+    "options": [
+      "esse",
+      "lese",
+      "fahre",
+      "öffne"
+    ],
+    "correctAnswer": "öffne"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Ich trinke Kaffee ___ Zucker.",
+    "options": [
+      "mit",
+      "für",
+      "ohne",
+      "auf"
+    ],
+    "correctAnswer": "ohne"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Er möchte einen Tee ___ Zucker.",
+    "options": [
+      "ohne",
+      "auf",
+      "für",
+      "mit"
+    ],
+    "correctAnswer": "ohne"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 6",
+    "question": "Mein ___ kocht sehr gut.",
+    "options": [
+      "Oman",
+      "Mutter",
+      "Hund",
+      "Opa"
+    ],
+    "correctAnswer": "Opa"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "Wir essen Pizza im ___.",
+    "options": [
+      "Hotel",
+      "Auto",
+      "Restaurant",
+      "Schwimmbad"
+    ],
+    "correctAnswer": "Restaurant"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "Sie ___ morgen an.",
+    "options": [
+      "ruft an",
+      "ruft",
+      "anruft",
+      "anrufen"
+    ],
+    "correctAnswer": "ruft"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "Der Tisch ist ___.",
+    "options": [
+      "rund",
+      "groß",
+      "klein",
+      "teuer"
+    ],
+    "correctAnswer": "rund"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "Sie läuft ___.",
+    "options": [
+      "heute",
+      "langsam",
+      "schnell",
+      "oft"
+    ],
+    "correctAnswer": "schnell"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "Das Wetter ist ___.",
+    "options": [
+      "lang",
+      "klein",
+      "teuer",
+      "schön"
+    ],
+    "correctAnswer": "schön"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "___ Woche!",
+    "options": [
+      "Schöne",
+      "Schönen",
+      "Guten",
+      "Herzlichen"
+    ],
+    "correctAnswer": "Schöne"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "___ Ferien!",
+    "options": [
+      "Gute",
+      "Schöne",
+      "Frohe",
+      "Viele"
+    ],
+    "correctAnswer": "Schöne"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "___ Abend noch!",
+    "options": [
+      "Vielen",
+      "Guten",
+      "Herzlichen",
+      "Schönen"
+    ],
+    "correctAnswer": "Schönen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "___ Tag noch!",
+    "options": [
+      "Schönen",
+      "Guten",
+      "Lieben",
+      "Vielen"
+    ],
+    "correctAnswer": "Schönen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "___ Feierabend!",
+    "options": [
+      "Guten",
+      "Schönen",
+      "Herzlichen",
+      "Vielen"
+    ],
+    "correctAnswer": "Schönen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "___ Wochenende!",
+    "options": [
+      "Schönes",
+      "Guten",
+      "Herzlichen",
+      "Vieles"
+    ],
+    "correctAnswer": "Schönes"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "___ Wochenende!",
+    "options": [
+      "Vieles",
+      "Frohes",
+      "Gutes",
+      "Schönes"
+    ],
+    "correctAnswer": "Schönes"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "Der ___ ist voll mit Kleidung.",
+    "options": [
+      "Hund",
+      "Schrank",
+      "Haus",
+      "Wagen"
+    ],
+    "correctAnswer": "Schrank"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "Ich ___ einen Brief.",
+    "options": [
+      "esse",
+      "fahre",
+      "schreibe",
+      "trinke"
+    ],
+    "correctAnswer": "schreibe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "Ich habe eine kleine ___.",
+    "options": [
+      "Schwester",
+      "Tisch",
+      "Bruder",
+      "Hund"
+    ],
+    "correctAnswer": "Schwester"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "Heute ist es ___ warm.",
+    "options": [
+      "sehr",
+      "groß",
+      "lange",
+      "laut"
+    ],
+    "correctAnswer": "sehr"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "___ Bruder heißt Thomas.",
+    "options": [
+      "Unser",
+      "Ihr",
+      "Mein",
+      "Sein"
+    ],
+    "correctAnswer": "Sein"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "___ Name ist Thomas.",
+    "options": [
+      "Dein",
+      "Ihr",
+      "Mein",
+      "Sein"
+    ],
+    "correctAnswer": "Sein"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "___ sind sehr nett.",
+    "options": [
+      "Er",
+      "Sie",
+      "Ihr",
+      "Ich"
+    ],
+    "correctAnswer": "Sie"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 7",
+    "question": "Wir ___ zu Hause.",
+    "options": [
+      "spielen",
+      "sind",
+      "gehen",
+      "fahren"
+    ],
+    "correctAnswer": "sind"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "Du ___ bitte die Hausaufgaben machen!",
+    "options": [
+      "bist",
+      "sollst",
+      "hast",
+      "kannst"
+    ],
+    "correctAnswer": "sollst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "Welche ___ sprichst du?",
+    "options": [
+      "Sport",
+      "Filme",
+      "Gitarre",
+      "Sprachen"
+    ],
+    "correctAnswer": "Sprachen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "Ich schreibe mit einem ___.",
+    "options": [
+      "Stift",
+      "Tisch",
+      "Wasser",
+      "Papier"
+    ],
+    "correctAnswer": "Stift"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "Ich ___ gern Kaffee.",
+    "options": [
+      "lese",
+      "esse",
+      "trinke",
+      "fahre"
+    ],
+    "correctAnswer": "trinke"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "___ er Kaffee oder Tee?",
+    "options": [
+      "Trinkt",
+      "Trinken",
+      "Trinkst",
+      "Trink"
+    ],
+    "correctAnswer": "Trinkt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "___! Bis morgen.",
+    "options": [
+      "Hallo",
+      "Tschüss",
+      "Bitte",
+      "Entschuldigung"
+    ],
+    "correctAnswer": "Tschüss"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "Es ___ mir leid.",
+    "options": [
+      "bleibt",
+      "kommt",
+      "geht",
+      "tut"
+    ],
+    "correctAnswer": "tut"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "Ich mag Pizza ___ Pasta.",
+    "options": [
+      "aber",
+      "oder",
+      "und",
+      "weil"
+    ],
+    "correctAnswer": "und"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "Ich esse Pizza ___ Salat.",
+    "options": [
+      "und",
+      "aber",
+      "weil",
+      "oder"
+    ],
+    "correctAnswer": "und"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "Mein ___ heißt Thomas.",
+    "options": [
+      "Bruder",
+      "Haus",
+      "Apfel",
+      "Vater"
+    ],
+    "correctAnswer": "Vater"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "___ Glück!",
+    "options": [
+      "Viele",
+      "Viel",
+      "Guter",
+      "Herzlicher"
+    ],
+    "correctAnswer": "Viel"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "___ Spaß!",
+    "options": [
+      "Gute",
+      "Viele",
+      "Guter",
+      "Viel"
+    ],
+    "correctAnswer": "Viel"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "___ Erfolg!",
+    "options": [
+      "Schöne",
+      "Gute",
+      "Frohe",
+      "Viel"
+    ],
+    "correctAnswer": "Viel"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "___ Spaß bei der Arbeit!",
+    "options": [
+      "Viel",
+      "Gute",
+      "Herzlichen",
+      "Frohen"
+    ],
+    "correctAnswer": "Viel"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "___ Dank!",
+    "options": [
+      "Guter",
+      "Vielen",
+      "Auf",
+      "Schönen"
+    ],
+    "correctAnswer": "Vielen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "Hallo! ___ machst du?",
+    "options": [
+      "Was",
+      "Wer",
+      "Wie alt",
+      "Warum"
+    ],
+    "correctAnswer": "Was"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "___ heißt deine Schwester?",
+    "options": [
+      "Was",
+      "Wie",
+      "Wo",
+      "Wann"
+    ],
+    "correctAnswer": "Wie"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "___ bist du? Ich bin 20 Jahre alt.",
+    "options": [
+      "Warum",
+      "Wer",
+      "Wie alt",
+      "Wenn"
+    ],
+    "correctAnswer": "Wie alt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "___ kostet das Buch?",
+    "options": [
+      "Wo",
+      "Wann",
+      "Wie viel",
+      "Was"
+    ],
+    "correctAnswer": "Wie viel"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 8",
+    "question": "Auf ___!",
+    "options": [
+      "Vielleicht",
+      "Wiedersehen",
+      "Willkommen",
+      "Danke"
+    ],
+    "correctAnswer": "Wiedersehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "___ ist dein Freund?",
+    "options": [
+      "Wo",
+      "Was",
+      "Wie",
+      "Warum"
+    ],
+    "correctAnswer": "Wo"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "___ kommt ihr?",
+    "options": [
+      "Woher",
+      "Wohin",
+      "Wo",
+      "Wann"
+    ],
+    "correctAnswer": "Woher"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Mein Bruder ist ___ Jahre alt.",
+    "options": [
+      "zehnter",
+      "zehnte",
+      "zehn",
+      "zehner"
+    ],
+    "correctAnswer": "zehn"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "___ Katzen spielen im Garten.",
+    "options": [
+      "Zwei",
+      "Schwarz",
+      "Stark",
+      "Alt"
+    ],
+    "correctAnswer": "Zwei"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Möchtest du Tee ___ Kaffee trinken?",
+    "options": [
+      "weil",
+      "und",
+      "aber",
+      "oder"
+    ],
+    "correctAnswer": "oder"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Ich trinke ___ Kaffee.",
+    "options": [
+      "nicht",
+      "keinen",
+      "kein",
+      "keine"
+    ],
+    "correctAnswer": "keinen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Sie versteht die Aufgabe ___.",
+    "options": [
+      "nicht",
+      "kein",
+      "keine",
+      "nichts"
+    ],
+    "correctAnswer": "nicht"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Ich mag Pizza, ___ ich esse heute Salat.",
+    "options": [
+      "denn",
+      "oder",
+      "und",
+      "aber"
+    ],
+    "correctAnswer": "aber"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Er ist müde, ___ er muss noch arbeiten.",
+    "options": [
+      "und",
+      "weil",
+      "oder",
+      "aber"
+    ],
+    "correctAnswer": "aber"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Ich esse ___ Pizza.",
+    "options": [
+      "manchmal",
+      "immer",
+      "nie",
+      "oft"
+    ],
+    "correctAnswer": "immer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Ich bleibe zu Hause, ___ es regnet.",
+    "options": [
+      "aber",
+      "oder",
+      "denn",
+      "und"
+    ],
+    "correctAnswer": "denn"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Der Bus kommt heute ___ pünktlich.",
+    "options": [
+      "nicht",
+      "kein",
+      "keine",
+      "nichts"
+    ],
+    "correctAnswer": "nicht"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Wir fahren ___ nach Berlin.",
+    "options": [
+      "oft",
+      "nie",
+      "morgen",
+      "immer"
+    ],
+    "correctAnswer": "morgen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Wir lernen viel, ___ wir haben morgen eine Prüfung.",
+    "options": [
+      "und",
+      "aber",
+      "oder",
+      "denn"
+    ],
+    "correctAnswer": "denn"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Er ruft seine Freundin jeden Abend ___.",
+    "options": [
+      "an",
+      "mit",
+      "aus",
+      "auf"
+    ],
+    "correctAnswer": "an"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Wir kaufen am Samstag im Supermarkt ___.",
+    "options": [
+      "an",
+      "auf",
+      "ab",
+      "ein"
+    ],
+    "correctAnswer": "ein"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Der Bus kommt um 8 Uhr ___.",
+    "options": [
+      "ab",
+      "an",
+      "mit",
+      "auf"
+    ],
+    "correctAnswer": "an"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Das Wetter ist ___ schön.",
+    "options": [
+      "nicht",
+      "kein",
+      "keine",
+      "nichts"
+    ],
+    "correctAnswer": "nicht"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Wir haben ___ Haus, aber eine Wohnung.",
+    "options": [
+      "nicht",
+      "kein",
+      "keine",
+      "nichts"
+    ],
+    "correctAnswer": "kein"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 9",
+    "question": "Sie kann heute ___ kommen.",
+    "options": [
+      "nichts",
+      "kein",
+      "keine",
+      "nicht"
+    ],
+    "correctAnswer": "nicht"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Ich trinke ___ Kaffee.",
+    "options": [
+      "keinen",
+      "nicht",
+      "kein",
+      "keine"
+    ],
+    "correctAnswer": "keinen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Der Bus kommt heute ___ pünktlich.",
+    "options": [
+      "nichts",
+      "kein",
+      "keine",
+      "nicht"
+    ],
+    "correctAnswer": "nicht"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Wir fahren ___ nach Berlin.",
+    "options": [
+      "nie",
+      "morgen",
+      "oft",
+      "immer"
+    ],
+    "correctAnswer": "morgen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Ich esse ___ Pizza.",
+    "options": [
+      "immer",
+      "manchmal",
+      "nie",
+      "oft"
+    ],
+    "correctAnswer": "immer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Er geht ___ spazieren.",
+    "options": [
+      "immer",
+      "manchmal",
+      "nie",
+      "morgen"
+    ],
+    "correctAnswer": "manchmal"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Du hast ___ Zeit.",
+    "options": [
+      "immer",
+      "nie",
+      "manchmal",
+      "oft"
+    ],
+    "correctAnswer": "nie"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Ich trinke ___ Kaffee.",
+    "options": [
+      "nie",
+      "immer",
+      "jeden Morgen",
+      "manchmal"
+    ],
+    "correctAnswer": "jeden Morgen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Wir sehen uns ___.",
+    "options": [
+      "nie",
+      "immer",
+      "heute",
+      "morgen"
+    ],
+    "correctAnswer": "heute"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Ich mache das ___.",
+    "options": [
+      "manchmal",
+      "nie",
+      "oft",
+      "morgen"
+    ],
+    "correctAnswer": "morgen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Ich kann ___ nicht finden.",
+    "options": [
+      "es",
+      "dich",
+      "sie",
+      "uns"
+    ],
+    "correctAnswer": "es"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Sie ruft ___ später an.",
+    "options": [
+      "sie",
+      "uns",
+      "mich",
+      "dich"
+    ],
+    "correctAnswer": "dich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Kannst du ___ sehen?",
+    "options": [
+      "dich",
+      "mich",
+      "ihn",
+      "uns"
+    ],
+    "correctAnswer": "mich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "___ geht ins Kino.",
+    "options": [
+      "Er",
+      "Sie",
+      "Ich",
+      "Du"
+    ],
+    "correctAnswer": "Er"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "___ sind Freunde.",
+    "options": [
+      "Wir",
+      "Ich",
+      "Du",
+      "Ihr"
+    ],
+    "correctAnswer": "Wir"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Er ___ gut Deutsch sprechen.",
+    "options": [
+      "soll",
+      "muss",
+      "kann",
+      "möchte"
+    ],
+    "correctAnswer": "kann"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Wir ___ morgen arbeiten.",
+    "options": [
+      "wollen",
+      "müssen",
+      "können",
+      "dürfen"
+    ],
+    "correctAnswer": "müssen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Sie ___ mehr Wasser trinken.",
+    "options": [
+      "können",
+      "sollen",
+      "dürfen",
+      "wollen"
+    ],
+    "correctAnswer": "sollen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Du ___ hier parken.",
+    "options": [
+      "sollst",
+      "kannst",
+      "musst",
+      "darfst"
+    ],
+    "correctAnswer": "darfst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "Sie ___ im Klassenzimmer essen.",
+    "options": [
+      "sollen",
+      "müssen",
+      "dürfen",
+      "können"
+    ],
+    "correctAnswer": "dürfen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A1",
+    "levelmark": "Level 10",
+    "question": "___ wir heute draußen spielen?",
+    "options": [
+      "Können",
+      "Dürfen",
+      "Müssen",
+      "Sollen"
+    ],
+    "correctAnswer": "Dürfen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "Ich kann nicht kommen, ___ ich arbeiten muss.",
+    "options": [
+      "dass",
+      "weil",
+      "obwohl",
+      "wenn"
+    ],
+    "correctAnswer": "weil"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "Er hat den Film gesehen, ___ er heute viel Zeit hatte.",
+    "options": [
+      "dass",
+      "obwohl",
+      "wenn",
+      "weil"
+    ],
+    "correctAnswer": "weil"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "Wir fahren in den Urlaub, ___ wir genug Geld haben.",
+    "options": [
+      "weil",
+      "dass",
+      "wenn",
+      "obwohl"
+    ],
+    "correctAnswer": "wenn"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "Sie geht nicht ins Fitnessstudio, ___ sie müde ist.",
+    "options": [
+      "wenn",
+      "weil",
+      "dass",
+      "obwohl"
+    ],
+    "correctAnswer": "weil"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "Ich kann dir helfen, ___ du mehr Informationen gibst.",
+    "options": [
+      "wenn",
+      "obwohl",
+      "dass",
+      "weil"
+    ],
+    "correctAnswer": "wenn"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "Es ist kalt, ___ er draußen spazieren geht.",
+    "options": [
+      "weil",
+      "wenn",
+      "obwohl",
+      "dass"
+    ],
+    "correctAnswer": "obwohl"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "Wir müssen den Zug nehmen, ___ wir den Flug verpassen.",
+    "options": [
+      "dass",
+      "weil",
+      "wenn",
+      "obwohl"
+    ],
+    "correctAnswer": "dass"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "Du kannst mitkommen, ___ du schnell fertig bist.",
+    "options": [
+      "obwohl",
+      "dass",
+      "weil",
+      "wenn"
+    ],
+    "correctAnswer": "wenn"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "Ich glaube, ___ er morgen zu uns kommt.",
+    "options": [
+      "weil",
+      "wenn",
+      "dass",
+      "obwohl"
+    ],
+    "correctAnswer": "dass"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 1",
+    "question": "Wir ___ viel Spaß auf der Party.",
+    "options": [
+      "waren",
+      "hatten",
+      "sind",
+      "hatte"
+    ],
+    "correctAnswer": "hatten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "Ich ___ gestern im Kino.",
+    "options": [
+      "war",
+      "hatte",
+      "bin",
+      "habe"
+    ],
+    "correctAnswer": "war"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "Sie ___ gestern nicht im Büro.",
+    "options": [
+      "sind",
+      "hatte",
+      "war",
+      "ist"
+    ],
+    "correctAnswer": "war"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "ch ___ gestern meine Freunde getroffen.",
+    "options": [
+      "trifft",
+      "habe",
+      "bin",
+      "treffe"
+    ],
+    "correctAnswer": "habe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "Ich ___ eine tolle Reise gemacht.",
+    "options": [
+      "habe",
+      "macht",
+      "bin",
+      "mache"
+    ],
+    "correctAnswer": "habe"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "Wir ___ das Buch schon gelesen.",
+    "options": [
+      "lesen",
+      "lese",
+      "sind",
+      "haben"
+    ],
+    "correctAnswer": "haben"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "Die Kinder ___ den ganzen Tag im Garten.",
+    "options": [
+      "haben",
+      "sind",
+      "waren",
+      "hatten"
+    ],
+    "correctAnswer": "waren"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "Wir ___ nach dem Konzert sehr müde.",
+    "options": [
+      "sind",
+      "hatten",
+      "waren",
+      "ist"
+    ],
+    "correctAnswer": "waren"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "Ihr ___ heute Morgen viel gearbeitet.",
+    "options": [
+      "arbeiten",
+      "habt",
+      "seid",
+      "arbeitet"
+    ],
+    "correctAnswer": "habt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "Er ___ das Auto vor dem Haus geparkt.",
+    "options": [
+      "arbeitet",
+      "arbeitest",
+      "ist",
+      "hat"
+    ],
+    "correctAnswer": "hat"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 2",
+    "question": "Ihr ___ nicht in der Schule.",
+    "options": [
+      "seid",
+      "habt",
+      "wart",
+      "sind"
+    ],
+    "correctAnswer": "wart"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "Ich ___ den ganzen Tag ___.",
+    "options": [
+      "habe arbeiten",
+      "bin gearbeitet",
+      "habe arbeitete",
+      "habe gearbeitet"
+    ],
+    "correctAnswer": "habe gearbeitet"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "Ich ___ gestern ein neues Handy ___.",
+    "options": [
+      "habe kaufen",
+      "habe gekauft",
+      "habe kauft",
+      "habe gekauft"
+    ],
+    "correctAnswer": "habe gekauft"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "Wir ___ das Essen selbst ___.",
+    "options": [
+      "haben kochen",
+      "sind gekocht",
+      "haben gekocht",
+      "haben kochten"
+    ],
+    "correctAnswer": "haben gekocht"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "Wir ___ das Konzert sehr ___.",
+    "options": [
+      "haben genossen",
+      "sind genießen",
+      "sind genossen",
+      "haben genießt"
+    ],
+    "correctAnswer": "haben genossen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "Wir ___ uns über das Wetter ___.",
+    "options": [
+      "haben unterhalten",
+      "haben unterhalte",
+      "haben unterhält",
+      "sind unterhalten"
+    ],
+    "correctAnswer": "haben unterhalten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "Ihr ___ den Film schon ___.",
+    "options": [
+      "seid gesieht",
+      "habt gesehen",
+      "seid gesehen",
+      "habt gesieht"
+    ],
+    "correctAnswer": "habt gesehen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "Du ___ mir nicht ___.",
+    "options": [
+      "hast gehelfen",
+      "bist geholfen",
+      "hast geholpft",
+      "hast geholfen"
+    ],
+    "correctAnswer": "hast geholfen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "Du ___ das Buch schon ___.",
+    "options": [
+      "hast gelesen",
+      "hast geliest",
+      "hast gelessen",
+      "bist gelesen"
+    ],
+    "correctAnswer": "hast gelesen"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "Er ___ die Aufgaben schnell ___.",
+    "options": [
+      "ist erledigen",
+      "hat erledigen",
+      "hat erledigt",
+      "ist erledigt"
+    ],
+    "correctAnswer": "hat erledigt"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 3",
+    "question": "Sie ___ den Zug ___.",
+    "options": [
+      "ist verpassen",
+      "hat verpasst",
+      "haben verpasst",
+      "sind verpassen"
+    ],
+    "correctAnswer": "haben verpasst"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "Ich ___ gestern früh aufstehen.",
+    "options": [
+      "musste",
+      "konnte",
+      "durfte",
+      "wollte"
+    ],
+    "correctAnswer": "musste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "Du ___ das Buch noch lesen.",
+    "options": [
+      "konntest",
+      "solltest",
+      "musstest",
+      "durftest"
+    ],
+    "correctAnswer": "konntest"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "Er ___ das Problem sofort lösen.",
+    "options": [
+      "wollte",
+      "konnte",
+      "musste",
+      "durfte"
+    ],
+    "correctAnswer": "konnte"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "Wir ___ das Konzert wegen des Regens nicht besuchen.",
+    "options": [
+      "mussten",
+      "durften",
+      "wollten",
+      "konnten"
+    ],
+    "correctAnswer": "durften"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "Ihr ___ die Hausaufgaben bis gestern abgeben.",
+    "options": [
+      "wolltet",
+      "konntet",
+      "durftet",
+      "musstet"
+    ],
+    "correctAnswer": "musstet"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "Sie ___ mehr arbeiten, um Geld zu verdienen.",
+    "options": [
+      "wollte",
+      "konnte",
+      "musste",
+      "durfte"
+    ],
+    "correctAnswer": "musste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "Wir ___ das neue Restaurant ausprobieren.",
+    "options": [
+      "wollten",
+      "mussten",
+      "konnten",
+      "durften"
+    ],
+    "correctAnswer": "wollten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "Ich ___ gestern länger schlafen.",
+    "options": [
+      "konnte",
+      "durfte",
+      "musste",
+      "wollte"
+    ],
+    "correctAnswer": "wollte"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "Du ___ mir helfen, aber du warst zu beschäftigt.",
+    "options": [
+      "durftest",
+      "solltest",
+      "konntest",
+      "musstest"
+    ],
+    "correctAnswer": "solltest"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 4",
+    "question": "Sie ___ die Arbeit nicht alleine machen.",
+    "options": [
+      "wollte",
+      "musste",
+      "konnte",
+      "durfte"
+    ],
+    "correctAnswer": "konnte"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "Jeden Morgen ___ ich ___ im Spiegel.",
+    "options": [
+      "sehe, mich",
+      "ansehe mich",
+      "sehe dich",
+      "siehst mich"
+    ],
+    "correctAnswer": "sehe, mich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "Wir ___ ___ über das neue Buch.",
+    "options": [
+      "freut uns",
+      "freuen uns auf",
+      "freuen uns",
+      "freuen uns an"
+    ],
+    "correctAnswer": "freuen uns"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "Er ___ ___ jeden Tag die Haare.",
+    "options": [
+      "ankämmt sich",
+      "ankämmt sich",
+      "kämmt sich",
+      "kämmst sich"
+    ],
+    "correctAnswer": "kämmt sich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "Ich ___ ___ heute nicht gut.",
+    "options": [
+      "anfühle mich",
+      "fühle mich",
+      "fühle dir",
+      "fühle sich"
+    ],
+    "correctAnswer": "fühle mich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "Er ___ ___ oft für die Fehler, die er gemacht hat.",
+    "options": [
+      "entschuldige sich",
+      "entschuldigt sich an",
+      "entschuldigt sich",
+      "entschuldigt sich"
+    ],
+    "correctAnswer": "entschuldigt sich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "Wir ___ ___ immer, wenn wir uns sehen.",
+    "options": [
+      "umarmen",
+      "umarmen uns",
+      "umarmen sich",
+      "umarmen an"
+    ],
+    "correctAnswer": "umarmen uns"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "Du ___ ___ im Moment auf die Ferien.",
+    "options": [
+      "freust dich",
+      "freust sich",
+      "freut dich",
+      "freut sich"
+    ],
+    "correctAnswer": "freust dich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "Jeden Abend ___ ich ___ vor dem Fernseher.",
+    "options": [
+      "setze mich an",
+      "setze mich",
+      "setze dich",
+      "setze sich"
+    ],
+    "correctAnswer": "setze mich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "Du ___ ___ nach dem Sport immer.",
+    "options": [
+      "duschst dich",
+      "duscht dich",
+      "dusche dich",
+      "dusche mich"
+    ],
+    "correctAnswer": "duschst dich"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 5",
+    "question": "Dieser Film ist ___ (spannend) als der andere.",
+    "options": [
+      "am spannendsten",
+      "spannenderer",
+      "spannender",
+      "mehr spannend"
+    ],
+    "correctAnswer": "spannender"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "Mein Bruder ist ___ (alt) als ich.",
+    "options": [
+      "am ältesten",
+      "ältesten",
+      "älter",
+      "älterer"
+    ],
+    "correctAnswer": "älter"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "Der Sommer in Berlin war ___ (heiß) als in München.",
+    "options": [
+      "heißesten",
+      "heißer",
+      "am heißesten",
+      "mehr heiß"
+    ],
+    "correctAnswer": "heißer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "Diese Aufgabe ist ___ (schwierig) als die letzte.",
+    "options": [
+      "schwieriger",
+      "am schwierigsten",
+      "mehr schwierig",
+      "schwierigerer"
+    ],
+    "correctAnswer": "schwieriger"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "Der Kuchen schmeckt ___ (gut) als der Kekse.",
+    "options": [
+      "besserer",
+      "am besten",
+      "besserer",
+      "guter"
+    ],
+    "correctAnswer": "besser"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "Der Film war ___ (lang) als das Buch.",
+    "options": [
+      "lang",
+      "längsten",
+      "am längsten",
+      "länger"
+    ],
+    "correctAnswer": "länger"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "Ihr Auto ist ___ (schnell) als mein Auto.",
+    "options": [
+      "schneller",
+      "am schnellsten",
+      "mehr schnell",
+      "schnellerer"
+    ],
+    "correctAnswer": "schneller"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "Er ist der ___ (intelligent) Schüler in der Klasse.",
+    "options": [
+      "intelligente",
+      "intelligenteste",
+      "intelligenter",
+      "am intelligenten"
+    ],
+    "correctAnswer": "intelligenteste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "Diese Stadt ist ___ (schön) als die andere.",
+    "options": [
+      "am schönsten",
+      "schöner",
+      "schönerer",
+      "schönerst"
+    ],
+    "correctAnswer": "schöner"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "Mein Zimmer ist ___ (groß) als dein Zimmer.",
+    "options": [
+      "größter",
+      "am größten",
+      "größer",
+      "größerer"
+    ],
+    "correctAnswer": "größer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 6",
+    "question": "Diese Aufgabe ist ___ (leicht) als die andere.",
+    "options": [
+      "leicht",
+      "am leichtesten",
+      "leichterer",
+      "leichter"
+    ],
+    "correctAnswer": "leichter"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "Mein Hund ist ___ (schnell) als dein Hund.",
+    "options": [
+      "schneller",
+      "schnelleren",
+      "am schnellsten",
+      "schnell"
+    ],
+    "correctAnswer": "schneller"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "Der Film gestern war ___ (gut) als der Film heute.",
+    "options": [
+      "gutest",
+      "am besten",
+      "besser",
+      "besserer"
+    ],
+    "correctAnswer": "besser"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "Diese Strecke ist ___ (kurz) als die andere.",
+    "options": [
+      "am kürzesten",
+      "kürzer",
+      "kürzeren",
+      "kürzester"
+    ],
+    "correctAnswer": "kürzer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "Der letzte Tag im Urlaub war ___ (schön) als alle anderen.",
+    "options": [
+      "schöner",
+      "am schönsten",
+      "schönerer",
+      "mehr schöner"
+    ],
+    "correctAnswer": "schöner"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "Mein Zimmer ist ___ (hell) als dein Zimmer.",
+    "options": [
+      "heller",
+      "am hellsten",
+      "hellerer",
+      "hell"
+    ],
+    "correctAnswer": "heller"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "Der Sommer in Spanien ist ___ (heiß) als in Deutschland.",
+    "options": [
+      "heißer",
+      "heißesten",
+      "am heißesten",
+      "heißeren"
+    ],
+    "correctAnswer": "heißer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "Heute ist es ___ (kalt) als gestern.",
+    "options": [
+      "kalt",
+      "am kältesten",
+      "kälterer",
+      "kälter"
+    ],
+    "correctAnswer": "kälter"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "Dieser Test ist ___ (schwierig) als der letzte Test.",
+    "options": [
+      "schwierig",
+      "am schwierigsten",
+      "schwierigerer",
+      "schwieriger"
+    ],
+    "correctAnswer": "schwieriger"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "In dieser Stadt ist das Wetter ___ (schlecht) als in der anderen.",
+    "options": [
+      "am schlechtesten",
+      "schlechter",
+      "schlechterer",
+      "schlecht"
+    ],
+    "correctAnswer": "schlechter"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 7",
+    "question": "Das ist der ___ (gut) Film, den ich je gesehen habe.",
+    "options": [
+      "besser",
+      "beste",
+      "am besten",
+      "bester"
+    ],
+    "correctAnswer": "beste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "Er ist der ___ (intelligent) Student in der Klasse.",
+    "options": [
+      "intelligentes",
+      "intelligenter",
+      "am intelligentesten",
+      "intelligenteste"
+    ],
+    "correctAnswer": "intelligenteste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "Heute ist der ___ (schön) Tag , seit ich hier bin.",
+    "options": [
+      "schöner",
+      "schönste",
+      "am schönsten",
+      "schön"
+    ],
+    "correctAnswer": "schönste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "Das war der ___ (schwierig) Test, den ich gemacht habe.",
+    "options": [
+      "am schwierigsten",
+      "schwierig",
+      "schwierigste",
+      "schwieriger"
+    ],
+    "correctAnswer": "schwierigste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "Dies ist der ___ (lang) Weg, den wir gehen müssen.",
+    "options": [
+      "langer",
+      "längeren",
+      "am längsten",
+      "längste"
+    ],
+    "correctAnswer": "längste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "Ihr Haus ist das ___ (modern) in der Straße.",
+    "options": [
+      "modernste",
+      "moderner",
+      "am modernsten",
+      "modernes"
+    ],
+    "correctAnswer": "modernste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "Das ist der ___ (interessant) Buch, das ich je gelesen habe.",
+    "options": [
+      "interessanteste",
+      "interessanter",
+      "am interessantesten",
+      "interessant"
+    ],
+    "correctAnswer": "interessanteste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "Der Winter in Kanada ist der ___ (kalt).",
+    "options": [
+      "am kältesten",
+      "kälter",
+      "kälteste",
+      "kalter"
+    ],
+    "correctAnswer": "kälteste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "Das ist der ___ (früh) Flug nach Berlin.",
+    "options": [
+      "am frühesten",
+      "früher",
+      "früheste",
+      "mehr früh"
+    ],
+    "correctAnswer": "früheste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "Sie ist die ___ (schön) Frau, die ich kenne.",
+    "options": [
+      "schöner",
+      "schönste",
+      "am schönsten",
+      "schön"
+    ],
+    "correctAnswer": "schönste"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 8",
+    "question": "Der Mann, ___ dort steht, ist mein Onkel.",
+    "options": [
+      "die",
+      "der",
+      "das",
+      "den"
+    ],
+    "correctAnswer": "der"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 9",
+    "question": "Das Buch, ___ du suchst, ist auf dem Tisch.",
+    "options": [
+      "das",
+      "die",
+      "der",
+      "den"
+    ],
+    "correctAnswer": "das"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 9",
+    "question": "Die Frau, ___ mit mir spricht, ist meine Lehrerin.",
+    "options": [
+      "die",
+      "der",
+      "das",
+      "den"
+    ],
+    "correctAnswer": "die"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 9",
+    "question": "Es ist ___, dass du das getan hast!",
+    "options": [
+      "gut",
+      "schlecht",
+      "toll",
+      "gefährlich"
+    ],
+    "correctAnswer": "toll"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 9",
+    "question": "Ich habe ___ neue Freunde in der Schule gefunden.",
+    "options": [
+      "wenig",
+      "viele",
+      "keine",
+      "einige"
+    ],
+    "correctAnswer": "viele"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 9",
+    "question": "Der Hund läuft ___ das Haus.",
+    "options": [
+      "auf",
+      "an",
+      "in",
+      "vor"
+    ],
+    "correctAnswer": "in"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 9",
+    "question": "Die Katze schläft ___ dem Sofa.",
+    "options": [
+      "auf",
+      "in",
+      "unter",
+      "hinter"
+    ],
+    "correctAnswer": "auf"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 9",
+    "question": "Ich stelle das Buch ___ den Tisch.",
+    "options": [
+      "neben",
+      "in",
+      "aus",
+      "auf"
+    ],
+    "correctAnswer": "auf"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 9",
+    "question": "Die Kinder spielen ___ dem Park.",
+    "options": [
+      "auf",
+      "an",
+      "in",
+      "unter"
+    ],
+    "correctAnswer": "in"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 9",
+    "question": "Ich ___ Ihnen helfen, wenn Sie es wollen.",
+    "options": [
+      "soll",
+      "würde",
+      "kann",
+      "hatte"
+    ],
+    "correctAnswer": "würde"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 9",
+    "question": "___ Sie mir bitte das Salz reichen?",
+    "options": [
+      "Würden",
+      "Kannst",
+      "Gehst",
+      "Sollst"
+    ],
+    "correctAnswer": "Würden"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 10",
+    "question": "Die ___ pflegt die Patienten im Krankenhaus.",
+    "options": [
+      "Friseurin",
+      "Lehrerin",
+      "Bäckerin",
+      "Krankenschwester"
+    ],
+    "correctAnswer": "Krankenschwester"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 10",
+    "question": "Der ___ unterrichtet die Schüler in der Schule.",
+    "options": [
+      "Mechaniker",
+      "Lehrer",
+      "Kellner",
+      "Architekt"
+    ],
+    "correctAnswer": "Lehrer"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 10",
+    "question": "Der ___ repariert das kaputte Auto.",
+    "options": [
+      "Mechaniker",
+      "Bäcker",
+      "Musiker",
+      "Apotheker"
+    ],
+    "correctAnswer": "Mechaniker"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 10",
+    "question": "Die ___ serviert das Essen im Restaurant.",
+    "options": [
+      "Architektin",
+      "Polizistin",
+      "Kellnerin",
+      "Pilotin"
+    ],
+    "correctAnswer": "Kellnerin"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 10",
+    "question": "Der ___ malt ein neues Gemälde.",
+    "options": [
+      "Fotograf",
+      "Friseur",
+      "Künstler",
+      "Apotheker"
+    ],
+    "correctAnswer": "Künstler"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 10",
+    "question": "___ ist ein sehr wichtiger Feiertag.",
+    "options": [
+      "Das Geld",
+      "der Geburtstag",
+      "der Tag der Arbeit",
+      "Weihnachten"
+    ],
+    "correctAnswer": "Weihnachten"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 10",
+    "question": "___ haben heute die besten Preise.",
+    "options": [
+      "Die Gesundheit",
+      "Die Anbieter",
+      "Die Kunden",
+      "Die Schule"
+    ],
+    "correctAnswer": "Die Anbieter"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 10",
+    "question": "Ich muss ___ für meine Handtasche bezahlen.",
+    "options": [
+      "der Bargeld",
+      "die Quittung",
+      "dem Rechnung",
+      "die Ticket"
+    ],
+    "correctAnswer": "die Quittung"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 10",
+    "question": "Ich habe ___ für das neue Kleid gekauft.",
+    "options": [
+      "die Tüte",
+      "das Hemd",
+      "das Geschenk",
+      "die Quittung"
+    ],
+    "correctAnswer": "die Tüte"
+  },
+  {
+    "level": 1,
+    "difficulty": "A2",
+    "levelmark": "Level 10",
+    "question": "Er hat ___ für das neue Auto bezahlt.",
+    "options": [
+      "dem Quittung",
+      "das Bargeld",
+      "der Rechnung",
+      "die Geschenk"
+    ],
+    "correctAnswer": "das Bargeld"
   }
 ]
