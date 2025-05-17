@@ -83,6 +83,14 @@ class _QuizLevellingState extends State<QuizLevelling> {
     return await QuizProgressManager.isLevelCompleted(quizType, levelMark, widget.difficulty);
   }
 
+  Future<bool> _isLevelAvailable(int levelNumber) async {
+    if (levelNumber == 1) return true; // First level is always available
+
+    // Check if previous level is completed
+    final previousLevelMark = 'Level ${levelNumber - 1}';
+    return await _isLevelCompleted(previousLevelMark);
+  }
+
   void _onProgressUpdate(int answeredCount) {
     // Update progress in this page if needed
     print('Progress updated: $answeredCount questions answered.');
@@ -139,7 +147,7 @@ class _QuizLevellingState extends State<QuizLevelling> {
                   children: [
                     Image.asset(
                       'assets/jalur-leveling.png',
-                      height: 900.0, // Reduced height for 5 levels
+                      height: 900.0,
                     ),
                     if (_isLoading)
                       const Center(child: CircularProgressIndicator())
@@ -147,6 +155,7 @@ class _QuizLevellingState extends State<QuizLevelling> {
                       ...List.generate(10, (index) {
                         final levelMark = 'Level ${index + 1}';
                         final hasQuestions = _availableLevels[levelMark] ?? false;
+                        final isComingSoon = index >= 5;
 
                         return Positioned(
                           top: positions[index]['top'],
@@ -156,11 +165,47 @@ class _QuizLevellingState extends State<QuizLevelling> {
                             future: _isLevelCompleted(levelMark),
                             builder: (context, snapshot) {
                               final isCompleted = snapshot.data ?? false;
-                              return GestureDetector(
-                                onTap: hasQuestions
-                                    ? () {
+                              return FutureBuilder<bool>(
+                                future: _isLevelAvailable(index + 1),
+                                builder: (context, availabilitySnapshot) {
+                                  final isAvailable = availabilitySnapshot.data ?? false;
+                                  return GestureDetector(
+                                    onTap: () {
+                                      if (isComingSoon) {
+                                        showDialog(
+                                          context: context,
+                                          builder: (context) => AlertDialog(
+                                            content: const Text(
+                                              'Coming Soon!',
+                                              textAlign: TextAlign.center,
+                                              style: TextStyle(fontSize: 18.0, fontFamily: 'Raleway'),
+                                            ),
+                                          ),
+                                        );
+                                      } else if (isCompleted) {
+                                        showDialog(
+                                          context: context,
+                                          builder: (context) => AlertDialog(
+                                            content: const Text(
+                                              'Level ini sudah selesai!',
+                                              textAlign: TextAlign.center,
+                                              style: TextStyle(fontSize: 18.0, fontFamily: 'Raleway'),
+                                            ),
+                                          ),
+                                        );
+                                      } else if (!isAvailable) {
+                                        showDialog(
+                                          context: context,
+                                          builder: (context) => AlertDialog(
+                                            content: const Text(
+                                              'Selesaikan level sebelumnya terlebih dahulu!',
+                                              textAlign: TextAlign.center,
+                                              style: TextStyle(fontSize: 18.0, fontFamily: 'Raleway'),
+                                            ),
+                                          ),
+                                        );
+                                      } else if (hasQuestions) {
                                         Widget destinationPage;
-                                        final levelMark = 'Level ${index + 1}';
                                         if (widget.quizName == "Tebak Gambar") {
                                           destinationPage = TebakGambar(
                                               currentlevel: '${index + 1}',
@@ -198,31 +243,37 @@ class _QuizLevellingState extends State<QuizLevelling> {
                                           MaterialPageRoute(builder: (context) => destinationPage),
                                         );
                                       }
-                                    : null,
-                                child: CircleAvatar(
-                                  radius: 40.0,
-                                  backgroundColor: isCompleted ? const Color(0xFF007BFF) : (hasQuestions ? const Color(0xFFD9D9D9) : Colors.grey[300]),
-                                  child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Text(
-                                        '${index + 1}',
-                                        style: TextStyle(
-                                          color: isCompleted ? Colors.white : Colors.black,
-                                          fontSize: 32.0,
-                                          fontWeight: FontWeight.w900,
-                                          fontFamily: 'Raleway',
-                                        ),
+                                    },
+                                    child: CircleAvatar(
+                                      radius: 40.0,
+                                      backgroundColor: isCompleted
+                                          ? const Color(0xFF007BFF)
+                                          : (!isAvailable || !hasQuestions || isComingSoon)
+                                              ? Colors.grey[300]
+                                              : const Color(0xFFD9D9D9),
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Text(
+                                            '${index + 1}',
+                                            style: TextStyle(
+                                              color: isCompleted ? Colors.white : Colors.black,
+                                              fontSize: 32.0,
+                                              fontWeight: FontWeight.w900,
+                                              fontFamily: 'Raleway',
+                                            ),
+                                          ),
+                                          if (!isAvailable || !hasQuestions || isComingSoon)
+                                            const Icon(
+                                              Icons.lock,
+                                              size: 16,
+                                              color: Colors.grey,
+                                            ),
+                                        ],
                                       ),
-                                      if (!hasQuestions)
-                                        const Icon(
-                                          Icons.lock,
-                                          size: 16,
-                                          color: Colors.grey,
-                                        ),
-                                    ],
-                                  ),
-                                ),
+                                    ),
+                                  );
+                                },
                               );
                             },
                           ),

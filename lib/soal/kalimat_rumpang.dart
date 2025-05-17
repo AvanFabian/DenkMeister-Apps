@@ -65,26 +65,31 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
     // Save progress with level and difficulty info
     await QuizProgressManager.saveAnsweredQuestion('kalimat_rumpang', widget.currentlevel, widget.difficulty);
 
-    setState(() {
-      _answeredCount++;
-    });
-
     // Notify parent page of progress update
-    widget.onProgressUpdate(_answeredCount);
+    widget.onProgressUpdate(_answeredCount + 1);
 
     showDialog(
       context: context,
+      barrierDismissible: false,
       builder: (BuildContext context) {
+        // Auto close dialog after 2 seconds
         Future.delayed(const Duration(seconds: 2), () {
-          // Navigator.of(context).pop(); // Close dialog
-          if (_currentQuestionIndex < _questions.length - 1) {
-            setState(() {
+          Navigator.of(context).pop(); // Close dialog
+
+          // Update state after dialog is closed
+          setState(() {
+            _answeredCount++;
+            if (_currentQuestionIndex < _questions.length - 1) {
               _currentQuestionIndex++;
-            });
-          } else {
-            // All questions answered for this level
-            Navigator.of(context).pop(); // Return to level selection
-          }
+            } else {
+              // All questions answered for this level
+              // Save completion state
+              QuizProgressManager.saveLevelCompletion('kalimat_rumpang', widget.levelMark, widget.difficulty);
+              // Navigate back to quiz levelling
+              Navigator.of(context).pop(); // Pop the current screen
+              Navigator.of(context).pop(); // Pop the quiz screen
+            }
+          });
         });
 
         return AlertDialog(
@@ -100,10 +105,7 @@ class _KalimatRumpangState extends State<KalimatRumpang> {
               Text(
                 isCorrect ? "Jawaban Anda benar." : "Jawaban Anda salah.",
                 textAlign: TextAlign.center,
-                style: const TextStyle(
-                  fontSize: 18.0,
-                  fontFamily: 'Raleway',
-                ),
+                style: const TextStyle(fontSize: 18.0, fontFamily: 'Raleway'),
               ),
             ],
           ),

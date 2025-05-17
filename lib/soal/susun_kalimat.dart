@@ -78,34 +78,34 @@ class _SusunKalimatState extends State<SusunKalimat> {
     bool isCorrect = _selectedWords.join(' ') == _correctOrder.join(' ');
 
     // Save progress with levelMark
-    await QuizProgressManager.saveAnsweredQuestion('susun_kalimat', widget.levelMark, widget.difficulty);
+    await QuizProgressManager.saveAnsweredQuestion('susun_kalimat', widget.currentlevel, widget.difficulty);
 
-    setState(() {
-      _answeredCount++;
-    });
-
-    widget.onProgressUpdate(_answeredCount);
+    // Notify parent page of progress update
+    widget.onProgressUpdate(_answeredCount + 1);
 
     showDialog(
       context: context,
       barrierDismissible: false,
       builder: (BuildContext context) {
+        // Auto close dialog after 2 seconds
         Future.delayed(const Duration(seconds: 2), () {
-          Navigator.of(context).pop();
+          Navigator.of(context).pop(); // Close dialog
 
-          if (_currentQuestionIndex < _questions.length - 1) {
-            setState(() {
+          // Update state after dialog is closed
+          setState(() {
+            _answeredCount++;
+            if (_currentQuestionIndex < _questions.length - 1) {
               _currentQuestionIndex++;
               _updateCurrentQuestion();
-            });
-          } else {
-            // All questions completed
-            // Save completion state
-            QuizProgressManager.saveLevelCompletion('susun_kalimat', widget.levelMark, widget.difficulty);
-            // Navigate back to quiz levelling
-            Navigator.of(context).pop(); // Pop the current screen
-            Navigator.of(context).pop(); // Pop the quiz screen
-          }
+            } else {
+              // All questions completed
+              // Save completion state
+              QuizProgressManager.saveLevelCompletion('susun_kalimat', widget.levelMark, widget.difficulty);
+              // Navigate back to quiz levelling
+              Navigator.of(context).pop(); // Pop the current screen
+              Navigator.of(context).pop(); // Pop the quiz screen
+            }
+          });
         });
 
         return AlertDialog(

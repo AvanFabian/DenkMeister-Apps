@@ -83,18 +83,42 @@ class _QuizdashboardState extends State<Quizdashboard> {
     required String quizType,
   }) async {
     try {
-      // Get total questions from JSON
+      // Get questions from JSON
       final String jsonString = await rootBundle.loadString(jsonFilePath);
       final List<dynamic> jsonData = json.decode(jsonString);
-      final totalQuestions = jsonData.length;
 
-      // Get total answered questions across all levels
-      final answeredQuestions = await QuizProgressManager.getTotalAnsweredQuestions(quizType);
+      // Filter questions for levels 1-5 only
+      final filteredQuestions = jsonData.where((question) {
+        final levelMark = question['levelmark'] as String?;
+        if (levelMark == null) return false;
+        // Extract level number from levelMark (e.g., "Level 1" -> 1)
+        final levelNumber = int.tryParse(levelMark.split(' ').last) ?? 0;
+        return levelNumber >= 1 && levelNumber <= 5;
+      }).toList();
+
+      // Calculate total questions for levels 1-5
+      final totalQuestions = filteredQuestions.length;
+      print('Total questions for $quizType: $totalQuestions');
+
+      // Get answered questions for levels 1-5
+      int answeredQuestions = 0;
+      for (int level = 1; level <= 5; level++) {
+        final levelMark = 'Level $level';
+        final answeredCount = await QuizProgressManager.getAnsweredQuestionsForLevel(quizType, level.toString(), 'A1' // Assuming A1 difficulty for now
+            );
+        answeredQuestions += answeredCount;
+        print('Level $level answered questions: $answeredCount');
+      }
+      print('Total answered questions for $quizType: $answeredQuestions');
+
+      // Calculate progress
+      final progressValue = totalQuestions > 0 ? (answeredQuestions / totalQuestions) : 0.0;
+      print('Progress value for $quizType: $progressValue');
 
       setState(() {
         _totalQuestions[quizType] = totalQuestions;
         _answeredCounts[quizType] = answeredQuestions;
-        _progressValues[quizType] = totalQuestions > 0 ? (answeredQuestions / totalQuestions) : 0.0;
+        _progressValues[quizType] = progressValue;
       });
     } catch (e) {
       print("Error loading quiz progress: $e");
@@ -203,11 +227,11 @@ class _QuizdashboardState extends State<Quizdashboard> {
                         'Susun Kalimat',
                       ];
 
-                      final List<String> quizType = [
-                        'answered_questions_tebak_gambar',
-                        'answered_questions_cocok_kata',
-                        'answered_questions_kalimat_rumpang',
-                        'answered_questions_susun_kalimat',
+                      final List<String> quizTypes = [
+                        'tebak_gambar',
+                        'cocok_kata',
+                        'kalimat_rumpang',
+                        'susun_kalimat',
                       ];
 
                       final List<String> quizDescriptions = [
@@ -217,7 +241,7 @@ class _QuizdashboardState extends State<Quizdashboard> {
                         'Rangkai Kata Menjadi Kalimat',
                       ];
 
-                      final double progressValue = _progressValues[quizType[index]] ?? 0.0;
+                      final double progressValue = _progressValues[quizTypes[index]] ?? 0.0;
                       final int percentage = (progressValue * 100).toInt();
 
                       return Padding(
@@ -263,20 +287,12 @@ class _QuizdashboardState extends State<Quizdashboard> {
                                       children: <Widget>[
                                         Text(
                                           quizNames[index],
-                                          style: const TextStyle(
-                                            fontSize: 19.0,
-                                            fontWeight: FontWeight.bold,
-                                            fontFamily: 'Raleway'
-                                          ),
+                                          style: const TextStyle(fontSize: 19.0, fontWeight: FontWeight.bold, fontFamily: 'Raleway'),
                                         ),
                                         const SizedBox(height: 10.0),
                                         Text(
                                           quizDescriptions[index],
-                                          style: const TextStyle(
-                                            fontSize: 12.0,
-                                            fontWeight: FontWeight.w300,
-                                            fontFamily: 'Raleway'
-                                          ),
+                                          style: const TextStyle(fontSize: 12.0, fontWeight: FontWeight.w300, fontFamily: 'Raleway'),
                                         ),
                                       ],
                                     ),
@@ -301,11 +317,7 @@ class _QuizdashboardState extends State<Quizdashboard> {
                                           child: Text(
                                             '$percentage%',
                                             style: const TextStyle(
-                                              fontSize: 13.0,
-                                              fontWeight: FontWeight.bold,
-                                              color: Color.fromARGB(255, 0, 140, 72),
-                                              fontFamily: 'Raleway'
-                                            ),
+                                                fontSize: 13.0, fontWeight: FontWeight.bold, color: Color.fromARGB(255, 0, 140, 72), fontFamily: 'Raleway'),
                                           ),
                                         ),
                                       ],
