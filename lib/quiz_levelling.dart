@@ -181,17 +181,6 @@ class _QuizLevellingState extends State<QuizLevelling> {
                                             ),
                                           ),
                                         );
-                                      } else if (isCompleted) {
-                                        showDialog(
-                                          context: context,
-                                          builder: (context) => AlertDialog(
-                                            content: const Text(
-                                              'Level ini sudah selesai!',
-                                              textAlign: TextAlign.center,
-                                              style: TextStyle(fontSize: 18.0, fontFamily: 'Raleway'),
-                                            ),
-                                          ),
-                                        );
                                       } else if (!isAvailable) {
                                         showDialog(
                                           context: context,
@@ -262,7 +251,13 @@ class _QuizLevellingState extends State<QuizLevelling> {
                                               fontFamily: 'Raleway',
                                             ),
                                           ),
-                                          if (!isAvailable || !hasQuestions)
+                                          if (isCompleted)
+                                            const Icon(
+                                              Icons.check_circle,
+                                              size: 16,
+                                              color: Colors.white,
+                                            )
+                                          else if (!isAvailable || !hasQuestions)
                                             const Icon(
                                               Icons.lock,
                                               size: 16,
